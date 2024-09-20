@@ -8,51 +8,155 @@ import numpy as np
 import  pdfquery
 
 
+def get_horizontal_gaps_median(image, width, height):
+    white_count = 0
+    gaps_sizes = []
+    gaps = []
+
+    # Iterate over each row
+    for row in range(height):
+        # Check if the row is all white
+        row_is_white = all(image[col, row] == (255, 255, 255) for col in range(width))
+
+        if row_is_white:
+            white_count += 1
+        elif white_count > 0:
+            gaps.append((row - white_count, row))
+            gaps_sizes.append(white_count)
+            white_count = 0
+
+    if white_count > 0:
+        gaps_sizes.append(white_count)
+
+    print(gaps_sizes)
+
+    gaps = gaps[2:len(gaps_sizes) - 2]
+    gaps_sizes = gaps_sizes[2:len(gaps_sizes) - 2]
+
+    try:
+        thresh = 1.75 * np.mean(gaps_sizes)
+    except:
+        thresh = 20
+
+    return list(filter(lambda a: a[1] - a[0] > thresh, gaps))
+
+
+def get_header_segment(image):
+    image_data = image.load()
+    gaps = get_horizontal_gaps_median(image_data, *image.size)
+
+    segments = []
+
+    for gap_a, gap_b in zip(gaps[:-1], gaps[1:]):
+        segments.append((gap_a[1], gap_b[0]))
+
+    return segments
+
+
+def get_location_names(raw_affiliations):
+    affiliations = Email.remove(raw_affiliations)
+    affiliations = re.sub(r"[a-z]+\.[a-z]+", "", affiliations)
+
+    affiliations = re.findall(r"\D+", affiliations)
+    affiliations = [re.sub(r"[,{}\s;]+$", "", aff) for aff in affiliations if
+                    re.sub(r"[,{}\s]+$", "", aff) != ""]
+
+    if len(affiliations) > 0:
+        last_affiliation = re.findall(r"([\.\w]+[, ](| )+)", affiliations[-1])
+        last_affiliation = " ".join([a for a, _ in last_affiliation])
+        affiliations[len(affiliations) - 1] = last_affiliation
+
+    return [a.strip() for a in affiliations]
+
+
+def get_authors_affiliations(raw_authors) -> Dict[str, List[int]]:
+    authors = raw_authors.split(", ")
+
+    aff_authors = {}
+    for author in authors:
+        aut = re.findall(r"[a-zA-Z\s]+", author)
+        if len(aut) > 0:
+            aut = aut[0].strip()
+        else:
+            continue
+
+        aff = [int(n) for n in re.findall(r"\d+", author)]
+        aff = [0] if len(aff) == 0 else aff
+        aff_authors[aut] = aff
+
+    return aff_authors
+
+
 class PaperExtractor:
 
-    def __init__(self, paper_path):
+    def __init__(self, paper_path, authors_reference: List[str]):
         self.path = paper_path
 
-    def get_horizontal_gaps_median(self, image, width, height):
-        white_count = 0
-        gaps_sizes = []
-        gaps = []
+    def extract_lines_from_pdf(self):
+        pdf = pdfquery.PDFQuery(paper)
+        pdf.load(0)
 
-        # Iterate over each row
-        for row in range(height):
-            # Check if the row is all white
-            row_is_white = all(image[col, row] == (255, 255, 255) for col in range(width))
+        pdf_file = fitz.open(paper)
 
-            if row_is_white:
-                white_count += 1
-            elif white_count > 0:
-                gaps.append((row - white_count, row))
-                gaps_sizes.append(white_count)
-                white_count = 0
+        # Convert the first page to an image
+        page = pdf_file.load_page(0)
+        pixmap = page.get_pixmap(dpi=72)
+        img = Image.frombytes("RGB", (pixmap.width, pixmap.height), pixmap.samples)
+        w, h = img.size
 
-        if white_count > 0:
-            gaps_sizes.append(white_count)
+        # pdf.tree.write(f'paper.xml', pretty_print = True)
+        # for i in range
+        a, b, c, d = [70, 710, 529, 710]
+        a, b, c, d = [0, 0, 596, 842]
+        # x0, y0, x1, y1
 
-        gaps = gaps[2:len(gaps_sizes) - 2]
-        gaps_sizes = gaps_sizes[2:len(gaps_sizes) - 2]
+        lines = []
+        for a in range(h, 0, -1):
+            line = pdf.pq(f'LTTextLineHorizontal:overlaps_bbox("{0},{a},{w},{a}")').text()
+            if line != "" and (len(lines) == 0 or lines[-1] != line):
+                lines.append(line)
 
-        try:
-            thresh = 1.75 * np.mean(gaps_sizes)
-        except:
-            thresh = 20
+        # print("\n".join(lines[:20]))
 
-        return list(filter(lambda a: a[1] - a[0] > thresh, gaps))
+        affiliations = []
+        found_authors = False
+        for line in lines:
+            if is_author_line(line):
+                found_authors = True
+            if found_authors and not is_author_line(line) and not is_abstract(line) and not is_email(line):
+                affiliations.append(line)
+            if is_abstract(line) or is_email(line):
+                break
 
-    def get_header_segment(self, image):
-        image_data = image.load()
-        gaps = self.get_horizontal_gaps_median(image_data, *image.size)
+        # print(affiliations)
 
-        segments = []
+        i = 0
+        while i < len(affiliations) - 1:
+            if affiliations[i] in affiliations[i + 1]:
+                affiliations.remove(affiliations[i])
+            else:
+                i += 1
 
-        for gap_a, gap_b in zip(gaps[:-1], gaps[1:]):
-            segments.append((gap_a[1], gap_b[0]))
+        # print("\n".join(affiliations))
 
-        return segments
+        output = affiliations[0]
+        for a, b in zip(affiliations, affiliations[1:]):
+            # Joining a and b
+            found = False
+            for i in range(len(a) - min(len(a), len(b)), len(a)):
+                # print(len(a[i:]), len(b[:len(a) - i]))
+                # print(a[i:], "\n", b[:len(a) - i])
+
+                if a[i:] == b[:len(a) - i]:
+                    output += b[len(a) - i:]
+                    found = True
+                    # print("->", a[i:], "\n->", b[:len(a) - i])
+                    # print(output)
+                    # print("Matched!")
+
+            if not found:
+                # print("here")
+                output += b
 
     def extract_paper_header(self, factor=4):
         # Open the PDF file
@@ -69,45 +173,19 @@ class PaperExtractor:
 
         content = {}
 
-        for key, (i, (a, b)) in zip(["authors", "locations"], enumerate(self.get_header_segment(image))):
+        for key, (i, (a, b)) in zip(["authors", "locations"], enumerate(get_header_segment(image))):
             a, b, c, d = 0, (height - b - 1) / factor, width, (height - a + 1) / factor
             content[key] = pdf.pq(f'LTTextLineHorizontal:overlaps_bbox("{a},{b},{c},{d}")').text()
 
-        print(content)
+        content["locations"] = "" if "locations" not in content else content["locations"]
+
         return content["authors"], content["locations"]
-
-    def get_location_names(self, raw_affiliations):
-        affiliations = Email.remove(raw_affiliations)
-        affiliations = re.sub(r"[a-z]+\.[a-z]+", "", affiliations)
-
-        affiliations = re.findall(r"\D+", affiliations)
-        affiliations = [re.sub(r"[,{}\s;]+$", "", aff) for aff in affiliations if
-                        re.sub(r"[,{}\s]+$", "", aff) != ""]
-
-        last_affiliation = re.findall(r"([\.\w]+[, ](| )+)", affiliations[-1])
-        last_affiliation = " ".join([a for a, _ in last_affiliation])
-
-        affiliations[len(affiliations) - 1] = last_affiliation
-
-        return [a.strip() for a in affiliations]
-
-    def get_authors_affiliations(self, raw_authors) -> Dict[str, List[int]]:
-        authors = raw_authors.split(", ")
-
-        aff_authors = {}
-        for author in authors:
-            aut = re.findall(r"[a-zA-Z\s]+", author)[0].strip()
-            aff = [int(n) for n in re.findall(r"\d+", author)]
-            aff = [0] if len(aff) == 0 else aff
-            aff_authors[aut] = aff
-
-        return aff_authors
 
     def get_authors_affiliations_locations(self):
         raw_authors, raw_locations = self.extract_paper_header()
 
-        authors_affiliations = self.get_authors_affiliations(raw_authors)
-        locations = self.get_location_names(raw_locations)
+        authors_affiliations = get_authors_affiliations(raw_authors)
+        locations = get_location_names(raw_locations)
 
         return authors_affiliations, locations
 
@@ -130,25 +208,9 @@ class Email:
 
 
 if __name__ == '__main__':
-    # locations = [["Paper", "Name", "Latitude", "Longitude"]]
+    import glob
 
-
-    # results = {}
-    # for path in tqdm(glob.glob("papers/*.pdf")):
-    #     results[path] = extract_from_paper(path)
-    #
-    # with open("results.json", "w+") as f:
-    #     json.dump(results, f, indent=4)
-
-    with open("output/results.json", "r") as f:
-        results = json.load(f)
-
-
-
-
-            # for a in affiliations:
-            #     locations.append([paper, a, *get_location_coordinates(a, api_key)])
-
-    # with open("locations.csv", "w+") as f:
-    #     writer = csv.writer(f, delimiter=",")
-    #     writer.writerows(locations)
+    for path in glob.glob("data/papers/interspeech23/*.pdf"):
+        print(path)
+        PaperExtractor(path).get_authors_affiliations_locations()
+        break
