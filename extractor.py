@@ -2,8 +2,9 @@ import re
 import json
 from typing import Dict, List, Tuple
 
-import fitz  # PyMuPDF
+from Levenshtein import distance
 from PIL import Image
+import fitz
 import  pdfquery
 
 from rectangle import Rectangle
@@ -46,29 +47,44 @@ def get_location_names(raw_affiliations) -> Dict[str, List[str]]:
     return {str(a.strip(", ")): b for a, b in zip(affiliations, symbols)}
 
 
-def get_authors_affiliations(raw_authors) -> Dict[str, List[int]]:
-    aff_authors = {}
-    for sep in re.findall(r"[⋆‡†\d,]+", raw_authors):
-        sep_index = raw_authors.find(sep)
-        author = str(max(re.findall(r"[¨ˇŁł˙´a-zA-Z\s\.]+", raw_authors[:sep_index]), key=len)).strip()
-
-        # NOTE Fixed noticed in kejriwal23b
-        aff_authors[author] = re.findall(r"[⋆‡†\d]+", sep)
-        aff_authors[author] = ['0'] if len(aff_authors[author]) == 0 else aff_authors[author]
-
-        raw_authors = raw_authors[sep_index + len(sep):]
-
-    return aff_authors
-
 
 def is_element_before_affiliation(raw_line):
     sep_index = raw_line.find(re.findall(r"[⋆‡†\d,]+", raw_line)[0])
     return sep_index < 4
 
 
+def find_approximate_substring(line, substring):
+    distances = [(i, distance(line[i:i+len(substring)], substring)) for i in range(0, len(line) - len(substring) + 1)]
+    closest = min(distances, key=lambda x: x[1])[0]
+    return closest
+
+
+def get_authors_affiliations(raw_line, authors):
+    # ASSUMPTION author name always precedes its affiliation
+    # ASSUMPTION author without affiliation has the first affiliation
+    output = {}
+    # print(raw_line, authors)
+    for author in authors:
+        index = find_approximate_substring(raw_line, author)
+        symbols_group = re.match(r"[\d⋆∗*‡†,\s]+", raw_line[index + len(author):])
+        if symbols_group is None:
+            output[author] = ['0']
+            continue
+
+        symbols_group = symbols_group.group(0).strip(", ")
+        if symbols_group == '':
+            output[author] = ['0']
+            continue
+
+        # ASSUMPTION There is never strictly more than 9 institutions affiliated to a conference paper
+        output[author] = re.findall(r"(\d|⋆|∗|\*|‡|†)", symbols_group)
+
+    return output
+
+
 def get_affiliations(raw_line, sep="") -> Dict[str, List[str]]:
     # print(raw_line)
-    raw_line = raw_line.replace("∗", "")
+    # raw_line = raw_line.replace("∗", "")
 
     # Removing potential postal codes from the extracted line
     postal_codes = get_postal_codes(raw_line)
@@ -77,8 +93,9 @@ def get_affiliations(raw_line, sep="") -> Dict[str, List[str]]:
 
     # print(raw_line)
 
-    elements: List[str] = re.findall(rf"[^\d⋆‡†{sep}]+", raw_line)
+    elements: List[str] = re.findall(rf"[^\d*∗⋆‡†{sep}]+", raw_line)
     elements = [e.strip(' ,') for e in elements if e.strip(' ,') != '']
+
     # Make elements unique and keep order
     unique = []
     for e in elements:
@@ -86,25 +103,12 @@ def get_affiliations(raw_line, sep="") -> Dict[str, List[str]]:
             unique.append(e)
     elements = unique
 
-    symbols_groups = re.findall(r"[\d⋆‡†,\s]+", raw_line)
+    symbols_groups = re.findall(r"[\d*∗⋆‡†,\s]+", raw_line)
     symbols_groups = [a.strip(", ") for a in symbols_groups if a.strip(", ") != '']
 
-    symbols: List[List[str]] = [re.findall(r"[\d⋆‡†]+", s) for s in symbols_groups if s != ","]
-
-    # clean numbers
-    clean = []
-    for symbol in symbols:
-        clean.append([])
-        for s in symbol:
-            if re.match(r"\d+", s) and re.match(r"\d+", s).group(0) != s:
-                clean[len(clean) - 1].append(re.match(r"\d+", s).group(0))
-            else:
-                clean[len(clean) - 1].append(s)
-
-    symbols = clean
+    # ASSUMPTION There is never strictly more than 9 institutions affiliated to a conference paper
+    symbols: List[List[str]] = [re.findall(r"(\d|⋆|‡|†|\*|∗)", s) for s in symbols_groups if s != ","]
     symbols = [['0'] for _ in range(len(elements))] if len(symbols) == 0 else symbols
-
-    # print(elements)
 
     return {a: b for a, b in zip(elements, symbols)}
 
@@ -125,7 +129,7 @@ def is_abstract(line) -> bool:
 
 
 def is_email(line) -> bool:
-    return "@" in line
+    return "@" in line and "ASLP@NPU" not in line
 
 
 def is_title(line, title: str) -> bool:
@@ -225,34 +229,46 @@ class PaperExtractor:
 
         authors_affiliations, establishments = split_on_major_gap(interesting_info)
 
-        print(authors_affiliations)
+        # print(authors_affiliations)
         remove_inner_duplicates(authors_affiliations)
         authors_affiliations = join_list(authors_affiliations)
         authors_affiliations = authors_affiliations.replace("and", "")
-        authors_affiliations = get_affiliations(authors_affiliations, sep=",")
-        print(authors_affiliations)
 
-        print(establishments)
+        authors_affiliations = get_authors_affiliations(authors_affiliations, self.paper_authors)
+
+        # authors_affiliations = get_affiliations(authors_affiliations, sep=",")
+        # print(authors_affiliations)
+
+
+        # print(establishments)
         remove_inner_duplicates(establishments)
         establishments = join_list(establishments)
         establishments = get_affiliations(establishments)
-        print(establishments)
+        # print(establishments)
 
         output: Dict[str, List[str]] = {author: [] for author in authors_affiliations.keys()}
 
+        if len(establishments) == 1:
+            for author in authors_affiliations:
+                output[author] = [list(establishments.keys())[0]]
+            return output
+
         for author, symbols in authors_affiliations.items():
             for auth_symbol in symbols:
-                for location, loc_symbols in establishments.items():
-                    if auth_symbol in loc_symbols:
-                        output[author].append(location)
+                if auth_symbol == '0':
+                    output[author].append(list(establishments.keys())[0])
+                else:
+                    for location, loc_symbols in establishments.items():
+                        if auth_symbol in loc_symbols:
+                            output[author].append(location)
 
 
-        rect = Rectangle(self.path, self.height - y_low, self.height - y_high)
+        # rect = Rectangle(self.path, self.height - y_low, self.height - y_high)
 
         # print(0, self.height - y_low, self.width, self.height - y_high, y_low - y_high)
         # self.image = self.image.crop((0, self.height - y_low, self.width, self.height - y_high))
         # self.image.save("output_0.png")
-        rect.export()
+        # rect.export()
 
         return output
 

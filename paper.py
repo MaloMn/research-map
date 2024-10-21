@@ -110,12 +110,12 @@ class Conference:
         self.correct_output = {}
         self.errors = {}
 
-    def analyse(self, limit=None, papers_list=None):
-        limit = len(self.links) if limit is None else limit
+    def analyse(self, *args):
+        limit = len(self.links) if len(args) == 0 or isinstance(args[0], str) else args[0]
         links = list(self.links.items())[:limit]
 
-        if papers_list is not None:
-            links = [(a, self.links[a]) for a in papers_list]
+        if len(args) > 0 and isinstance(args[0], str):
+            links = [(a, self.links[a]) for a in args]
 
         for i, (paper_id, link) in (pbar := tqdm(enumerate(links), total=len(links))):
             pbar.set_description(f"paper_id={paper_id}")
@@ -155,4 +155,8 @@ class Conference:
 
 
 if __name__ == '__main__':
-    Conference("interspeech23").analyse(papers_list=["kulkarni23"])#.export()
+    conf = Conference("interspeech23")
+    conf.analyse()
+    conf.export()
+    # print(conf.correct_output)
+    # print(conf.errors)

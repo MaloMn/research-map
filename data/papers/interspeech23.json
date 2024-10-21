@@ -1,0 +1,592 @@
+{
+  "song23": {
+    "Kun Song": [
+      "Audio, Speech and Language Processing Group, School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
+    ],
+    "Yi Ren": [
+      "ByteDance"
+    ],
+    "Yi Lei": [
+      "Audio, Speech and Language Processing Group, School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
+    ],
+    "Chunfeng Wang": [
+      "ByteDance"
+    ],
+    "Kun Wei": [
+      "Audio, Speech and Language Processing Group, School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
+    ],
+    "Lei Xie": [
+      "Audio, Speech and Language Processing Group, School of Computer Science, Northwestern Polytechnical University, Xi’an, China "
+    ],
+    "Xiang Yin": [
+      "ByteDance"
+    ],
+    "Zejun Ma": [
+      "ByteDance"
+    ]
+  },
+  "yang23l": {
+    "Yifan Yang": [
+      "Xiaomi Corp., Beijing, China"
+    ],
+    "Xiaoyu Yang": [
+      "Xiaomi Corp., Beijing, China"
+    ],
+    "Liyong Guo": [
+      "Xiaomi Corp., Beijing, China"
+    ],
+    "Zengwei Yao": [
+      "Xiaomi Corp., Beijing, China"
+    ],
+    "Wei Kang": [
+      "Xiaomi Corp., Beijing, China"
+    ],
+    "Fangjun Kuang": [
+      "Xiaomi Corp., Beijing, China"
+    ],
+    "Long Lin": [
+      "Xiaomi Corp., Beijing, China"
+    ],
+    "Xie Chen": [
+      "Shanghai Jiao Tong University, Shanghai, China"
+    ],
+    "Daniel Povey": [
+      "Xiaomi Corp., Beijing, China"
+    ]
+  },
+  "jayakumar23": {
+    "Kaousheik Jayakumar": [
+      "Speech Lab, Indian Institute of Technology Madras, India"
+    ],
+    "Vrunda N. Sukhadia": [
+      "Speech Lab, Indian Institute of Technology Madras, India"
+    ],
+    "A Arunkumar": [
+      "Speech Lab, Indian Institute of Technology Madras, India"
+    ],
+    "S. Umesh": [
+      "Speech Lab, Indian Institute of Technology Madras, India"
+    ]
+  },
+  "romero23": {
+    "Hector E. Romero": [
+      "Department of Computer Science, University of Sheffield, Sheffield S1 4DP, UK"
+    ],
+    "Ning Ma": [
+      "Department of Computer Science, University of Sheffield, Sheffield S1 4DP, UK"
+    ],
+    "Guy J. Brown": [
+      "Department of Computer Science, University of Sheffield, Sheffield S1 4DP, UK"
+    ],
+    "Sam Johnson": [
+      "PFL Healthcare Limited, HQ 5th floor, 58 Nicholas Street, Chester CH1 2NP, UK"
+    ]
+  },
+  "chen23s": {
+    "Yutong Pang": [
+      "Meta AI, USA"
+    ],
+    "Peng Su": [
+      "Meta AI, USA"
+    ],
+    "Xuedong Zhang": [
+      "Meta AI, USA"
+    ],
+    "Szu-Jui Chen": [
+      "Center for Robust Speech Systems (CRSS), University of Texas at Dallas, USA"
+    ],
+    "Debjyoti Paul": [
+      "Meta AI, USA"
+    ]
+  },
+  "li23c": {
+    "Zitong Li": [
+      "School of Computer Science and Technology, Fudan University, Shanghai, China"
+    ],
+    "Wei Li": [
+      "School of Computer Science and Technology, Fudan University, Shanghai, China",
+      "Shanghai Key Laboratory of Intelligent Information Processing, Fudan University, Shanghai, China"
+    ]
+  },
+  "adhikary23": {
+    "Jiban Adhikary": [
+      "Michigan Technological University, USA"
+    ],
+    "Keith Vertanen": [
+      "Michigan Technological University, USA"
+    ]
+  },
+  "fan23": {
+    "Zhiyun Fan": [
+      "Bytedance Research"
+    ],
+    "Linhao Dong": [
+      "Bytedance Research"
+    ],
+    "Chen Shen": [
+      "Bytedance Research"
+    ],
+    "Zhenlin Liang": [
+      "Bytedance Research"
+    ],
+    "Jun Zhang": [
+      "Bytedance Research"
+    ],
+    "Lu Lu": [
+      "Bytedance Research"
+    ],
+    "Zejun Ma": [
+      "Bytedance Research"
+    ]
+  },
+  "peng23e": {
+    "Puyuan Peng": [
+      "Department of Computer Science, The University of Texas at Austin, USA"
+    ],
+    "Shang-Wen Li": [
+      "Meta AI, USA"
+    ],
+    "Okko Räsänen": [
+      "Unit of Computing Sciences, Tampere University, Finland"
+    ],
+    "Abdelrahman Mohamed": [
+      "Rembrand, USA"
+    ],
+    "David Harwath": [
+      "Department of Computer Science, The University of Texas at Austin, USA"
+    ]
+  },
+  "wong23": {
+    "Jeremy H. M. Wong": [
+      "Institute for Infocomm Research (I2 R), A⋆ STAR, Singapore"
+    ],
+    "Huayun Zhang": [
+      "Institute for Infocomm Research (I2 R), A⋆ STAR, Singapore"
+    ],
+    "Nancy F. Chen": [
+      "Institute for Infocomm Research (I2 R), A⋆ STAR, Singapore"
+    ]
+  },
+  "shekar23b": {
+    "Ram C.M.C Shekar": [
+      "Center for Robust Speech Systems (CRSS), University of Texas at Dallas, TX, USA"
+    ],
+    "Mu Yang": [
+      "Center for Robust Speech Systems (CRSS), University of Texas at Dallas, TX, USA"
+    ],
+    "Kevin Hirschi": [
+      "Northern Arizona University, AZ, USA,"
+    ],
+    "Stephen Looney": [
+      "Pennsylvania State University, PA, USA"
+    ],
+    "Okim Kang": [
+      "Northern Arizona University, AZ, USA,"
+    ],
+    "John Hansen": [
+      "Center for Robust Speech Systems (CRSS), University of Texas at Dallas, TX, USA"
+    ]
+  },
+  "huang23d": {
+    "He Huang": [
+      "NVIDIA, USA"
+    ],
+    "Jagadeesh Balam": [
+      "NVIDIA, USA"
+    ],
+    "Boris Ginsburg": [
+      "NVIDIA, USA"
+    ]
+  },
+  "wen23b": {
+    "Chuan Wen": [
+      "Hearing Technology @ WAVES, Dept. of information technology, Ghent University, Belgium"
+    ],
+    "Sarah Verhulst": [
+      "Hearing Technology @ WAVES, Dept. of information technology, Ghent University, Belgium"
+    ]
+  },
+  "addlesee23": {
+    "Angus Addlesee": [
+      "Heriot-Watt University, United Kingdom"
+    ],
+    "Marco Damonte": [
+      "Amazon Alexa, United Kingdom"
+    ]
+  },
+  "kesiraju23": {
+    "Santosh Kesiraju": [
+      "Speech@FIT, Brno University of Technology, Czechia"
+    ],
+    "Marek Sarvaš": [
+      "Speech@FIT, Brno University of Technology, Czechia"
+    ],
+    "Tomáš Pavliček": [
+      "Phonexia, Czechia"
+    ],
+    "Cécile Macaire": [
+      "Univ. Grenoble Alpes, France"
+    ],
+    "Alejandro Ciuba": [
+      "University of Pittsburgh, USA"
+    ]
+  },
+  "mosner23": {
+    "Ladislav Mošner": [
+      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+    ],
+    "Oldřich Plchot": [
+      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+    ],
+    "Junyi Peng": [
+      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+    ],
+    "Lukáš Burget": [
+      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+    ],
+    "Jan “Honza” Černocký": [
+      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+    ]
+  },
+  "peng23": {
+    "Junyi Peng": [
+      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+    ],
+    "Oldřich Plchot": [
+      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+    ],
+    "Themos Stafylakis": [
+      "Omilia - Conversational Intelligence, Athens, Greece"
+    ],
+    "Ladislav Mošner": [
+      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+    ],
+    "Lukáš Burget": [
+      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+    ],
+    "Jan Černocký": [
+      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+    ]
+  },
+  "ning23": {
+    "Ziqian Ning": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University, Xi’an, China",
+      "Fuxi AI Lab, NetEase Inc., Hangzhou, China"
+    ],
+    "Yuepeng Jiang": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
+    ],
+    "Pengcheng Zhu": [
+      "Fuxi AI Lab, NetEase Inc., Hangzhou, China"
+    ],
+    "Jixun Yao": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
+    ],
+    "Shuai Wang": [
+      "Shanghai Jiao Tong University, Shanghai, China"
+    ],
+    "Lei Xie": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
+    ],
+    "Mengxiao Bi": [
+      "Fuxi AI Lab, NetEase Inc., Hangzhou, China"
+    ]
+  },
+  "wang23ba": {
+    "Qing Wang": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi’an, China"
+    ],
+    "Jixun Yao": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi’an, China"
+    ],
+    "Ziqian Wang": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi’an, China"
+    ],
+    "Pengcheng Guo": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi’an, China"
+    ],
+    "Lei Xie": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi’an, China"
+    ]
+  },
+  "gao23j": {
+    "Yingxiang Gao": [
+      "The University of Tokyo, Japan"
+    ],
+    "Jaehyun Choi": [
+      "The University of Tokyo, Japan"
+    ],
+    "Nobuaki Minematsu": [
+      "The University of Tokyo, Japan"
+    ],
+    "Noriko Nakanishi": [
+      "Kobe Gakuin University, Japan"
+    ],
+    "Daisuke Saito": [
+      "The University of Tokyo, Japan"
+    ]
+  },
+  "richter23b": {
+    "Caitlin Richter": [
+      "Reykjavik University, Iceland"
+    ],
+    "Ragnar Pálsson": [
+      "Reykjavik University, Iceland"
+    ],
+    "Luke O’Brien": [
+      "Tiro, Iceland"
+    ],
+    "Kolbrún Friðriksdóttir": [
+      "University of Iceland, Iceland"
+    ],
+    "Branislav Bédi": [
+      "Árni Magnússon Institute, Iceland"
+    ],
+    "EydísHuld Magnúsdóttir": [
+      "Tiro, Iceland"
+    ],
+    "Jón Guðnason": [
+      "Reykjavik University, Iceland"
+    ]
+  },
+  "ray23": {
+    "affiliations": {
+      "Avik Ray": [
+        "Amazon Alexa, USA"
+      ],
+      "Yilin Shen": [
+        "Samsung Research America, USA"
+      ],
+      "Hongxia Jin": [
+        "Samsung Research America, USA"
+      ]
+    }
+  },
+  "xue23": {
+    "Hongfei Xue": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
+    ],
+    "Qijie Shao": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
+    ],
+    "Peikun Chen": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
+    ],
+    "Pengcheng Guo": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
+    ],
+    "Lei Xie": [
+      "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
+    ],
+    "Jie Liu": [
+      "Huawei Cloud"
+    ]
+  },
+  "heggan23": {
+    "Calum Heggan": [
+      "School Of Engineering, University of Edinburgh, Scotland"
+    ],
+    "Tim Hospedales": [
+      "School Of Informatics, University of Edinburgh, Scotland"
+    ],
+    "Sam Budgett": [
+      "Thales UK RTI"
+    ],
+    "Mehrdad Yaghoobi": [
+      "School Of Engineering, University of Edinburgh, Scotland"
+    ]
+  },
+  "chou23": {
+    "Huang-Cheng Chou": [
+      "Multimodal Signal Processing (MSP) lab, Department of Electrical and Computer Engineering The University of Texas at Dallas, Richardson",
+      "Department of Electrical Engineering, National Tsing Hua University, Taiwan"
+    ],
+    "Lucas Goncalves": [
+      "Multimodal Signal Processing (MSP) lab, Department of Electrical and Computer Engineering The University of Texas at Dallas, Richardson"
+    ],
+    "Seong-Gyun Leem": [
+      "Multimodal Signal Processing (MSP) lab, Department of Electrical and Computer Engineering The University of Texas at Dallas, Richardson"
+    ],
+    "Chi-Chun Lee": [
+      "Department of Electrical Engineering, National Tsing Hua University, Taiwan"
+    ],
+    "Carlos Busso": [
+      "Multimodal Signal Processing (MSP) lab, Department of Electrical and Computer Engineering The University of Texas at Dallas, Richardson"
+    ]
+  },
+  "wang23r": {
+    "Hui Wang": [
+      "Nankai University, China"
+    ],
+    "Shiwan Zhao": [
+      "Independent researcher"
+    ],
+    "Xiguang Zheng": [
+      "Kuaishou Technology, China"
+    ],
+    "Yong Qin": [
+      "Nankai University, China"
+    ]
+  },
+  "meng23d": {
+    "Helen Meng": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Brian Mak": [
+      "The Hong Kong University of Science and Technology"
+    ],
+    "Man-Wai Mak": [
+      "The Hong Kong Polytechnic University"
+    ],
+    "Helene Fung": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Xianmin Gong": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Timothy Kwok": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Xunying Liu": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Vincent Mok": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Patrick Wong": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Jean Woo": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Xixin Wu": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Ka Ho Wong": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Sean Shensheng Xu": [
+      "The Hong Kong Polytechnic University",
+      "Shenzhen University, China"
+    ],
+    "Naijun Zheng": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Ranzo Huang": [
+      "The Hong Kong University of Science and Technology"
+    ],
+    "Jiawen Kang": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Xiaoquan Ke": [
+      "The Hong Kong Polytechnic University"
+    ],
+    "Junan Li": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Jinchao Li": [
+      "The Chinese University of Hong Kong"
+    ],
+    "Yi Wang": [
+      "The Chinese University of Hong Kong"
+    ]
+  },
+  "pereztoro23": {
+    "Paula A. P\u00e9rez-Toro": [
+      "Pattern Recognition Lab. Friedrich-Alexander Universität, Erlangen-Nürnberg, Erlangen, Germany",
+      "GITA Lab, Facultad de Ingenierı́a. Universidad de Antioquia, Medellı́n, Colombia"
+    ],
+    "Tom\u00e1s Arias-Vergara": [
+      "Pattern Recognition Lab. Friedrich-Alexander Universit\u00e4t, Erlangen-N\u00fcrnberg, Erlangen, Germany",
+      "GITA Lab, Facultad de Ingenier\u00b4\u0131a. Universidad de Antioquia, Medell\u00b4\u0131n, Colombia",
+      "Department of Otorhinolaryngology, Head and Neck Surgery. Ludwig-Maximilians University, Munich, Germany"
+    ],
+    "Franziska Braun": [
+      "Technische Hochschule N\u00fcrnberg, Nuremberg, Germany"
+    ],
+    "Florian H\u00f6nig": [
+      "KST Institut GmbH, Bad Emstal, Germany"
+    ],
+    "Carlos A. Tob\u00f3n-Quintero": [
+      "Neuroscience Research Group, Medical Research Institute, Faculty of Medicine, Universidad de Antioquia, Medell\u00b4\u0131n, Colombia"
+    ],
+    "David Aguill\u00f3n": [
+      "Neuroscience Research Group, Medical Research Institute, Faculty of Medicine, Universidad de Antioquia, Medellı́n, Colombia"
+    ],
+    "Francisco Lopera": [
+      "Neuroscience Research Group, Medical Research Institute, Faculty of Medicine, Universidad de Antioquia, Medell\u00b4\u0131n, Colombia"
+    ],
+    "Liliana Hincapi\u00e9-Henao": [
+      "Neuroscience Research Group, Medical Research Institute, Faculty of Medicine, Universidad de Antioquia, Medell\u00b4\u0131n, Colombia"
+    ],
+    "Maria Schuster": [
+      "Department of Otorhinolaryngology, Head and Neck Surgery. Ludwig-Maximilians University, Munich, Germany"
+    ],
+    "Korbinian Riedhammer": [
+      "Technische Hochschule N\u00fcrnberg, Nuremberg, Germany"
+    ],
+    "Andreas Maier": [
+      "Pattern Recognition Lab. Friedrich-Alexander Universit\u00e4t, Erlangen-N\u00fcrnberg, Erlangen, Germany"
+    ],
+    "Elmar N\u00f6th": [
+      "Pattern Recognition Lab. Friedrich-Alexander Universit\u00e4t, Erlangen-N\u00fcrnberg, Erlangen, Germany"
+    ],
+    "Juan Rafael Orozco-Arroyave": [
+      "Pattern Recognition Lab. Friedrich-Alexander Universit\u00e4t, Erlangen-N\u00fcrnberg, Erlangen, Germany",
+      "GITA Lab, Facultad de Ingenier\u00b4\u0131a. Universidad de Antioquia, Medell\u00b4\u0131n, Colombia"
+    ]
+  },
+  "deseyssel23": {
+    "Maureen de Seyssel": [
+      "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France",
+      "Universit\u00e9 Paris Cit\u00e9, CNRS, Laboratoire de linguistique formelle, Paris, France"
+    ],
+    "Marvin Lavechin": [
+      "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France",
+      "Meta AI Research, France"
+    ],
+    "Hadrien Titeux": [
+      "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France"
+    ],
+    "Arthur Thomas": [
+      "Cognitive Machine Learning, ENS–CNRS–EHESS–INRIA–PSL Research University, France"
+    ],
+    "Gwendal Virlet": [
+      "PEGASE, INRAE, Institut Agro, Saint-Gilles, France",
+      "Cognitive Machine Learning, ENS–CNRS–EHESS–INRIA–PSL Research University, France"
+    ],
+    "Andrea Santos Revilla": [
+      "Cognitive Machine Learning, ENS–CNRS–EHESS–INRIA–PSL Research University, France"
+    ],
+    "Guillaume Wisniewski": [
+      "Universit\u00e9 Paris Cit\u00e9, CNRS, Laboratoire de linguistique formelle, Paris, France"
+    ],
+    "Bogdan Ludusan": [
+      "Faculty of Linguistics and Literary Studies & CITEC, Bielefeld University, Germany"
+    ],
+    "Emmanuel Dupoux": [
+      "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France",
+      "Meta AI Research, France"
+    ]
+  },
+  "nguyen23b": {
+    "Minh Van Nguyen": [
+      "Department of Computer Science, University of Oregon, OR, USA"
+    ],
+    "Kishan KC": [
+      "Amazon Alexa AI, CA, USA"
+    ],
+    "Toan Nguyen": [
+      "Amazon Alexa AI, CA, USA"
+    ],
+    "Thien Huu Nguyen": [
+      "Department of Computer Science, University of Oregon, OR, USA"
+    ],
+    "Ankit Chadha": [
+      "Amazon Alexa AI, CA, USA"
+    ],
+    "Thuy Vu": [
+      "Amazon Alexa AI, CA, USA"
+    ]
+  }
+}
