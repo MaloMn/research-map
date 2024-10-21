@@ -1,210 +1,260 @@
-import json
 import re
-from typing import Dict, List
+import json
+from typing import Dict, List, Tuple
 
 import fitz  # PyMuPDF
 from PIL import Image
-import numpy as np
 import  pdfquery
 
-
-def get_horizontal_gaps_median(image, width, height):
-    white_count = 0
-    gaps_sizes = []
-    gaps = []
-
-    # Iterate over each row
-    for row in range(height):
-        # Check if the row is all white
-        row_is_white = all(image[col, row] == (255, 255, 255) for col in range(width))
-
-        if row_is_white:
-            white_count += 1
-        elif white_count > 0:
-            gaps.append((row - white_count, row))
-            gaps_sizes.append(white_count)
-            white_count = 0
-
-    if white_count > 0:
-        gaps_sizes.append(white_count)
-
-    print(gaps_sizes)
-
-    gaps = gaps[2:len(gaps_sizes) - 2]
-    gaps_sizes = gaps_sizes[2:len(gaps_sizes) - 2]
-
-    try:
-        thresh = 1.75 * np.mean(gaps_sizes)
-    except:
-        thresh = 20
-
-    return list(filter(lambda a: a[1] - a[0] > thresh, gaps))
+from rectangle import Rectangle
 
 
-def get_header_segment(image):
-    image_data = image.load()
-    gaps = get_horizontal_gaps_median(image_data, *image.size)
-
-    segments = []
-
-    for gap_a, gap_b in zip(gaps[:-1], gaps[1:]):
-        segments.append((gap_a[1], gap_b[0]))
-
-    return segments
+with open("data/postal_codes.json") as f:
+    POSTAL_CODES_REGEX = json.load(f)#set([value for value in json.load(f).values()])
 
 
-def get_location_names(raw_affiliations):
-    affiliations = Email.remove(raw_affiliations)
-    affiliations = re.sub(r"[a-z]+\.[a-z]+", "", affiliations)
+def substring_sieve(string_list):
+    string_list.sort(key=lambda s: len(s), reverse=True)
+    out = []
+    for s in string_list:
+        if not any([s in o for o in out]):
+            out.append(s)
+    return out
 
-    affiliations = re.findall(r"\D+", affiliations)
-    affiliations = [re.sub(r"[,{}\s;]+$", "", aff) for aff in affiliations if
-                    re.sub(r"[,{}\s]+$", "", aff) != ""]
 
-    if len(affiliations) > 0:
-        last_affiliation = re.findall(r"([\.\w]+[, ](| )+)", affiliations[-1])
-        last_affiliation = " ".join([a for a, _ in last_affiliation])
-        affiliations[len(affiliations) - 1] = last_affiliation
+def get_postal_codes(line):
+    matches = []
+    for country, r in POSTAL_CODES_REGEX.items():
+        if match := re.findall(r, line):
+            matches += match
 
-    return [a.strip() for a in affiliations]
+    matches = [m for m in matches if m != '' and not isinstance(m, tuple)]
+
+    return substring_sieve(matches)
+
+
+def get_location_names(raw_affiliations) -> Dict[str, List[str]]:
+    postal_codes = get_postal_codes(raw_affiliations)
+    for pc in postal_codes:
+        raw_affiliations = raw_affiliations.replace(pc, "")
+
+    affiliations = re.findall(r"[^\d⋆‡†]+", raw_affiliations)
+
+    symbols: List[str] = re.findall(r"[\d⋆‡†]+", raw_affiliations)
+    symbols = ['0'] if len(symbols) == 0 else symbols
+
+    return {str(a.strip(", ")): b for a, b in zip(affiliations, symbols)}
 
 
 def get_authors_affiliations(raw_authors) -> Dict[str, List[int]]:
-    authors = raw_authors.split(", ")
-
     aff_authors = {}
-    for author in authors:
-        aut = re.findall(r"[a-zA-Z\s]+", author)
-        if len(aut) > 0:
-            aut = aut[0].strip()
-        else:
-            continue
+    for sep in re.findall(r"[⋆‡†\d,]+", raw_authors):
+        sep_index = raw_authors.find(sep)
+        author = str(max(re.findall(r"[¨ˇŁł˙´a-zA-Z\s\.]+", raw_authors[:sep_index]), key=len)).strip()
 
-        aff = [int(n) for n in re.findall(r"\d+", author)]
-        aff = [0] if len(aff) == 0 else aff
-        aff_authors[aut] = aff
+        # NOTE Fixed noticed in kejriwal23b
+        aff_authors[author] = re.findall(r"[⋆‡†\d]+", sep)
+        aff_authors[author] = ['0'] if len(aff_authors[author]) == 0 else aff_authors[author]
+
+        raw_authors = raw_authors[sep_index + len(sep):]
 
     return aff_authors
 
 
+def is_element_before_affiliation(raw_line):
+    sep_index = raw_line.find(re.findall(r"[⋆‡†\d,]+", raw_line)[0])
+    return sep_index < 4
+
+
+def get_affiliations(raw_line, sep="") -> Dict[str, List[str]]:
+    # print(raw_line)
+    raw_line = raw_line.replace("∗", "")
+
+    # Removing potential postal codes from the extracted line
+    postal_codes = get_postal_codes(raw_line)
+    for pc in postal_codes:
+        raw_line = raw_line.replace(pc, "")
+
+    # print(raw_line)
+
+    elements: List[str] = re.findall(rf"[^\d⋆‡†{sep}]+", raw_line)
+    elements = [e.strip(' ,') for e in elements if e.strip(' ,') != '']
+    # Make elements unique and keep order
+    unique = []
+    for e in elements:
+        if e not in unique:
+            unique.append(e)
+    elements = unique
+
+    symbols_groups = re.findall(r"[\d⋆‡†,\s]+", raw_line)
+    symbols_groups = [a.strip(", ") for a in symbols_groups if a.strip(", ") != '']
+
+    symbols: List[List[str]] = [re.findall(r"[\d⋆‡†]+", s) for s in symbols_groups if s != ","]
+
+    # clean numbers
+    clean = []
+    for symbol in symbols:
+        clean.append([])
+        for s in symbol:
+            if re.match(r"\d+", s) and re.match(r"\d+", s).group(0) != s:
+                clean[len(clean) - 1].append(re.match(r"\d+", s).group(0))
+            else:
+                clean[len(clean) - 1].append(s)
+
+    symbols = clean
+    symbols = [['0'] for _ in range(len(elements))] if len(symbols) == 0 else symbols
+
+    # print(elements)
+
+    return {a: b for a, b in zip(elements, symbols)}
+
+
+def contains_author(line, authors: List[str]) -> bool:
+    for a in authors:
+        if re.search(rf"\b{a}", line):
+            return True
+        for b in a.split(' '):
+            # RISK this would be activated if someone's last name matches a company or lab name
+            if re.search(rf"\b{b}", line) and b in line:
+                return True
+    return False
+
+
+def is_abstract(line) -> bool:
+    return "abstract" in line.lower()
+
+
+def is_email(line) -> bool:
+    return "@" in line
+
+
+def is_title(line, title: str) -> bool:
+    return line in title
+
+
+def remove_inner_duplicates(duplicates: List[str]):
+    i = 0
+    while i < len(duplicates) - 1:
+        if duplicates[i] in duplicates[i + 1]:
+            duplicates.remove(duplicates[i])
+        else:
+            i += 1
+
+
+def join_list(original: List[str]) -> str:
+    output = original[0]
+    for a, b in zip(original, original[1:]):
+        # Joining a and b
+        found = False
+        for i in range(len(a) - min(len(a), len(b)), len(a)):
+            if a[i:] == b[:len(a) - i]:
+                output += b[len(a) - i:]
+                found = True
+
+        if not found:
+            output += b
+
+    return output
+
+
+def split_on_major_gap(lines):
+    gaps = [b - c for ((a, b), _), ((c, d), _) in zip(lines, lines[1:])]
+    max_index = gaps.index(max(gaps))
+    return [b for a, b in lines[:max_index + 1]], [b for a, b in lines[max_index + 1:]]
+
+
 class PaperExtractor:
 
-    def __init__(self, paper_path, authors_reference: List[str]):
+    def __init__(self, paper_path, paper_title: str, paper_authors):
         self.path = paper_path
+        self.paper_title = paper_title
+        self.paper_authors = paper_authors
 
-    def extract_lines_from_pdf(self):
-        pdf = pdfquery.PDFQuery(paper)
-        pdf.load(0)
-
-        pdf_file = fitz.open(paper)
-
-        # Convert the first page to an image
-        page = pdf_file.load_page(0)
-        pixmap = page.get_pixmap(dpi=72)
-        img = Image.frombytes("RGB", (pixmap.width, pixmap.height), pixmap.samples)
-        w, h = img.size
-
-        # pdf.tree.write(f'paper.xml', pretty_print = True)
-        # for i in range
-        a, b, c, d = [70, 710, 529, 710]
-        a, b, c, d = [0, 0, 596, 842]
-        # x0, y0, x1, y1
-
-        lines = []
-        for a in range(h, 0, -1):
-            line = pdf.pq(f'LTTextLineHorizontal:overlaps_bbox("{0},{a},{w},{a}")').text()
-            if line != "" and (len(lines) == 0 or lines[-1] != line):
-                lines.append(line)
-
-        # print("\n".join(lines[:20]))
-
-        affiliations = []
-        found_authors = False
-        for line in lines:
-            if is_author_line(line):
-                found_authors = True
-            if found_authors and not is_author_line(line) and not is_abstract(line) and not is_email(line):
-                affiliations.append(line)
-            if is_abstract(line) or is_email(line):
-                break
-
-        # print(affiliations)
-
-        i = 0
-        while i < len(affiliations) - 1:
-            if affiliations[i] in affiliations[i + 1]:
-                affiliations.remove(affiliations[i])
-            else:
-                i += 1
-
-        # print("\n".join(affiliations))
-
-        output = affiliations[0]
-        for a, b in zip(affiliations, affiliations[1:]):
-            # Joining a and b
-            found = False
-            for i in range(len(a) - min(len(a), len(b)), len(a)):
-                # print(len(a[i:]), len(b[:len(a) - i]))
-                # print(a[i:], "\n", b[:len(a) - i])
-
-                if a[i:] == b[:len(a) - i]:
-                    output += b[len(a) - i:]
-                    found = True
-                    # print("->", a[i:], "\n->", b[:len(a) - i])
-                    # print(output)
-                    # print("Matched!")
-
-            if not found:
-                # print("here")
-                output += b
-
-    def extract_paper_header(self, factor=4):
         # Open the PDF file
         fitz_pdf = fitz.open(self.path)
 
         # Convert the first page to an image
         page = fitz_pdf.load_page(0)
-        pixmap = page.get_pixmap(dpi=72 * factor)
-        image = Image.frombytes("RGB", (pixmap.width, pixmap.height), pixmap.samples)
-        width, height = image.size
+        pixmap = page.get_pixmap(dpi=72)
+        self.image = Image.frombytes("RGB", (pixmap.width, pixmap.height), pixmap.samples)
+        self.width, self.height = self.image.size
 
-        pdf = pdfquery.PDFQuery(self.path)
-        pdf.load(0)
+        # Load pdf for query
+        self.pdf = pdfquery.PDFQuery(self.path)
+        self.pdf.load(0)
 
-        content = {}
+    def get_authors_affiliations_locations(self) -> Dict[str, List[str]]:
+        lines: List[Tuple[List[int], str]] = [([0, 0], "")]
+        for h in range(self.height, 0, -1):
+            line = self.pdf.pq(f'LTTextLineHorizontal:overlaps_bbox("{0},{h},{self.width},{h}")').text()
+            if line != "":
+                if lines[-1][1] != line:
+                    lines.append(([h, h], line))
+                else:
+                    lines[-1][0][1] = h
 
-        for key, (i, (a, b)) in zip(["authors", "locations"], enumerate(get_header_segment(image))):
-            a, b, c, d = 0, (height - b - 1) / factor, width, (height - a + 1) / factor
-            content[key] = pdf.pq(f'LTTextLineHorizontal:overlaps_bbox("{a},{b},{c},{d}")').text()
+        # Removing first ghost element & conference title & paper title
+        # Maybe remove lines matching title too much?
+        lines = lines[3:]
 
-        content["locations"] = "" if "locations" not in content else content["locations"]
+        # for line in lines:
+        #     print(line)
 
-        return content["authors"], content["locations"]
+        y_low = y_high = 0
 
-    def get_authors_affiliations_locations(self):
-        raw_authors, raw_locations = self.extract_paper_header()
+        interesting_info = []
+        establishments = []
+        authors_affiliations = []
+        found_authors = False
+        for nb, line in lines:
+            if contains_author(line, self.paper_authors) and not is_abstract(line) and not is_email(line) and not is_title(line, self.paper_title):
+                # print("AUTHOR", nb, line)
+                authors_affiliations.append(line)
+                interesting_info.append((nb, line))
+                found_authors = True
+                y_low = nb[0]
+            elif (found_authors and not is_abstract(line)
+                  and not is_email(line)):
+                # print("STILL AUTHOR", nb, line)
+                interesting_info.append((nb, line))
+                establishments.append(line)
+            elif is_abstract(line) or is_email(line):
+                # print("A_O_E", nb, line)
+                y_high = nb[1]
+                break
 
-        authors_affiliations = get_authors_affiliations(raw_authors)
-        locations = get_location_names(raw_locations)
+        authors_affiliations, establishments = split_on_major_gap(interesting_info)
 
-        return authors_affiliations, locations
+        print(authors_affiliations)
+        remove_inner_duplicates(authors_affiliations)
+        authors_affiliations = join_list(authors_affiliations)
+        authors_affiliations = authors_affiliations.replace("and", "")
+        authors_affiliations = get_affiliations(authors_affiliations, sep=",")
+        print(authors_affiliations)
+
+        print(establishments)
+        remove_inner_duplicates(establishments)
+        establishments = join_list(establishments)
+        establishments = get_affiliations(establishments)
+        print(establishments)
+
+        output: Dict[str, List[str]] = {author: [] for author in authors_affiliations.keys()}
+
+        for author, symbols in authors_affiliations.items():
+            for auth_symbol in symbols:
+                for location, loc_symbols in establishments.items():
+                    if auth_symbol in loc_symbols:
+                        output[author].append(location)
 
 
-class Email:
+        rect = Rectangle(self.path, self.height - y_low, self.height - y_high)
 
-    REGEX = [
-        r"[\w\._]+(\s+|)@[\w\.]+",
-        r"{[a-z\_., ]+}@[a-z\.]+",
-        r"@[\w\.]+"
-    ]
+        # print(0, self.height - y_low, self.width, self.height - y_high, y_low - y_high)
+        # self.image = self.image.crop((0, self.height - y_low, self.width, self.height - y_high))
+        # self.image.save("output_0.png")
+        rect.export()
 
-    @staticmethod
-    def remove(text: str):
-        temp = text
-        for pattern in Email.REGEX:
-            temp = re.sub(pattern, "", temp)
-
-        return temp
+        return output
 
 
 if __name__ == '__main__':
