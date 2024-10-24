@@ -14,4 +14,10 @@ Papers are manually transcribed when the automatic extraction fails.
 Automatically recognized failures are stored in `output/{conference_name}/errors.json`.
 A glance at the data can also help identifying
 
-## How can I help?
+## How can you help?
+1. Propose alternative methods to extract information from papers,
+   - Methods should be as broad as possible, relying or not on external sources of informations ;
+   - Methods should be **machine-learning free**, in order to keep the carbon footprint of this project as low as possible.
+2. Manually review the data,
+   - Correcting coordinates in the `locations.csv` file, or correcting authors affiliations.
+3. Propose new ways to visualize the data.
