@@ -7,7 +7,9 @@ from PIL import Image
 import fitz
 import  pdfquery
 
-from rectangle import Rectangle
+
+SEPARATORS = r"\d⋆∗\*‡†♢♣♡♠♥"
+SEPARATORS_SPLIT = r"(\d|⋆|∗|\*|‡|†|♢|♣|♡|♠|♥)"
 
 
 with open("data/postal_codes.json") as f:
@@ -34,25 +36,6 @@ def get_postal_codes(line):
     return substring_sieve(matches)
 
 
-def get_location_names(raw_affiliations) -> Dict[str, List[str]]:
-    postal_codes = get_postal_codes(raw_affiliations)
-    for pc in postal_codes:
-        raw_affiliations = raw_affiliations.replace(pc, "")
-
-    affiliations = re.findall(r"[^\d⋆‡†]+", raw_affiliations)
-
-    symbols: List[str] = re.findall(r"[\d⋆‡†]+", raw_affiliations)
-    symbols = ['0'] if len(symbols) == 0 else symbols
-
-    return {str(a.strip(", ")): b for a, b in zip(affiliations, symbols)}
-
-
-
-def is_element_before_affiliation(raw_line):
-    sep_index = raw_line.find(re.findall(r"[⋆‡†\d,]+", raw_line)[0])
-    return sep_index < 4
-
-
 def find_approximate_substring(line, substring):
     distances = [(i, distance(line[i:i+len(substring)], substring)) for i in range(0, len(line) - len(substring) + 1)]
     closest = min(distances, key=lambda x: x[1])[0]
@@ -66,7 +49,7 @@ def get_authors_affiliations(raw_line, authors):
     # print(raw_line, authors)
     for author in authors:
         index = find_approximate_substring(raw_line, author)
-        symbols_group = re.match(r"[\d⋆∗*‡†,\s]+", raw_line[index + len(author):])
+        symbols_group = re.match(rf"[{SEPARATORS},\s]+", raw_line[index + len(author):])
         if symbols_group is None:
             output[author] = ['0']
             continue
@@ -77,12 +60,12 @@ def get_authors_affiliations(raw_line, authors):
             continue
 
         # ASSUMPTION There is never strictly more than 9 institutions affiliated to a conference paper
-        output[author] = re.findall(r"(\d|⋆|∗|\*|‡|†)", symbols_group)
+        output[author] = re.findall(SEPARATORS_SPLIT, symbols_group)
 
     return output
 
 
-def get_affiliations(raw_line, sep="") -> Dict[str, List[str]]:
+def get_affiliations(raw_line) -> Dict[str, List[str]]:
     # print(raw_line)
     # raw_line = raw_line.replace("∗", "")
 
@@ -93,7 +76,7 @@ def get_affiliations(raw_line, sep="") -> Dict[str, List[str]]:
 
     # print(raw_line)
 
-    elements: List[str] = re.findall(rf"[^\d*∗⋆‡†{sep}]+", raw_line)
+    elements: List[str] = re.findall(rf"[^{SEPARATORS}]+", raw_line)
     elements = [e.strip(' ,') for e in elements if e.strip(' ,') != '']
 
     # Make elements unique and keep order
@@ -103,11 +86,11 @@ def get_affiliations(raw_line, sep="") -> Dict[str, List[str]]:
             unique.append(e)
     elements = unique
 
-    symbols_groups = re.findall(r"[\d*∗⋆‡†,\s]+", raw_line)
+    symbols_groups = re.findall(rf"[{SEPARATORS},\s]+", raw_line)
     symbols_groups = [a.strip(", ") for a in symbols_groups if a.strip(", ") != '']
 
     # ASSUMPTION There is never strictly more than 9 institutions affiliated to a conference paper
-    symbols: List[List[str]] = [re.findall(r"(\d|⋆|‡|†|\*|∗)", s) for s in symbols_groups if s != ","]
+    symbols: List[List[str]] = [re.findall(SEPARATORS_SPLIT, s) for s in symbols_groups if s != ","]
     symbols = [['0'] for _ in range(len(elements))] if len(symbols) == 0 else symbols
 
     return {a: b for a, b in zip(elements, symbols)}
@@ -201,30 +184,19 @@ class PaperExtractor:
         # Maybe remove lines matching title too much?
         lines = lines[3:]
 
-        # for line in lines:
-        #     print(line)
-
-        y_low = y_high = 0
-
         interesting_info = []
         establishments = []
         authors_affiliations = []
         found_authors = False
         for nb, line in lines:
             if contains_author(line, self.paper_authors) and not is_abstract(line) and not is_email(line) and not is_title(line, self.paper_title):
-                # print("AUTHOR", nb, line)
                 authors_affiliations.append(line)
                 interesting_info.append((nb, line))
                 found_authors = True
-                y_low = nb[0]
-            elif (found_authors and not is_abstract(line)
-                  and not is_email(line)):
-                # print("STILL AUTHOR", nb, line)
+            elif found_authors and not is_abstract(line) and not is_email(line):
                 interesting_info.append((nb, line))
                 establishments.append(line)
             elif is_abstract(line) or is_email(line):
-                # print("A_O_E", nb, line)
-                y_high = nb[1]
                 break
 
         authors_affiliations, establishments = split_on_major_gap(interesting_info)
@@ -233,12 +205,8 @@ class PaperExtractor:
         remove_inner_duplicates(authors_affiliations)
         authors_affiliations = join_list(authors_affiliations)
         authors_affiliations = authors_affiliations.replace("and", "")
-
         authors_affiliations = get_authors_affiliations(authors_affiliations, self.paper_authors)
-
-        # authors_affiliations = get_affiliations(authors_affiliations, sep=",")
         # print(authors_affiliations)
-
 
         # print(establishments)
         remove_inner_duplicates(establishments)
@@ -261,14 +229,6 @@ class PaperExtractor:
                     for location, loc_symbols in establishments.items():
                         if auth_symbol in loc_symbols:
                             output[author].append(location)
-
-
-        # rect = Rectangle(self.path, self.height - y_low, self.height - y_high)
-
-        # print(0, self.height - y_low, self.width, self.height - y_high, y_low - y_high)
-        # self.image = self.image.crop((0, self.height - y_low, self.width, self.height - y_high))
-        # self.image.save("output_0.png")
-        # rect.export()
 
         return output
 

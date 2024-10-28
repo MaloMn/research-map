@@ -1,356 +1,442 @@
 {
   "song23": {
-    "Kun Song": [
-      "Audio, Speech and Language Processing Group, School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
-    ],
-    "Yi Ren": [
-      "ByteDance"
-    ],
-    "Yi Lei": [
-      "Audio, Speech and Language Processing Group, School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
-    ],
-    "Chunfeng Wang": [
-      "ByteDance"
-    ],
-    "Kun Wei": [
-      "Audio, Speech and Language Processing Group, School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
-    ],
-    "Lei Xie": [
-      "Audio, Speech and Language Processing Group, School of Computer Science, Northwestern Polytechnical University, Xi’an, China "
-    ],
-    "Xiang Yin": [
-      "ByteDance"
-    ],
-    "Zejun Ma": [
-      "ByteDance"
-    ]
+    "title": "StyleS2ST: Zero-shot Style Transfer for Direct Speech-to-speech Translation",
+    "url": "https://www.isca-archive.org/interspeech_2023/song23_interspeech.html",
+    "authors": {
+      "Kun Song": [
+        "Audio, Speech and Language Processing Group, School of Computer Science, Northwestern Polytechnical University, Xi\u2019an, China"
+      ],
+      "Yi Ren": [
+        "ByteDance"
+      ],
+      "Yi Lei": [
+        "Audio, Speech and Language Processing Group, School of Computer Science, Northwestern Polytechnical University, Xi\u2019an, China"
+      ],
+      "Chunfeng Wang": [
+        "ByteDance"
+      ],
+      "Kun Wei": [
+        "Audio, Speech and Language Processing Group, School of Computer Science, Northwestern Polytechnical University, Xi\u2019an, China"
+      ],
+      "Lei Xie": [
+        "Audio, Speech and Language Processing Group, School of Computer Science, Northwestern Polytechnical University, Xi\u2019an, China "
+      ],
+      "Xiang Yin": [
+        "ByteDance"
+      ],
+      "Zejun Ma": [
+        "ByteDance"
+      ]
+    }
   },
   "yang23l": {
-    "Yifan Yang": [
-      "Xiaomi Corp., Beijing, China"
-    ],
-    "Xiaoyu Yang": [
-      "Xiaomi Corp., Beijing, China"
-    ],
-    "Liyong Guo": [
-      "Xiaomi Corp., Beijing, China"
-    ],
-    "Zengwei Yao": [
-      "Xiaomi Corp., Beijing, China"
-    ],
-    "Wei Kang": [
-      "Xiaomi Corp., Beijing, China"
-    ],
-    "Fangjun Kuang": [
-      "Xiaomi Corp., Beijing, China"
-    ],
-    "Long Lin": [
-      "Xiaomi Corp., Beijing, China"
-    ],
-    "Xie Chen": [
-      "Shanghai Jiao Tong University, Shanghai, China"
-    ],
-    "Daniel Povey": [
-      "Xiaomi Corp., Beijing, China"
-    ]
+    "title": "Blank-regularized CTC for Frame Skipping in Neural Transducer",
+    "url": "https://www.isca-archive.org/interspeech_2023/yang23l_interspeech.html",
+    "authors": {
+      "Yifan Yang": [
+        "Xiaomi Corp., Beijing, China"
+      ],
+      "Xiaoyu Yang": [
+        "Xiaomi Corp., Beijing, China"
+      ],
+      "Liyong Guo": [
+        "Xiaomi Corp., Beijing, China"
+      ],
+      "Zengwei Yao": [
+        "Xiaomi Corp., Beijing, China"
+      ],
+      "Wei Kang": [
+        "Xiaomi Corp., Beijing, China"
+      ],
+      "Fangjun Kuang": [
+        "Xiaomi Corp., Beijing, China"
+      ],
+      "Long Lin": [
+        "Xiaomi Corp., Beijing, China"
+      ],
+      "Xie Chen": [
+        "Shanghai Jiao Tong University, Shanghai, China"
+      ],
+      "Daniel Povey": [
+        "Xiaomi Corp., Beijing, China"
+      ]
+    }
   },
   "jayakumar23": {
-    "Kaousheik Jayakumar": [
-      "Speech Lab, Indian Institute of Technology Madras, India"
-    ],
-    "Vrunda N. Sukhadia": [
-      "Speech Lab, Indian Institute of Technology Madras, India"
-    ],
-    "A Arunkumar": [
-      "Speech Lab, Indian Institute of Technology Madras, India"
-    ],
-    "S. Umesh": [
-      "Speech Lab, Indian Institute of Technology Madras, India"
-    ]
+    "title": "The Tag-Team Approach: Leveraging CLS and Language Tagging for Enhancing Multilingual ASR",
+    "url": "https://www.isca-archive.org/interspeech_2023/jayakumar23_interspeech.html",
+    "authors": {
+      "Kaousheik Jayakumar": [
+        "Speech Lab, Indian Institute of Technology Madras, India"
+      ],
+      "Vrunda N. Sukhadia": [
+        "Speech Lab, Indian Institute of Technology Madras, India"
+      ],
+      "A Arunkumar": [
+        "Speech Lab, Indian Institute of Technology Madras, India"
+      ],
+      "S. Umesh": [
+        "Speech Lab, Indian Institute of Technology Madras, India"
+      ]
+    }
   },
   "romero23": {
-    "Hector E. Romero": [
-      "Department of Computer Science, University of Sheffield, Sheffield S1 4DP, UK"
-    ],
-    "Ning Ma": [
-      "Department of Computer Science, University of Sheffield, Sheffield S1 4DP, UK"
-    ],
-    "Guy J. Brown": [
-      "Department of Computer Science, University of Sheffield, Sheffield S1 4DP, UK"
-    ],
-    "Sam Johnson": [
-      "PFL Healthcare Limited, HQ 5th floor, 58 Nicholas Street, Chester CH1 2NP, UK"
-    ]
+    "title": "Obstructive sleep apnea screening with breathing sounds and respiratory effort: a multimodal deep learning approach",
+    "url": "https://www.isca-archive.org/interspeech_2023/romero23_interspeech.html",
+    "authors": {
+      "Hector E. Romero": [
+        "Department of Computer Science, University of Sheffield, Sheffield S1 4DP, UK"
+      ],
+      "Ning Ma": [
+        "Department of Computer Science, University of Sheffield, Sheffield S1 4DP, UK"
+      ],
+      "Guy J. Brown": [
+        "Department of Computer Science, University of Sheffield, Sheffield S1 4DP, UK"
+      ],
+      "Sam Johnson": [
+        "PFL Healthcare Limited, HQ 5th floor, 58 Nicholas Street, Chester CH1 2NP, UK"
+      ]
+    }
   },
   "chen23s": {
-    "Yutong Pang": [
-      "Meta AI, USA"
-    ],
-    "Peng Su": [
-      "Meta AI, USA"
-    ],
-    "Xuedong Zhang": [
-      "Meta AI, USA"
-    ],
-    "Szu-Jui Chen": [
-      "Center for Robust Speech Systems (CRSS), University of Texas at Dallas, USA"
-    ],
-    "Debjyoti Paul": [
-      "Meta AI, USA"
-    ]
+    "title": "Language Agnostic Data-Driven Inverse Text Normalization",
+    "url": "https://www.isca-archive.org/interspeech_2023/chen23s_interspeech.html",
+    "authors": {
+      "Yutong Pang": [
+        "Meta AI, USA"
+      ],
+      "Peng Su": [
+        "Meta AI, USA"
+      ],
+      "Xuedong Zhang": [
+        "Meta AI, USA"
+      ],
+      "Szu-Jui Chen": [
+        "Center for Robust Speech Systems (CRSS), University of Texas at Dallas, USA"
+      ],
+      "Debjyoti Paul": [
+        "Meta AI, USA"
+      ]
+    }
   },
   "li23c": {
-    "Zitong Li": [
-      "School of Computer Science and Technology, Fudan University, Shanghai, China"
-    ],
-    "Wei Li": [
-      "School of Computer Science and Technology, Fudan University, Shanghai, China",
-      "Shanghai Key Laboratory of Intelligent Information Processing, Fudan University, Shanghai, China"
-    ]
+    "title": "MOSLight: A Lightweight Data-Efficient System for Non-Intrusive Speech Quality Assessment",
+    "url": "https://www.isca-archive.org/interspeech_2023/li23c_interspeech.html",
+    "authors": {
+      "Zitong Li": [
+        "School of Computer Science and Technology, Fudan University, Shanghai, China"
+      ],
+      "Wei Li": [
+        "School of Computer Science and Technology, Fudan University, Shanghai, China",
+        "Shanghai Key Laboratory of Intelligent Information Processing, Fudan University, Shanghai, China"
+      ]
+    }
   },
   "adhikary23": {
-    "Jiban Adhikary": [
-      "Michigan Technological University, USA"
-    ],
-    "Keith Vertanen": [
-      "Michigan Technological University, USA"
-    ]
+    "title": "Language Model Personalization for Improved Touchscreen Typing",
+    "url": "https://www.isca-archive.org/interspeech_2023/adhikary23_interspeech.html",
+    "authors": {
+      "Jiban Adhikary": [
+        "Michigan Technological University, USA"
+      ],
+      "Keith Vertanen": [
+        "Michigan Technological University, USA"
+      ]
+    }
   },
   "fan23": {
-    "Zhiyun Fan": [
-      "Bytedance Research"
-    ],
-    "Linhao Dong": [
-      "Bytedance Research"
-    ],
-    "Chen Shen": [
-      "Bytedance Research"
-    ],
-    "Zhenlin Liang": [
-      "Bytedance Research"
-    ],
-    "Jun Zhang": [
-      "Bytedance Research"
-    ],
-    "Lu Lu": [
-      "Bytedance Research"
-    ],
-    "Zejun Ma": [
-      "Bytedance Research"
-    ]
+    "title": "Language-specific Boundary Learning for Improving Mandarin-English Code-switching Speech Recognition",
+    "url": "https://www.isca-archive.org/interspeech_2023/fan23_interspeech.html",
+    "authors": {
+      "Zhiyun Fan": [
+        "Bytedance Research"
+      ],
+      "Linhao Dong": [
+        "Bytedance Research"
+      ],
+      "Chen Shen": [
+        "Bytedance Research"
+      ],
+      "Zhenlin Liang": [
+        "Bytedance Research"
+      ],
+      "Jun Zhang": [
+        "Bytedance Research"
+      ],
+      "Lu Lu": [
+        "Bytedance Research"
+      ],
+      "Zejun Ma": [
+        "Bytedance Research"
+      ]
+    }
   },
   "peng23e": {
-    "Puyuan Peng": [
-      "Department of Computer Science, The University of Texas at Austin, USA"
-    ],
-    "Shang-Wen Li": [
-      "Meta AI, USA"
-    ],
-    "Okko Räsänen": [
-      "Unit of Computing Sciences, Tampere University, Finland"
-    ],
-    "Abdelrahman Mohamed": [
-      "Rembrand, USA"
-    ],
-    "David Harwath": [
-      "Department of Computer Science, The University of Texas at Austin, USA"
-    ]
+    "title": "Syllable Discovery and Cross-Lingual Generalization in a Visually Grounded, Self-Supervised Speech Model",
+    "url": "https://www.isca-archive.org/interspeech_2023/peng23e_interspeech.html",
+    "authors": {
+      "Puyuan Peng": [
+        "Department of Computer Science, The University of Texas at Austin, USA"
+      ],
+      "Shang-Wen Li": [
+        "Meta AI, USA"
+      ],
+      "Okko R\u00e4s\u00e4nen": [
+        "Unit of Computing Sciences, Tampere University, Finland"
+      ],
+      "Abdelrahman Mohamed": [
+        "Rembrand, USA"
+      ],
+      "David Harwath": [
+        "Department of Computer Science, The University of Texas at Austin, USA"
+      ]
+    }
   },
   "wong23": {
-    "Jeremy H. M. Wong": [
-      "Institute for Infocomm Research (I2 R), A⋆ STAR, Singapore"
-    ],
-    "Huayun Zhang": [
-      "Institute for Infocomm Research (I2 R), A⋆ STAR, Singapore"
-    ],
-    "Nancy F. Chen": [
-      "Institute for Infocomm Research (I2 R), A⋆ STAR, Singapore"
-    ]
+    "title": "Distilling knowledge from Gaussian process teacher to neural network student",
+    "url": "https://www.isca-archive.org/interspeech_2023/wong23_interspeech.html",
+    "authors": {
+      "Jeremy H. M. Wong": [
+        "Institute for Infocomm Research (I2 R), A\u22c6 STAR, Singapore"
+      ],
+      "Huayun Zhang": [
+        "Institute for Infocomm Research (I2 R), A\u22c6 STAR, Singapore"
+      ],
+      "Nancy F. Chen": [
+        "Institute for Infocomm Research (I2 R), A\u22c6 STAR, Singapore"
+      ]
+    }
   },
   "shekar23b": {
-    "Ram C.M.C Shekar": [
-      "Center for Robust Speech Systems (CRSS), University of Texas at Dallas, TX, USA"
-    ],
-    "Mu Yang": [
-      "Center for Robust Speech Systems (CRSS), University of Texas at Dallas, TX, USA"
-    ],
-    "Kevin Hirschi": [
-      "Northern Arizona University, AZ, USA,"
-    ],
-    "Stephen Looney": [
-      "Pennsylvania State University, PA, USA"
-    ],
-    "Okim Kang": [
-      "Northern Arizona University, AZ, USA,"
-    ],
-    "John Hansen": [
-      "Center for Robust Speech Systems (CRSS), University of Texas at Dallas, TX, USA"
-    ]
+    "title": "Assessment of Non-Native Speech Intelligibility using Wav2vec2-based Mispronunciation Detection and Multi-level Goodness of Pronunciation Transformer",
+    "url": "https://www.isca-archive.org/interspeech_2023/shekar23b_interspeech.html",
+    "authors": {
+      "Ram C.M.C Shekar": [
+        "Center for Robust Speech Systems (CRSS), University of Texas at Dallas, TX, USA"
+      ],
+      "Mu Yang": [
+        "Center for Robust Speech Systems (CRSS), University of Texas at Dallas, TX, USA"
+      ],
+      "Kevin Hirschi": [
+        "Northern Arizona University, AZ, USA,"
+      ],
+      "Stephen Looney": [
+        "Pennsylvania State University, PA, USA"
+      ],
+      "Okim Kang": [
+        "Northern Arizona University, AZ, USA,"
+      ],
+      "John Hansen": [
+        "Center for Robust Speech Systems (CRSS), University of Texas at Dallas, TX, USA"
+      ]
+    }
   },
   "huang23d": {
-    "He Huang": [
-      "NVIDIA, USA"
-    ],
-    "Jagadeesh Balam": [
-      "NVIDIA, USA"
-    ],
-    "Boris Ginsburg": [
-      "NVIDIA, USA"
-    ]
+    "title": "Contextualized End-to-End Speech Recognition with Contextual Phrase Prediction Network",
+    "url": "https://www.isca-archive.org/interspeech_2023/huang23d_interspeech.html",
+    "authors": {
+      "He Huang": [
+        "NVIDIA, USA"
+      ],
+      "Jagadeesh Balam": [
+        "NVIDIA, USA"
+      ],
+      "Boris Ginsburg": [
+        "NVIDIA, USA"
+      ]
+    }
   },
   "wen23b": {
-    "Chuan Wen": [
-      "Hearing Technology @ WAVES, Dept. of information technology, Ghent University, Belgium"
-    ],
-    "Sarah Verhulst": [
-      "Hearing Technology @ WAVES, Dept. of information technology, Ghent University, Belgium"
-    ]
+    "title": "",
+    "url": "",
+    "authors": {
+      "Chuan Wen": [
+        "Hearing Technology @ WAVES, Dept. of information technology, Ghent University, Belgium"
+      ],
+      "Sarah Verhulst": [
+        "Hearing Technology @ WAVES, Dept. of information technology, Ghent University, Belgium"
+      ]
+    }
   },
   "addlesee23": {
-    "Angus Addlesee": [
-      "Heriot-Watt University, United Kingdom"
-    ],
-    "Marco Damonte": [
-      "Amazon Alexa, United Kingdom"
-    ]
+    "title": "",
+    "url": "",
+    "authors": {
+      "Angus Addlesee": [
+        "Heriot-Watt University, United Kingdom"
+      ],
+      "Marco Damonte": [
+        "Amazon Alexa, United Kingdom"
+      ]
+    }
   },
   "kesiraju23": {
-    "Santosh Kesiraju": [
-      "Speech@FIT, Brno University of Technology, Czechia"
-    ],
-    "Marek Sarvaš": [
-      "Speech@FIT, Brno University of Technology, Czechia"
-    ],
-    "Tomáš Pavliček": [
-      "Phonexia, Czechia"
-    ],
-    "Cécile Macaire": [
-      "Univ. Grenoble Alpes, France"
-    ],
-    "Alejandro Ciuba": [
-      "University of Pittsburgh, USA"
-    ]
+    "title": "",
+    "url": "",
+    "authors": {
+      "Santosh Kesiraju": [
+        "Speech@FIT, Brno University of Technology, Czechia"
+      ],
+      "Marek Sarva\u0161": [
+        "Speech@FIT, Brno University of Technology, Czechia"
+      ],
+      "Tom\u00e1\u0161 Pavli\u010dek": [
+        "Phonexia, Czechia"
+      ],
+      "C\u00e9cile Macaire": [
+        "Univ. Grenoble Alpes, France"
+      ],
+      "Alejandro Ciuba": [
+        "University of Pittsburgh, USA"
+      ]
+    }
   },
   "mosner23": {
-    "Ladislav Mošner": [
-      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
-    ],
-    "Oldřich Plchot": [
-      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
-    ],
-    "Junyi Peng": [
-      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
-    ],
-    "Lukáš Burget": [
-      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
-    ],
-    "Jan “Honza” Černocký": [
-      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
-    ]
+    "title": "",
+    "url": "",
+    "authors": {
+      "Ladislav Mo\u0161ner": [
+        "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+      ],
+      "Old\u0159ich Plchot": [
+        "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+      ],
+      "Junyi Peng": [
+        "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+      ],
+      "Luk\u00e1\u0161 Burget": [
+        "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+      ],
+      "Jan \u201cHonza\u201d \u010cernock\u00fd": [
+        "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+      ]
+    }
   },
   "peng23": {
-    "Junyi Peng": [
-      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
-    ],
-    "Oldřich Plchot": [
-      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
-    ],
-    "Themos Stafylakis": [
-      "Omilia - Conversational Intelligence, Athens, Greece"
-    ],
-    "Ladislav Mošner": [
-      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
-    ],
-    "Lukáš Burget": [
-      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
-    ],
-    "Jan Černocký": [
-      "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
-    ]
+    "title": "",
+    "url": "",
+    "authors": {
+      "Junyi Peng": [
+        "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+      ],
+      "Old\u0159ich Plchot": [
+        "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+      ],
+      "Themos Stafylakis": [
+        "Omilia - Conversational Intelligence, Athens, Greece"
+      ],
+      "Ladislav Mo\u0161ner": [
+        "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+      ],
+      "Luk\u00e1\u0161 Burget": [
+        "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+      ],
+      "Jan \u010cernock\u00fd": [
+        "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+      ]
+    }
   },
   "ning23": {
-    "Ziqian Ning": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University, Xi’an, China",
-      "Fuxi AI Lab, NetEase Inc., Hangzhou, China"
-    ],
-    "Yuepeng Jiang": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
-    ],
-    "Pengcheng Zhu": [
-      "Fuxi AI Lab, NetEase Inc., Hangzhou, China"
-    ],
-    "Jixun Yao": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
-    ],
-    "Shuai Wang": [
-      "Shanghai Jiao Tong University, Shanghai, China"
-    ],
-    "Lei Xie": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
-    ],
-    "Mengxiao Bi": [
-      "Fuxi AI Lab, NetEase Inc., Hangzhou, China"
-    ]
+    "title": "DualVC: Dual-mode Voice Conversion using Intra-model Knowledge Distillation and Hybrid Predictive Coding",
+    "url": "https://www.isca-archive.org/interspeech_2023/ning23_interspeech.html",
+    "authors": {
+      "Ziqian Ning": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University, Xi\u2019an, China",
+        "Fuxi AI Lab, NetEase Inc., Hangzhou, China"
+      ],
+      "Yuepeng Jiang": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University, Xi\u2019an, China"
+      ],
+      "Pengcheng Zhu": [
+        "Fuxi AI Lab, NetEase Inc., Hangzhou, China"
+      ],
+      "Jixun Yao": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University, Xi\u2019an, China"
+      ],
+      "Shuai Wang": [
+        "Shanghai Jiao Tong University, Shanghai, China"
+      ],
+      "Lei Xie": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University, Xi\u2019an, China"
+      ],
+      "Mengxiao Bi": [
+        "Fuxi AI Lab, NetEase Inc., Hangzhou, China"
+      ]
+    }
   },
   "wang23ba": {
-    "Qing Wang": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi’an, China"
-    ],
-    "Jixun Yao": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi’an, China"
-    ],
-    "Ziqian Wang": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi’an, China"
-    ],
-    "Pengcheng Guo": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi’an, China"
-    ],
-    "Lei Xie": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi’an, China"
-    ]
+    "title": "Pseudo-Siamese Network based Timbre-reserved Black-box Adversarial Attack in Speaker Identification",
+    "url": "https://www.isca-archive.org/interspeech_2023/wang23ba_interspeech.html",
+    "authors": {
+      "Qing Wang": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi\u2019an, China"
+      ],
+      "Jixun Yao": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi\u2019an, China"
+      ],
+      "Ziqian Wang": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi\u2019an, China"
+      ],
+      "Pengcheng Guo": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi\u2019an, China"
+      ],
+      "Lei Xie": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU), School of Computer Science, Northwestern Polytechnical University (NPU), Xi\u2019an, China"
+      ]
+    }
   },
   "gao23j": {
-    "Yingxiang Gao": [
-      "The University of Tokyo, Japan"
-    ],
-    "Jaehyun Choi": [
-      "The University of Tokyo, Japan"
-    ],
-    "Nobuaki Minematsu": [
-      "The University of Tokyo, Japan"
-    ],
-    "Noriko Nakanishi": [
-      "Kobe Gakuin University, Japan"
-    ],
-    "Daisuke Saito": [
-      "The University of Tokyo, Japan"
-    ]
+    "title": "Automatic Prediction of Language Learners' Listenability Using Speech and Text Features Extracted from Listening Drills",
+    "url": "https://www.isca-archive.org/interspeech_2023/gao23j_interspeech.html",
+    "authors": {
+      "Yingxiang Gao": [
+        "The University of Tokyo, Japan"
+      ],
+      "Jaehyun Choi": [
+        "The University of Tokyo, Japan"
+      ],
+      "Nobuaki Minematsu": [
+        "The University of Tokyo, Japan"
+      ],
+      "Noriko Nakanishi": [
+        "Kobe Gakuin University, Japan"
+      ],
+      "Daisuke Saito": [
+        "The University of Tokyo, Japan"
+      ]
+    }
   },
   "richter23b": {
-    "Caitlin Richter": [
-      "Reykjavik University, Iceland"
-    ],
-    "Ragnar Pálsson": [
-      "Reykjavik University, Iceland"
-    ],
-    "Luke O’Brien": [
-      "Tiro, Iceland"
-    ],
-    "Kolbrún Friðriksdóttir": [
-      "University of Iceland, Iceland"
-    ],
-    "Branislav Bédi": [
-      "Árni Magnússon Institute, Iceland"
-    ],
-    "EydísHuld Magnúsdóttir": [
-      "Tiro, Iceland"
-    ],
-    "Jón Guðnason": [
-      "Reykjavik University, Iceland"
-    ]
+    "title": "Orthography-based Pronunciation Scoring for Better CAPT Feedback",
+    "url": "https://www.isca-archive.org/interspeech_2023/richter23b_interspeech.html",
+    "authors": {
+      "Caitlin Richter": [
+        "Reykjavik University, Iceland"
+      ],
+      "Ragnar P\u00e1lsson": [
+        "Reykjavik University, Iceland"
+      ],
+      "Luke O\u2019Brien": [
+        "Tiro, Iceland"
+      ],
+      "Kolbr\u00fan Fri\u00f0riksd\u00f3ttir": [
+        "University of Iceland, Iceland"
+      ],
+      "Branislav B\u00e9di": [
+        "\u00c1rni Magn\u00fasson Institute, Iceland"
+      ],
+      "Eyd\u00edsHuld Magn\u00fasd\u00f3ttir": [
+        "Tiro, Iceland"
+      ],
+      "J\u00f3n Gu\u00f0nason": [
+        "Reykjavik University, Iceland"
+      ]
+    }
   },
   "ray23": {
-    "affiliations": {
+    "title": "Compositional Generalization in Spoken Language Understanding",
+    "url": "https://www.isca-archive.org/interspeech_2023/ray23_interspeech.html",
+    "authors": {
       "Avik Ray": [
         "Amazon Alexa, USA"
       ],
@@ -363,230 +449,1125 @@
     }
   },
   "xue23": {
-    "Hongfei Xue": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
-    ],
-    "Qijie Shao": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
-    ],
-    "Peikun Chen": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
-    ],
-    "Pengcheng Guo": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
-    ],
-    "Lei Xie": [
-      "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi’an, China"
-    ],
-    "Jie Liu": [
-      "Huawei Cloud"
-    ]
+    "title": "TranUSR: Phoneme-to-word Transcoder Based Unified Speech Representation Learning for Cross-lingual Speech Recognition",
+    "url": "https://www.isca-archive.org/interspeech_2023/xue23_interspeech.html",
+    "authors": {
+      "Hongfei Xue": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi\u2019an, China"
+      ],
+      "Qijie Shao": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi\u2019an, China"
+      ],
+      "Peikun Chen": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi\u2019an, China"
+      ],
+      "Pengcheng Guo": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi\u2019an, China"
+      ],
+      "Lei Xie": [
+        "Audio, Speech and Language Processing Group (ASLP@NPU) School of Computer Science, Northwestern Polytechnical University, Xi\u2019an, China"
+      ],
+      "Jie Liu": [
+        "Huawei Cloud"
+      ]
+    }
   },
   "heggan23": {
-    "Calum Heggan": [
-      "School Of Engineering, University of Edinburgh, Scotland"
-    ],
-    "Tim Hospedales": [
-      "School Of Informatics, University of Edinburgh, Scotland"
-    ],
-    "Sam Budgett": [
-      "Thales UK RTI"
-    ],
-    "Mehrdad Yaghoobi": [
-      "School Of Engineering, University of Edinburgh, Scotland"
-    ]
+    "title": "MT-SLVR: Multi-Task Self-Supervised Learning for Transformation In(Variant) Representations",
+    "url": "https://www.isca-archive.org/interspeech_2023/heggan23_interspeech.html",
+    "authors": {
+      "Calum Heggan": [
+        "School Of Engineering, University of Edinburgh, Scotland"
+      ],
+      "Tim Hospedales": [
+        "School Of Informatics, University of Edinburgh, Scotland"
+      ],
+      "Sam Budgett": [
+        "Thales UK RTI"
+      ],
+      "Mehrdad Yaghoobi": [
+        "School Of Engineering, University of Edinburgh, Scotland"
+      ]
+    }
   },
   "chou23": {
-    "Huang-Cheng Chou": [
-      "Multimodal Signal Processing (MSP) lab, Department of Electrical and Computer Engineering The University of Texas at Dallas, Richardson",
-      "Department of Electrical Engineering, National Tsing Hua University, Taiwan"
-    ],
-    "Lucas Goncalves": [
-      "Multimodal Signal Processing (MSP) lab, Department of Electrical and Computer Engineering The University of Texas at Dallas, Richardson"
-    ],
-    "Seong-Gyun Leem": [
-      "Multimodal Signal Processing (MSP) lab, Department of Electrical and Computer Engineering The University of Texas at Dallas, Richardson"
-    ],
-    "Chi-Chun Lee": [
-      "Department of Electrical Engineering, National Tsing Hua University, Taiwan"
-    ],
-    "Carlos Busso": [
-      "Multimodal Signal Processing (MSP) lab, Department of Electrical and Computer Engineering The University of Texas at Dallas, Richardson"
-    ]
+    "title": "The Importance of Calibration: Rethinking Confidence and Performance of Speech Multi-label Emotion Classifiers",
+    "url": "https://www.isca-archive.org/interspeech_2023/chou23_interspeech.html",
+    "authors": {
+      "Huang-Cheng Chou": [
+        "Multimodal Signal Processing (MSP) lab, Department of Electrical and Computer Engineering The University of Texas at Dallas, Richardson",
+        "Department of Electrical Engineering, National Tsing Hua University, Taiwan"
+      ],
+      "Lucas Goncalves": [
+        "Multimodal Signal Processing (MSP) lab, Department of Electrical and Computer Engineering The University of Texas at Dallas, Richardson"
+      ],
+      "Seong-Gyun Leem": [
+        "Multimodal Signal Processing (MSP) lab, Department of Electrical and Computer Engineering The University of Texas at Dallas, Richardson"
+      ],
+      "Chi-Chun Lee": [
+        "Department of Electrical Engineering, National Tsing Hua University, Taiwan"
+      ],
+      "Carlos Busso": [
+        "Multimodal Signal Processing (MSP) lab, Department of Electrical and Computer Engineering The University of Texas at Dallas, Richardson"
+      ]
+    }
   },
   "wang23r": {
-    "Hui Wang": [
-      "Nankai University, China"
-    ],
-    "Shiwan Zhao": [
-      "Independent researcher"
-    ],
-    "Xiguang Zheng": [
-      "Kuaishou Technology, China"
-    ],
-    "Yong Qin": [
-      "Nankai University, China"
-    ]
+    "title": "RAMP: Retrieval-Augmented MOS Prediction via Confidence-based Dynamic Weighting",
+    "url": "https://www.isca-archive.org/interspeech_2023/wang23r_interspeech.html",
+    "authors": {
+      "Hui Wang": [
+        "Nankai University, China"
+      ],
+      "Shiwan Zhao": [
+        "Independent researcher"
+      ],
+      "Xiguang Zheng": [
+        "Kuaishou Technology, China"
+      ],
+      "Yong Qin": [
+        "Nankai University, China"
+      ]
+    }
   },
   "meng23d": {
-    "Helen Meng": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Brian Mak": [
-      "The Hong Kong University of Science and Technology"
-    ],
-    "Man-Wai Mak": [
-      "The Hong Kong Polytechnic University"
-    ],
-    "Helene Fung": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Xianmin Gong": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Timothy Kwok": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Xunying Liu": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Vincent Mok": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Patrick Wong": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Jean Woo": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Xixin Wu": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Ka Ho Wong": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Sean Shensheng Xu": [
-      "The Hong Kong Polytechnic University",
-      "Shenzhen University, China"
-    ],
-    "Naijun Zheng": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Ranzo Huang": [
-      "The Hong Kong University of Science and Technology"
-    ],
-    "Jiawen Kang": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Xiaoquan Ke": [
-      "The Hong Kong Polytechnic University"
-    ],
-    "Junan Li": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Jinchao Li": [
-      "The Chinese University of Hong Kong"
-    ],
-    "Yi Wang": [
-      "The Chinese University of Hong Kong"
-    ]
+    "title": "Integrated and Enhanced Pipeline System to Support Spoken Language Analytics for Screening Neurocognitive Disorders",
+    "url": "https://www.isca-archive.org/interspeech_2023/meng23d_interspeech.html",
+    "authors": {
+      "Helen Meng": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Brian Mak": [
+        "The Hong Kong University of Science and Technology"
+      ],
+      "Man-Wai Mak": [
+        "The Hong Kong Polytechnic University"
+      ],
+      "Helene Fung": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Xianmin Gong": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Timothy Kwok": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Xunying Liu": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Vincent Mok": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Patrick Wong": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Jean Woo": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Xixin Wu": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Ka Ho Wong": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Sean Shensheng Xu": [
+        "The Hong Kong Polytechnic University",
+        "Shenzhen University, China"
+      ],
+      "Naijun Zheng": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Ranzo Huang": [
+        "The Hong Kong University of Science and Technology"
+      ],
+      "Jiawen Kang": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Xiaoquan Ke": [
+        "The Hong Kong Polytechnic University"
+      ],
+      "Junan Li": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Jinchao Li": [
+        "The Chinese University of Hong Kong"
+      ],
+      "Yi Wang": [
+        "The Chinese University of Hong Kong"
+      ]
+    }
   },
   "pereztoro23": {
-    "Paula A. P\u00e9rez-Toro": [
-      "Pattern Recognition Lab. Friedrich-Alexander Universität, Erlangen-Nürnberg, Erlangen, Germany",
-      "GITA Lab, Facultad de Ingenierı́a. Universidad de Antioquia, Medellı́n, Colombia"
-    ],
-    "Tom\u00e1s Arias-Vergara": [
-      "Pattern Recognition Lab. Friedrich-Alexander Universit\u00e4t, Erlangen-N\u00fcrnberg, Erlangen, Germany",
-      "GITA Lab, Facultad de Ingenier\u00b4\u0131a. Universidad de Antioquia, Medell\u00b4\u0131n, Colombia",
-      "Department of Otorhinolaryngology, Head and Neck Surgery. Ludwig-Maximilians University, Munich, Germany"
-    ],
-    "Franziska Braun": [
-      "Technische Hochschule N\u00fcrnberg, Nuremberg, Germany"
-    ],
-    "Florian H\u00f6nig": [
-      "KST Institut GmbH, Bad Emstal, Germany"
-    ],
-    "Carlos A. Tob\u00f3n-Quintero": [
-      "Neuroscience Research Group, Medical Research Institute, Faculty of Medicine, Universidad de Antioquia, Medell\u00b4\u0131n, Colombia"
-    ],
-    "David Aguill\u00f3n": [
-      "Neuroscience Research Group, Medical Research Institute, Faculty of Medicine, Universidad de Antioquia, Medellı́n, Colombia"
-    ],
-    "Francisco Lopera": [
-      "Neuroscience Research Group, Medical Research Institute, Faculty of Medicine, Universidad de Antioquia, Medell\u00b4\u0131n, Colombia"
-    ],
-    "Liliana Hincapi\u00e9-Henao": [
-      "Neuroscience Research Group, Medical Research Institute, Faculty of Medicine, Universidad de Antioquia, Medell\u00b4\u0131n, Colombia"
-    ],
-    "Maria Schuster": [
-      "Department of Otorhinolaryngology, Head and Neck Surgery. Ludwig-Maximilians University, Munich, Germany"
-    ],
-    "Korbinian Riedhammer": [
-      "Technische Hochschule N\u00fcrnberg, Nuremberg, Germany"
-    ],
-    "Andreas Maier": [
-      "Pattern Recognition Lab. Friedrich-Alexander Universit\u00e4t, Erlangen-N\u00fcrnberg, Erlangen, Germany"
-    ],
-    "Elmar N\u00f6th": [
-      "Pattern Recognition Lab. Friedrich-Alexander Universit\u00e4t, Erlangen-N\u00fcrnberg, Erlangen, Germany"
-    ],
-    "Juan Rafael Orozco-Arroyave": [
-      "Pattern Recognition Lab. Friedrich-Alexander Universit\u00e4t, Erlangen-N\u00fcrnberg, Erlangen, Germany",
-      "GITA Lab, Facultad de Ingenier\u00b4\u0131a. Universidad de Antioquia, Medell\u00b4\u0131n, Colombia"
-    ]
+    "title": "Automatic Assessment of Alzheimer's across Three Languages Using Speech and Language Features",
+    "url": "https://www.isca-archive.org/interspeech_2023/pereztoro23_interspeech.html",
+    "authors": {
+      "Paula A. P\u00e9rez-Toro": [
+        "Pattern Recognition Lab. Friedrich-Alexander Universit\u00e4t, Erlangen-N\u00fcrnberg, Erlangen, Germany",
+        "GITA Lab, Facultad de Ingenier\u0131\u0301a. Universidad de Antioquia, Medell\u0131\u0301n, Colombia"
+      ],
+      "Tom\u00e1s Arias-Vergara": [
+        "Pattern Recognition Lab. Friedrich-Alexander Universit\u00e4t, Erlangen-N\u00fcrnberg, Erlangen, Germany",
+        "GITA Lab, Facultad de Ingenier\u00b4\u0131a. Universidad de Antioquia, Medell\u00b4\u0131n, Colombia",
+        "Department of Otorhinolaryngology, Head and Neck Surgery. Ludwig-Maximilians University, Munich, Germany"
+      ],
+      "Franziska Braun": [
+        "Technische Hochschule N\u00fcrnberg, Nuremberg, Germany"
+      ],
+      "Florian H\u00f6nig": [
+        "KST Institut GmbH, Bad Emstal, Germany"
+      ],
+      "Carlos A. Tob\u00f3n-Quintero": [
+        "Neuroscience Research Group, Medical Research Institute, Faculty of Medicine, Universidad de Antioquia, Medell\u00b4\u0131n, Colombia"
+      ],
+      "David Aguill\u00f3n": [
+        "Neuroscience Research Group, Medical Research Institute, Faculty of Medicine, Universidad de Antioquia, Medell\u0131\u0301n, Colombia"
+      ],
+      "Francisco Lopera": [
+        "Neuroscience Research Group, Medical Research Institute, Faculty of Medicine, Universidad de Antioquia, Medell\u00b4\u0131n, Colombia"
+      ],
+      "Liliana Hincapi\u00e9-Henao": [
+        "Neuroscience Research Group, Medical Research Institute, Faculty of Medicine, Universidad de Antioquia, Medell\u00b4\u0131n, Colombia"
+      ],
+      "Maria Schuster": [
+        "Department of Otorhinolaryngology, Head and Neck Surgery. Ludwig-Maximilians University, Munich, Germany"
+      ],
+      "Korbinian Riedhammer": [
+        "Technische Hochschule N\u00fcrnberg, Nuremberg, Germany"
+      ],
+      "Andreas Maier": [
+        "Pattern Recognition Lab. Friedrich-Alexander Universit\u00e4t, Erlangen-N\u00fcrnberg, Erlangen, Germany"
+      ],
+      "Elmar N\u00f6th": [
+        "Pattern Recognition Lab. Friedrich-Alexander Universit\u00e4t, Erlangen-N\u00fcrnberg, Erlangen, Germany"
+      ],
+      "Juan Rafael Orozco-Arroyave": [
+        "Pattern Recognition Lab. Friedrich-Alexander Universit\u00e4t, Erlangen-N\u00fcrnberg, Erlangen, Germany",
+        "GITA Lab, Facultad de Ingenier\u00b4\u0131a. Universidad de Antioquia, Medell\u00b4\u0131n, Colombia"
+      ]
+    }
   },
   "deseyssel23": {
-    "Maureen de Seyssel": [
-      "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France",
-      "Universit\u00e9 Paris Cit\u00e9, CNRS, Laboratoire de linguistique formelle, Paris, France"
-    ],
-    "Marvin Lavechin": [
-      "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France",
-      "Meta AI Research, France"
-    ],
-    "Hadrien Titeux": [
-      "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France"
-    ],
-    "Arthur Thomas": [
-      "Cognitive Machine Learning, ENS–CNRS–EHESS–INRIA–PSL Research University, France"
-    ],
-    "Gwendal Virlet": [
-      "PEGASE, INRAE, Institut Agro, Saint-Gilles, France",
-      "Cognitive Machine Learning, ENS–CNRS–EHESS–INRIA–PSL Research University, France"
-    ],
-    "Andrea Santos Revilla": [
-      "Cognitive Machine Learning, ENS–CNRS–EHESS–INRIA–PSL Research University, France"
-    ],
-    "Guillaume Wisniewski": [
-      "Universit\u00e9 Paris Cit\u00e9, CNRS, Laboratoire de linguistique formelle, Paris, France"
-    ],
-    "Bogdan Ludusan": [
-      "Faculty of Linguistics and Literary Studies & CITEC, Bielefeld University, Germany"
-    ],
-    "Emmanuel Dupoux": [
-      "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France",
-      "Meta AI Research, France"
-    ]
+    "title": "ProsAudit, a prosodic benchmark for self-supervised speech models",
+    "url": "https://www.isca-archive.org/interspeech_2023/deseyssel23_interspeech.html",
+    "authors": {
+      "Maureen de Seyssel": [
+        "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France",
+        "Universit\u00e9 Paris Cit\u00e9, CNRS, Laboratoire de linguistique formelle, Paris, France"
+      ],
+      "Marvin Lavechin": [
+        "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France",
+        "Meta AI Research, France"
+      ],
+      "Hadrien Titeux": [
+        "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France"
+      ],
+      "Arthur Thomas": [
+        "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France"
+      ],
+      "Gwendal Virlet": [
+        "PEGASE, INRAE, Institut Agro, Saint-Gilles, France",
+        "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France"
+      ],
+      "Andrea Santos Revilla": [
+        "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France"
+      ],
+      "Guillaume Wisniewski": [
+        "Universit\u00e9 Paris Cit\u00e9, CNRS, Laboratoire de linguistique formelle, Paris, France"
+      ],
+      "Bogdan Ludusan": [
+        "Faculty of Linguistics and Literary Studies & CITEC, Bielefeld University, Germany"
+      ],
+      "Emmanuel Dupoux": [
+        "Cognitive Machine Learning, ENS\u2013CNRS\u2013EHESS\u2013INRIA\u2013PSL Research University, France",
+        "Meta AI Research, France"
+      ]
+    }
   },
   "nguyen23b": {
-    "Minh Van Nguyen": [
-      "Department of Computer Science, University of Oregon, OR, USA"
-    ],
-    "Kishan KC": [
-      "Amazon Alexa AI, CA, USA"
-    ],
-    "Toan Nguyen": [
-      "Amazon Alexa AI, CA, USA"
-    ],
-    "Thien Huu Nguyen": [
-      "Department of Computer Science, University of Oregon, OR, USA"
-    ],
-    "Ankit Chadha": [
-      "Amazon Alexa AI, CA, USA"
-    ],
-    "Thuy Vu": [
-      "Amazon Alexa AI, CA, USA"
-    ]
-  }
+    "title": "Question-Context Alignment and Answer-Context Dependencies for Effective Answer Sentence Selection",
+    "url": "https://www.isca-archive.org/interspeech_2023/nguyen23b_interspeech.html",
+    "authors": {
+      "Minh Van Nguyen": [
+        "Department of Computer Science, University of Oregon, OR, USA"
+      ],
+      "Kishan KC": [
+        "Amazon Alexa AI, CA, USA"
+      ],
+      "Toan Nguyen": [
+        "Amazon Alexa AI, CA, USA"
+      ],
+      "Thien Huu Nguyen": [
+        "Department of Computer Science, University of Oregon, OR, USA"
+      ],
+      "Ankit Chadha": [
+        "Amazon Alexa AI, CA, USA"
+      ],
+      "Thuy Vu": [
+        "Amazon Alexa AI, CA, USA"
+      ]
+    }
+  },
+  "wei23": {
+    "title": "S2CD: Self-heuristic Speaker Content Disentanglement for Any-to-Any Voice Conversion",
+    "url": "https://www.isca-archive.org/interspeech_2023/wei23_interspeech.html",
+    "authors": {
+      "Pengfei Wei": [
+        "Bytedance, Singapore"
+      ],
+      "Xiang Yin": [
+        "Bytedance, Singapore"
+      ],
+      "Chunfeng Wang": [
+        "Bytedance, Singapore"
+      ],
+      "Zhonghao Li": [
+        "Bytedance, Singapore"
+      ],
+      "Xinghua Qu": [
+        "Bytedance, Singapore"
+      ],
+      "Zhiqiang Xu": [
+        "Machine Learning Department, Mohamed bin Zayed University of Artificial Intelligence, AbuDhabi, UAE"
+      ],
+      "Zejun Ma": [
+        "Bytedance, Singapore"
+      ]
+    }
+  },
+  "bujnowski23": {
+    "title": "",
+    "url": "https://www.isca-archive.org/interspeech_2023/bujnowski23_interspeech.html",
+    "authors": {
+      "Pawe\u0142 Bujnowski": [
+        "Samsung Research Poland, Warsaw"
+      ],
+      "Bart\u0142omiej Ku\u017ama": [
+        "Samsung Research Poland, Warsaw"
+      ],
+      "Bart\u0142omiej Paziewski": [
+        "Samsung Research Poland, Warsaw"
+      ],
+      "Jacek Rutkowski": [
+        "Samsung Research Poland, Warsaw"
+      ],
+      "Joanna Marhula": [
+        "Samsung Research Poland, Warsaw"
+      ],
+      "Zuzanna Bordzicka": [
+        "Samsung Research Poland, Warsaw"
+      ],
+      "Piotr Andruszkiewicz": [
+        "Samsung Research Poland, Warsaw",
+        "Warsaw University of Technology, Warsaw"
+      ]
+    }
+  },
+  "xu23": {
+    "title": "An Intra-BRNN and GB-RVQ Based END-TO-END Neural Audio Codec",
+    "url": "https://www.isca-archive.org/interspeech_2023/xu23_interspeech.html",
+    "authors": {
+      "Linping Xu": [
+        "Beijing University of Posts and Telecommunications, Beijing, China"
+      ],
+      "Jiawei Jiang": [
+        "RTC Lab, ByteDance, Beijing, China"
+      ],
+      "Dejun Zhang": [
+        "RTC Lab, ByteDance, Beijing, China"
+      ],
+      "Xianjun Xia": [
+        "RTC Lab, ByteDance, Beijing, China"
+      ],
+      "Li Chen": [
+        "RTC Lab, ByteDance, Beijing, China"
+      ],
+      "Yijian Xiao": [
+        "RTC Lab, ByteDance, Beijing, China"
+      ],
+      "Piao Ding": [
+        "RTC Lab, ByteDance, Beijing, China"
+      ],
+      "Shenyi Song": [
+        "RTC Lab, ByteDance, Beijing, China"
+      ],
+      "Sixing Yin": [
+        "Beijing University of Posts and Telecommunications, Beijing, China"
+      ],
+      "Ferdous Sohel": [
+        "School of Information Technology, Murdoch University, Perth, Australia"
+      ]
+    }
+  },
+  "javed23": {
+    "title": "Svarah: Evaluating English ASR Systems on Indian Accents",
+    "url": "https://www.isca-archive.org/interspeech_2023/javed23_interspeech.html",
+    "authors": {
+      "Tahir Javed": [
+        "Indian Institute of Technology Madras, India",
+        "AI4Bharat, India"
+      ],
+      "Sakshi Joshi": [
+        "AI4Bharat, India"
+      ],
+      "Vignesh Nagarajan": [
+        "AI4Bharat, India"
+      ],
+      "Sai Sundaresan": [
+        "AI4Bharat, India"
+      ],
+      "Janki Nawale": [
+        "AI4Bharat, India"
+      ],
+      "Abhigyan Raman": [
+        "AI4Bharat, India"
+      ],
+      "Kaushal Bhogale": [
+        "Indian Institute of Technology Madras, India",
+        "AI4Bharat, India"
+      ],
+      "Pratyush Kumar": [
+        "Indian Institute of Technology Madras, India",
+        "AI4Bharat, India",
+        "Microsoft, India"
+      ],
+      "Mitesh M. Khapra": [
+        "Indian Institute of Technology Madras, India",
+        "AI4Bharat, India"
+      ]
+    }
+  },
+  "bhogale23": {
+    "title": "Vistaar: Diverse Benchmarks and Training Sets for Indian Language ASR",
+    "url": "https://www.isca-archive.org/interspeech_2023/bhogale23_interspeech.html",
+    "authors": {
+      "Kaushal Bhogale": [
+        "Indian Institute of Technology Madras, India",
+        "AI4Bharat, India"
+      ],
+      "Sai Sundaresan": [
+        "AI4Bharat, India"
+      ],
+      "Abhigyan Raman": [
+        "AI4Bharat, India"
+      ],
+      "Tahir Javed": [
+        "Indian Institute of Technology Madras, India",
+        "AI4Bharat, India"
+      ],
+      "Mitesh M. Khapra": [
+        "Indian Institute of Technology Madras, India",
+        "AI4Bharat, India"
+      ],
+      "Pratyush Kumar": [
+        "Indian Institute of Technology Madras, India",
+        "AI4Bharat, India",
+        "Microsoft, India"
+      ]
+    }
+  },
+  "matejka23": {
+    "title": "Description and Analysis of ABC Submission to NIST LRE 2022",
+    "url": "https://www.isca-archive.org/interspeech_2023/matejka23_interspeech.html",
+    "authors": {
+      "Pavel Matejka": [
+        "Brno University of Technology, Speech@FIT, Czech Republic",
+        "Phonexia, Czech Republic"
+      ],
+      "Anna Silnova": [
+        "Brno University of Technology, Speech@FIT, Czech Republic"
+      ],
+      "Josef Slav\u00ed\u010dek": [
+        "Phonexia, Czech Republic"
+      ],
+      "Ladislav Mosner": [
+        "Brno University of Technology, Speech@FIT, Czech Republic"
+      ],
+      "Old\u0159ich Plchot": [
+        "Brno University of Technology, Speech@FIT, Czech Republic"
+      ],
+      "Michal Kl\u010do": [
+        "Phonexia, Czech Republic"
+      ],
+      "Junyi Peng": [
+        "Brno University of Technology, Speech@FIT, Czech Republic"
+      ],
+      "Themos Stafylakis": [
+        "Omilia, Greece"
+      ],
+      "Luk\u00e1\u0161 Burget": [
+        "Brno University of Technology, Speech@FIT, Czech Republic"
+      ]
+    }
+  },
+  "delcroix23": {
+    "title": "Multi-Stream Extension of Variational Bayesian HMM Clustering (MS-VBx) for Combined End-to-End and Vector Clustering-based Diarization",
+    "url": "https://www.isca-archive.org/interspeech_2023/delcroix23_interspeech.html",
+    "authors": {
+      "Marc Delcroix": [
+        "NTT Corporation, Japan"
+      ],
+      "Naohiro Tawara": [
+        "NTT Corporation, Japan"
+      ],
+      "Mireia Diez": [
+        "Brno University of Technology, Speech@FIT"
+      ],
+      "Federico Landini": [
+        "Brno University of Technology, Speech@FIT"
+      ],
+      "Anna Silnova": [
+        "Brno University of Technology, Speech@FIT"
+      ],
+      "Atsunori Ogawa": [
+        "NTT Corporation, Japan"
+      ],
+      "Tomohiro Nakatani": [
+        "NTT Corporation, Japan"
+      ],
+      "Luk\u00e1\u0161 Burget": [
+        "Brno University of Technology, Speech@FIT"
+      ],
+      "Shoko Araki": [
+        "NTT Corporation, Japan"
+      ]
+    }
+  },
+  "lin23i": {
+    "title": "Random Utterance Concatenation Based Data Augmentation for Improving Short-video Speech Recognition",
+    "url": "https://www.isca-archive.org/interspeech_2023/lin23i_interspeech.html",
+    "authors": {
+      "Yist Y. Lin": [
+        "ByteDance"
+      ],
+      "Tao Han": [
+        "ByteDance"
+      ],
+      "Haihua Xu": [
+        "ByteDance"
+      ],
+      "Van Tung Pham": [
+        "ByteDance"
+      ],
+      "Yerbolat Khassanov": [
+        "ByteDance"
+      ],
+      "Tze Yuang Chong": [
+        "ByteDance"
+      ],
+      "Yi He": [
+        "ByteDance"
+      ],
+      "Lu Lu": [
+        "ByteDance"
+      ],
+      "Zejun Ma": [
+        "ByteDance"
+      ]
+    }
+  },
+  "cong23": {
+    "title": "GenerTTS: Pronunciation Disentanglement for Timbre and Style Generalization in Cross-Lingual Text-to-Speech",
+    "url": "https://www.isca-archive.org/interspeech_2023/cong23_interspeech.html",
+    "authors": {
+      "Yahuan Cong": [
+        "ByteDance"
+      ],
+      "Haoyu Zhang": [
+        "ByteDance"
+      ],
+      "Haopeng Lin": [
+        "ByteDance"
+      ],
+      "Shichao Liu": [
+        "ByteDance"
+      ],
+      "Chunfeng Wang": [
+        "ByteDance"
+      ],
+      "Yi Ren": [
+        "ByteDance"
+      ],
+      "Xiang Yin": [
+        "ByteDance"
+      ],
+      "Zejun Ma": [
+        "ByteDance"
+      ]
+    }
+  },
+  "pellegrini23": {
+    "title": "Adapting a ConvNeXt Model to Audio Classification on AudioSet",
+    "url": "https://www.isca-archive.org/interspeech_2023/pellegrini23_interspeech.html",
+    "authors": {
+      "Thomas Pellegrini": [
+        "Artificial and Natural Intelligence Toulouse Institute (ANITI), France",
+        "Institut de Recherche en Informatique de Toulouse (IRIT), France",
+        "Universit\u00e9 de Toulouse, CNRS, Toulouse INP, UT3, France"
+      ],
+      "Ismail Khalfaoui-Hassani": [
+        "Artificial and Natural Intelligence Toulouse Institute (ANITI), France",
+        "Universit\u00e9 de Toulouse, CNRS, Toulouse INP, UT3, France"
+      ],
+      "Etienne Labb\u00e9": [
+        "Institut de Recherche en Informatique de Toulouse (IRIT), France",
+        "Universit\u00e9 de Toulouse, CNRS, Toulouse INP, UT3, France"
+      ],
+      "Timoth\u00e9e Masquelier": [
+        "CerCo UMR 5549, CNRS, Universit\u00e9 de Toulouse, France"
+      ]
+    }
+  },
+  "olatunji23": {
+    "title": "AfriNames: Most ASR Models ",
+    "url": "https://www.isca-archive.org/interspeech_2023/olatunji23_interspeech.html",
+    "authors": {
+      "Tobi Olatunji": [
+        "Intron Health Inc",
+        "Georgia Institute of Technology",
+        "Masakhane NLP"
+      ],
+      "Tejumade Afonja": [
+        "AI Saturdays Lagos",
+        "CISPA Helmholtz Center for Information Security",
+        "Masakhane NLP"
+      ],
+      "Bonaventure F. P. Dossou": [
+        "McGill University",
+        "Mila Quebec AI Institute",
+        "Lelapa AI",
+        "Lanfrica",
+        "Masakhane NLP"
+      ],
+      "Atnafu Lambebo Tonja": [
+        "Instituto Polit\u00e9cnico Nacional",
+        "Masakhane NLP"
+      ],
+      "Chris Chinenye Emezue": [
+        "Mila Quebec AI Institute",
+        "Lanfrica",
+        "Technical University of Munich",
+        "Masakhane NLP"
+      ],
+      "Amina Mardiyyah Rufai": [
+        "Idiap Research Institute",
+        "Masakhane NLP"
+      ],
+      "Sahib Singh": [
+        "Ford Motor Company",
+        "Masakhane NLP"
+      ]
+    }
+  },
+  "reynerfuentes23": {
+    "title": "Prediction of the Gender-based Violence Victim Condition using Speech: What do Machine Learning Models rely on?",
+    "url": "https://www.isca-archive.org/interspeech_2023/reynerfuentes23_interspeech.html",
+    "authors": {
+      "Emma Reyner-Fuentes": [
+        "Department of Electronics, University Carlos III of Madrid (UC3M), Spain"
+      ],
+      "Esther Rituerto-Gonz\u00e1lez": [
+        "Department of Signal Theory and Communications, University Carlos III of Madrid (UC3M), Spain"
+      ],
+      "Isabel Trancoso": [
+        "INESC-ID/Instituto Superior T\u00e9cnico, University of Lisbon, Portugal"
+      ],
+      "Carmen Pel\u00e1ez-Moreno": [
+        "Department of Signal Theory and Communications, University Carlos III of Madrid (UC3M), Spain"
+      ]
+    }
+  },
+  "wang23oa": {
+    "title": "LAMASSU: A Streaming Language-Agnostic Multilingual Speech Recognition and Translation Model Using Neural Transducers",
+    "url": "https://www.isca-archive.org/interspeech_2023/wang23oa_interspeech.html",
+    "authors": {
+      "Peidong Wang": [
+        "Microsoft"
+      ],
+      "Eric Sun": [
+        "Microsoft"
+      ],
+      "Jian Xue": [
+        "Microsoft"
+      ],
+      "Yu Wu": [
+        "Microsoft"
+      ],
+      "Long Zhou": [
+        "Microsoft"
+      ],
+      "Yashesh Gaur": [
+        "Microsoft"
+      ],
+      "Shujie Liu": [
+        "Microsoft"
+      ],
+      "Jinyu Li": [
+        "Microsoft"
+      ]
+    }
+  },
+  "jiang23e": {
+    "title": "A Neural Time Alignment Module for End-to-End Automatic Speech Recognition",
+    "url": "https://www.isca-archive.org/interspeech_2023/jiang23e_interspeech.html",
+    "authors": {
+      "Dongcheng Jiang": [
+        "Department of Engineering, University of Cambridge, Trumpington St., Cambridge, CB2 1PZ UK"
+      ],
+      "Chao Zhang": [
+        "Department of Electrical Engineering, Tsinghua University, Beijing, 100084, P. R. China"
+      ],
+      "Philip C. Woodland": [
+        "Department of Engineering, University of Cambridge, Trumpington St., Cambridge, CB2 1PZ UK."
+      ]
+    }
+  },
+  "yang23x": {
+    "title": "FACTSpeech: Speaking a Foreign Language Pronunciation Using Only Your Native Characters",
+    "url": "https://www.isca-archive.org/interspeech_2023/yang23x_interspeech.html",
+    "authors": {
+      "Hong-Sun Yang": [
+        "42dot Inc., Seoul, Republic of Korea"
+      ],
+      "Ji-Hoon Kim": [
+        "42dot Inc., Seoul, Republic of Korea"
+      ],
+      "Yoon-Cheol Ju": [
+        "42dot Inc., Seoul, Republic of Korea"
+      ],
+      "Il-Hwan Kim": [
+        "42dot Inc., Seoul, Republic of Korea"
+      ],
+      "Byeong-Yeol Kim": [
+        "42dot Inc., Seoul, Republic of Korea"
+      ],
+      "Shuk-Jae Choi": [
+        "42dot Inc., Seoul, Republic of Korea"
+      ],
+      "Hyung-Yong Kim": [
+        "42dot Inc., Seoul, Republic of Korea"
+      ]
+    }
+  },
+  "radfar23": {
+    "title": "Conmer: Streaming Conformer Without Self-attention for Interactive Voice Assistants",
+    "url": "https://www.isca-archive.org/interspeech_2023/radfar23_interspeech.html",
+    "authors": {
+      "Martin Radfar": [
+        "Alexa Machine Learning, Amazon, USA"
+      ],
+      "Paulina Lyskawa": [
+        "Alexa Machine Learning, Amazon, USA"
+      ],
+      "Brandon Trujillo": [
+        "Alexa Machine Learning, Amazon, USA"
+      ],
+      "Yi Xie": [
+        "Alexa Machine Learning, Amazon, USA"
+      ],
+      "Kai Zhen": [
+        "Alexa Machine Learning, Amazon, USA"
+      ],
+      "Jahn Heymann": [
+        "Alexa Machine Learning, Amazon, USA"
+      ],
+      "Denis Filimonov": [
+        "Alexa Machine Learning, Amazon, USA"
+      ],
+      "Grant P. Strimel": [
+        "Alexa Machine Learning, Amazon, USA"
+      ],
+      "Nathan Susanj": [
+        "Alexa Machine Learning, Amazon, USA"
+      ],
+      "Athanasios Mouchtaris": [
+        "Alexa Machine Learning, Amazon, USA"
+      ]
+    }
+  },
+  "lu23d": {
+    "url": "https://www.isca-archive.org/interspeech_2023/lu23d_interspeech.html",
+    "title": "5IDER: Unified Query Rewriting for Steering, Intent Carryover, Disfluencies, Entity Carryover and Repair",
+    "authors": {
+      "Jiarui Lu": [
+        "Apple"
+      ],
+      "Bo-Hsiang Tseng": [
+        "Apple"
+      ],
+      "Joel Ruben Antony Moniz": [
+        "Apple"
+      ],
+      "Site Li": [
+        "Apple"
+      ],
+      "Xueyun Zhu": [
+        "Apple"
+      ],
+      "Hong Yu": [
+        "Apple"
+      ],
+      "Murat Akbacak": [
+        "Apple"
+      ]
+    }
+  },
+  "ye23b": {
+        "url": "https://www.isca-archive.org/interspeech_2023/ye23b_interspeech.html",
+        "title": "GigaST: A 10,000-hour Pseudo Speech Translation Corpus",
+        "authors": {
+            "Rong Ye": [
+                "ByteDance"
+            ],
+            "Chengqi Zhao": [
+                "ByteDance"
+            ],
+            "Tom Ko": [
+                "ByteDance"
+            ],
+            "Chutong Meng": [
+                "ByteDance"
+            ],
+            "Tao Wang": [
+                "ByteDance"
+            ],
+            "Mingxuan Wang": [
+                "ByteDance"
+            ],
+            "Jun Cao": [
+                "ByteDance"
+            ]
+        }
+    },
+  "jia23": {
+        "url": "https://www.isca-archive.org/interspeech_2023/jia23_interspeech.html",
+        "title": "Zero-Shot Accent Conversion using Pseudo Siamese Disentanglement Network",
+        "authors": {
+            "Dongya Jia": [
+                "Speech, Audio & Music Intelligence (SAMI), ByteDance"
+            ],
+            "Qiao Tian": [
+                "Speech, Audio & Music Intelligence (SAMI), ByteDance"
+            ],
+            "Kainan Peng": [
+                "Speech, Audio & Music Intelligence (SAMI), ByteDance"
+            ],
+            "Jiaxin Li": [
+                "Speech, Audio & Music Intelligence (SAMI), ByteDance"
+            ],
+            "Yuanzhe Chen": [
+                "Speech, Audio & Music Intelligence (SAMI), ByteDance"
+            ],
+            "Mingbo Ma": [
+                "Speech, Audio & Music Intelligence (SAMI), ByteDance"
+            ],
+            "Yuping Wang": [
+                "Speech, Audio & Music Intelligence (SAMI), ByteDance"
+            ],
+            "Yuxuan Wang": [
+                "Speech, Audio & Music Intelligence (SAMI), ByteDance"
+            ]
+        }
+    },
+      "raj23": {
+        "url": "https://www.isca-archive.org/interspeech_2023/raj23_interspeech.html",
+        "title": "GPU-accelerated Guided Source Separation for Meeting Transcription",
+        "authors": {
+            "Desh Raj": [
+                "CLSP, Johns Hopkins University, USA"
+            ],
+            "Daniel Povey": [
+                "Xiaomi Corp., Beijing, China"
+            ],
+            "Sanjeev Khudanpur": [
+                "CLSP, Johns Hopkins University, Baltimore, USA",
+                "HLTCOE, Johns Hopkins University, Baltimore, USA"
+            ]
+        }
+    },
+  "gao23h": {
+        "url": "https://www.isca-archive.org/interspeech_2023/gao23h_interspeech.html",
+        "title": "Bypass Temporal Classification: Weakly Supervised Automatic Speech Recognition with Imperfect Transcripts",
+        "authors": {
+            "Dongji Gao": [
+                "CLSP, Johns Hopkins University, USA"
+            ],
+            "Matthew Wiesner": [
+                "HLTCOE, Johns Hopkins University, USA"
+            ],
+            "Hainan Xu": [
+                "NVIDIA, USA"
+            ],
+            "Leibny Paola Garcia": [
+                "CLSP, Johns Hopkins University, USA",
+                "HLTCOE, Johns Hopkins University, USA"
+            ],
+            "Daniel Povey": [
+                "Xiaomi Corp., China"
+            ],
+            "Sanjeev Khudanpur": [
+                "CLSP, Johns Hopkins University, USA",
+                "HLTCOE, Johns Hopkins University, USA"
+            ]
+        }
+    },
+  "zhou23d": {
+        "url": "https://www.isca-archive.org/interspeech_2023/zhou23d_interspeech.html",
+        "title": "MMSpeech: Multi-modal Multi-task Encoder-Decoder Pre-training for speech recognition",
+        "authors": {
+            "Xiaohuan Zhou": [
+                "DAMO Academy, Alibaba Group, China"
+            ],
+            "Jiaming Wang": [
+                "DAMO Academy, Alibaba Group, China"
+            ],
+            "Zeyu Cui": [
+                "DAMO Academy, Alibaba Group, China"
+            ],
+            "Shiliang Zhang": [
+                "DAMO Academy, Alibaba Group, China"
+            ],
+            "Zhijie Yan": [
+                "DAMO Academy, Alibaba Group, China"
+            ],
+            "Jingren Zhou": [
+                "DAMO Academy, Alibaba Group, China"
+            ],
+            "Chang Zhou": [
+                "DAMO Academy, Alibaba Group, China"
+            ]
+        }
+    },
+      "lin23g": {
+        "url": "https://www.isca-archive.org/interspeech_2023/lin23g_interspeech.html",
+        "title": "A Lexical-aware Non-autoregressive Transformer-based ASR Model",
+        "authors": {
+            "Chong-En Lin": [
+                "Department of Computer Science and Information, National Taiwan University of Science and Technology, Taiwan"
+            ],
+            "Kuan-Yu Chen": [
+                "Department of Computer Science and Information, National Taiwan University of Science and Technology, Taiwan",
+                "Empower Vocational Education Research Center,National Taiwan University of Science and Technology, Taiwan"
+            ]
+        }
+    },
+      "thakran23": {
+        "url": "https://www.isca-archive.org/interspeech_2023/thakran23_interspeech.html",
+        "title": "Investigating Acoustic Cues for Multilingual Abuse Detection",
+        "authors": {
+            "Yash Thakran": [
+                "ECE Department, IIIT Delhi, India"
+            ],
+            "Vinayak Abrol": [
+                "Infosys Centre for AI & CSE Department, IIIT Delhi, India"
+            ]
+        }
+    },
+  "wang23ga": {
+        "url": "https://www.isca-archive.org/interspeech_2023/wang23ga_interspeech.html",
+        "title": "WhiSLU: End-to-End Spoken Language Understanding with Whisper",
+        "authors": {
+            "Minghan Wang": [
+                "Huawei Translation Services Center"
+            ],
+            "Yinglu Li": [
+                "Huawei Translation Services Center"
+            ],
+            "Jiaxin Guo": [
+                "Huawei Translation Services Center"
+            ],
+            "Xiaosong Qiao": [
+                "Huawei Translation Services Center"
+            ],
+            "Zongyao Li": [
+                "Huawei Translation Services Center"
+            ],
+            "Hengchao Shang": [
+                "Huawei Translation Services Center"
+            ],
+            "Daimeng Wei": [
+                "Huawei Translation Services Center"
+            ],
+            "Shimin Tao": [
+                "Huawei Translation Services Center"
+            ],
+            "Min Zhang": [
+                "Huawei Translation Services Center"
+            ],
+            "Hao Yang": [
+                "Huawei Translation Services Center"
+            ]
+        }
+    },
+      "kim23m": {
+        "url": "https://www.isca-archive.org/interspeech_2023/kim23m_interspeech.html",
+        "title": "Debiased Automatic Speech Recognition for Dysarthric Speech via Sample Reweighting with Sample Affinity Test",
+        "authors": {
+            "Eungbeom Kim": [
+                "IPAI, Seoul National University, Seoul, Republic of Korea"
+            ],
+            "Yunkee Chae": [
+                "IPAI, Seoul National University, Seoul, Republic of Korea"
+            ],
+            "Jaeheon Sim": [
+                "IPAI, Seoul National University, Seoul, Republic of Korea"
+            ],
+            "Kyogu Lee": [
+                "IPAI, Seoul National University, Seoul, Republic of Korea",
+                "AIIS, Seoul National University, Seoul, Republic of Korea"
+            ]
+        }
+    },
+      "rumberg23": {
+        "url": "https://www.isca-archive.org/interspeech_2023/rumberg23_interspeech.html",
+        "title": "Uncertainty Estimation for Connectionist Temporal Classification Based Automatic Speech Recognition",
+        "authors": {
+            "Lars Rumberg": [
+                "Institut für Informationsverarbeitung - L3S, Leibniz University Hannover, Germany"
+            ],
+            "Christopher Gebauer": [
+                "Institut für Informationsverarbeitung - L3S, Leibniz University Hannover, Germany"
+            ],
+            "Hanna Ehlert": [
+                "Institut für Sonderpädagogik, Leibniz University Hannover, Germany"
+            ],
+            "Maren Wallbaum": [
+                "Institut für Sonderpädagogik, Leibniz University Hannover, Germany"
+            ],
+            "Ulrike L\u00fcdtke": [
+                "Institut für Informationsverarbeitung - L3S, Leibniz University Hannover, Germany"
+            ],
+            "Joern Ostermann": [
+                "Institut für Informationsverarbeitung - L3S, Leibniz University Hannover, Germany"
+            ]
+        }
+    },
+      "chen23i": {
+        "url": "https://www.isca-archive.org/interspeech_2023/chen23i_interspeech.html",
+        "title": "Investigating the Utility of Synthetic Data for Doctor-Patient Conversation Summarization",
+        "authors": {
+            "Siyuan Chen": [
+                "University of Illinois at Urbana-Champaign"
+            ],
+            "Colin A. Grambow": [
+                "3M Health Information Systems"
+            ],
+            "Mojtaba Kadkhodaie Elyaderani": [
+                "3M Health Information Systems"
+            ],
+            "Alireza Sadeghi": [
+                "3M Health Information Systems"
+            ],
+            "Federico Fancellu": [
+                "University of Illinois at Urbana-Champaign"
+            ],
+            "Thomas Schaaf": [
+                "3M Health Information Systems"
+            ]
+        }
+    },
+  "sachdeva23": {
+        "url": "https://www.isca-archive.org/interspeech_2023/sachdeva23_interspeech.html",
+        "title": "Tailored Real-Time Call Summarization System for Contact Centers",
+        "authors": {
+            "Aashraya Sachdeva": [
+                "Observe.AI, India"
+            ],
+            "Sai Nishanth Padala": [
+                "Observe.AI, India"
+            ],
+            "Anup Pattnaik": [
+                "Observe.AI, India"
+            ],
+            "Varun Nathan": [
+                "Observe.AI, India"
+            ],
+            "Cijo George": [
+                "Observe.AI, India"
+            ],
+            "Ayush Kumar": [
+                "Observe.AI, India"
+            ],
+            "Jithendra Vepa": [
+                "Observe.AI, India"
+            ]
+        }
+    },
+  "motepalli23": {
+        "url": "https://www.isca-archive.org/interspeech_2023/motepalli23_interspeech.html",
+        "title": "Stuttering Detection Application",
+        "authors": {
+            "Kowshik Siva Sai Motepalli": [
+                "IIIT Hyderabad, India"
+            ],
+            "Vamshiraghusimha Narasinga": [
+                "IIIT Hyderabad, India"
+            ],
+            "Harsha Pathuri": [
+                "IIIT Hyderabad, India"
+            ],
+            "Hina Khan": [
+                "IIIT Hyderabad, India"
+            ],
+            "Sangeetha Mahesh": [
+                "IIIT Hyderabad, India"
+            ],
+            "Ajish K. Abraham": [
+                "IIIT Hyderabad, India"
+            ],
+            "Anil Kumar Vuppala": [
+                "IIIT Hyderabad, India"
+            ]
+        }
+    },
+  "gao23g": {
+        "url": "https://www.isca-archive.org/interspeech_2023/gao23g_interspeech.html",
+        "title": "FunASR: A Fundamental End-to-End Speech Recognition Toolkit",
+        "authors": {
+            "Zhifu Gao": [
+                "Speech Lab of DAMO Academy, Alibaba Group, China"
+            ],
+            "Zerui Li": [
+                "Speech Lab of DAMO Academy, Alibaba Group, China"
+            ],
+            "Jiaming Wang": [
+                "Speech Lab of DAMO Academy, Alibaba Group, China"
+            ],
+            "Haoneng Luo": [
+                "Speech Lab of DAMO Academy, Alibaba Group, China"
+            ],
+            "Xian Shi": [
+                "Speech Lab of DAMO Academy, Alibaba Group, China"
+            ],
+            "Mengzhe Chen": [
+                "Speech Lab of DAMO Academy, Alibaba Group, China"
+            ],
+            "Yabin Li": [
+                "Speech Lab of DAMO Academy, Alibaba Group, China"
+            ],
+            "Lingyun Zuo": [
+                "Speech Lab of DAMO Academy, Alibaba Group, China"
+            ],
+            "Zhihao Du": [
+                "Speech Lab of DAMO Academy, Alibaba Group, China"
+            ],
+            "Shiliang Zhang": [
+                "Speech Lab of DAMO Academy, Alibaba Group, China"
+            ]
+        }
+    },
+      "martinez23": {
+        "url": "https://www.isca-archive.org/interspeech_2023/martinez23_interspeech.html",
+        "title": "On the Use of High Frequency Information for Voice Pathology Classification",
+        "authors": {
+            "David Mart\u00ednez": [
+                "LumenVox GmbH, Munich, Germany"
+            ],
+            "Dayana Ribas": [
+                "ViVoLab, Aragón Institute for Engineering Research (I3A), University of Zaragoza, Zaragoza"
+            ],
+            "Eduardo Lleida": [
+                "ViVoLab, Aragón Institute for Engineering Research (I3A), University of Zaragoza, Zaragoza"
+            ]
+        }
+    }
 }

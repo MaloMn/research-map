@@ -1,0 +1,4 @@
+**/*.pdf
+.idea/
+*.ipynb
+__pycache__/
