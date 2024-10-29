@@ -2621,27 +2621,6 @@
             ]
         }
     },
-    "behera23": {
-        "url": "https://www.isca-archive.org/interspeech_2023/behera23_interspeech.html",
-        "title": "Towards Multi-Lingual Audio Question Answering",
-        "authors": {
-            "Swarup Ranjan Behera": [
-                "Reliance Jio - Artificial Intelligence Centre of Excellence (AICoE), Hyderabad, Indiaswarup.behera, balakrishna.pailla, achyut.tripathi, megavath.rathod, {"
-            ],
-            "Pailla Balakrishna Reddy": [
-                "Reliance Jio - Artificial Intelligence Centre of Excellence (AICoE), Hyderabad, Indiaswarup.behera, balakrishna.pailla, achyut.tripathi, megavath.rathod, {"
-            ],
-            "Achyut Mani Tripathi": [
-                "Reliance Jio - Artificial Intelligence Centre of Excellence (AICoE), Hyderabad, Indiaswarup.behera, balakrishna.pailla, achyut.tripathi, megavath.rathod, {"
-            ],
-            "Megavath Bharadwaj Rathod": [
-                "Reliance Jio - Artificial Intelligence Centre of Excellence (AICoE), Hyderabad, Indiaswarup.behera, balakrishna.pailla, achyut.tripathi, megavath.rathod, {"
-            ],
-            "Tejesh Karavadi": [
-                "Reliance Jio - Artificial Intelligence Centre of Excellence (AICoE), Hyderabad, Indiaswarup.behera, balakrishna.pailla, achyut.tripathi, megavath.rathod, {"
-            ]
-        }
-    },
     "liao23": {
         "url": "https://www.isca-archive.org/interspeech_2023/liao23_interspeech.html",
         "title": "Blind Estimation of Room Impulse Response from Monaural Reverberant Speech with Segmental Generative Neural Network",
@@ -5573,18 +5552,6 @@
             ]
         }
     },
-    "iwamoto23": {
-        "url": "https://www.isca-archive.org/interspeech_2023/iwamoto23_interspeech.html",
-        "title": "Memory Network-Based End-To-End Neural ES-KMeans for Improved Word Segmentation",
-        "authors": {
-            "Yu Iwamoto": [
-                "Tokyo Institute of Technologywww.ts.ip.titech.ac.jp"
-            ],
-            "Takahiro Shinozaki": [
-                "Tokyo Institute of Technologywww.ts.ip.titech.ac.jp"
-            ]
-        }
-    },
     "sudo23b": {
         "url": "https://www.isca-archive.org/interspeech_2023/sudo23b_interspeech.html",
         "title": "Retraining-free Customized ASR for Enharmonic Words Based on a Named-Entity-Aware Model and Phoneme Similarity Estimation",
@@ -8199,33 +8166,6 @@
             ],
             "Ross Cutler": [
                 "Microsoft Corp."
-            ]
-        }
-    },
-    "sawata23": {
-        "url": "https://www.isca-archive.org/interspeech_2023/sawata23_interspeech.html",
-        "title": "Diffiner: A Versatile Diffusion-based Generative Refiner for Speech Enhancement",
-        "authors": {
-            "Ryosuke Sawata": [
-                "Sony Group Corporation, Tokyo, Japan"
-            ],
-            "Naoki Murata": [
-                "Sony Research, Tokyo, JapanRyosuke.Sawata, Naoki.Murata, Yuta.Takida, Toshimitsu.Uesaka, Takashi.Tak.Shibuya, {"
-            ],
-            "Yuhta Takida": [
-                "Sony Research, Tokyo, JapanRyosuke.Sawata, Naoki.Murata, Yuta.Takida, Toshimitsu.Uesaka, Takashi.Tak.Shibuya, {"
-            ],
-            "Toshimitsu Uesaka": [
-                "Sony Research, Tokyo, JapanRyosuke.Sawata, Naoki.Murata, Yuta.Takida, Toshimitsu.Uesaka, Takashi.Tak.Shibuya, {"
-            ],
-            "Takashi Shibuya": [
-                "Sony Research, Tokyo, JapanRyosuke.Sawata, Naoki.Murata, Yuta.Takida, Toshimitsu.Uesaka, Takashi.Tak.Shibuya, {"
-            ],
-            "Shusuke Takahashi": [
-                "Sony Group Corporation, Tokyo, Japan"
-            ],
-            "Yuki Mitsufuji": [
-                "Sony Research, Tokyo, JapanRyosuke.Sawata, Naoki.Murata, Yuta.Takida, Toshimitsu.Uesaka, Takashi.Tak.Shibuya, {"
             ]
         }
     },
@@ -12331,30 +12271,6 @@
             "Junichi Yamagishi": [
                 "National Institute of Informatics, Tokyo, Japan",
                 "SOKENDAI (The Graduate University for Advanced Studies), Kanagawa, Japan"
-            ]
-        }
-    },
-    "tabassum23": {
-        "url": "https://www.isca-archive.org/interspeech_2023/tabassum23_interspeech.html",
-        "title": "Exploring the English Accent-independent Features for Speech Emotion Recognition using Filter and Wrapper-based Methods for Feature Selection",
-        "authors": {
-            "Nowshin Tabassum": [
-                "Systems and Software Lab (SSL), Department of Computer Science and Engineering (CSE)Islamic University of Technology (IUT), Gazipur, Bangladeshnowshintabassum, tasfiatabassum, fardinsaad, tahiyasultana, hasan, {"
-            ],
-            "Tasfia Tabassum": [
-                "Systems and Software Lab (SSL), Department of Computer Science and Engineering (CSE)Islamic University of Technology (IUT), Gazipur, Bangladeshnowshintabassum, tasfiatabassum, fardinsaad, tahiyasultana, hasan, {"
-            ],
-            "Fardin Saad": [
-                "Systems and Software Lab (SSL), Department of Computer Science and Engineering (CSE)Islamic University of Technology (IUT), Gazipur, Bangladeshnowshintabassum, tasfiatabassum, fardinsaad, tahiyasultana, hasan, {"
-            ],
-            "Tahiya Sultana Safa": [
-                "Systems and Software Lab (SSL), Department of Computer Science and Engineering (CSE)Islamic University of Technology (IUT), Gazipur, Bangladeshnowshintabassum, tasfiatabassum, fardinsaad, tahiyasultana, hasan, {"
-            ],
-            "Hasan Mahmud": [
-                "Systems and Software Lab (SSL), Department of Computer Science and Engineering (CSE)Islamic University of Technology (IUT), Gazipur, Bangladeshnowshintabassum, tasfiatabassum, fardinsaad, tahiyasultana, hasan, {"
-            ],
-            "Md. Kamrul Hasan": [
-                "Systems and Software Lab (SSL), Department of Computer Science and Engineering (CSE)Islamic University of Technology (IUT), Gazipur, Bangladeshnowshintabassum, tasfiatabassum, fardinsaad, tahiyasultana, hasan, {"
             ]
         }
     },
@@ -18731,33 +18647,6 @@
             ],
             "Yi Xu": [
                 "Department of Speech, Hearing and Phonetic Sciences, University College London, UK"
-            ]
-        }
-    },
-    "lee23f": {
-        "url": "https://www.isca-archive.org/interspeech_2023/lee23f_interspeech.html",
-        "title": "Hierarchical Timbre-Cadence Speaker Encoder for Zero-shot Speech Synthesis",
-        "authors": {
-            "Joun Yeop Lee": [
-                "Samsung Research, Seoul, South Koreajounyeop.lee, js"
-            ],
-            "Jae-Sung Bae": [
-                "Samsung Research, Seoul, South Koreajounyeop.lee, js"
-            ],
-            "Seongkyu Mun": [
-                "Samsung Research, Seoul, South Koreajounyeop.lee, js"
-            ],
-            "Jihwan Lee": [
-                "Samsung Research, Seoul, South Koreajounyeop.lee, js"
-            ],
-            "Ji-Hyun Lee": [
-                "Samsung Research, Seoul, South Koreajounyeop.lee, js"
-            ],
-            "Hoon-Young Cho": [
-                "Samsung Research, Seoul, South Koreajounyeop.lee, js"
-            ],
-            "Chanwoo Kim": [
-                "Samsung Research, Seoul, South Koreajounyeop.lee, js"
             ]
         }
     },

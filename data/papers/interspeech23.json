@@ -1593,5 +1593,92 @@
         "Systems and Software Lab (SSL), Department of Computer Science and Engineering (CSE)Islamic University of Technology (IUT), Gazipur, Bangladesh"
       ]
     }
-  }
+  },
+      "iwamoto23": {
+        "url": "https://www.isca-archive.org/interspeech_2023/iwamoto23_interspeech.html",
+        "title": "Memory Network-Based End-To-End Neural ES-KMeans for Improved Word Segmentation",
+        "authors": {
+            "Yu Iwamoto": [
+                "Tokyo Institute of Technology"
+            ],
+            "Takahiro Shinozaki": [
+                "Tokyo Institute of Technology"
+            ]
+        }
+    },
+  "behera23": {
+        "url": "https://www.isca-archive.org/interspeech_2023/behera23_interspeech.html",
+        "title": "Towards Multi-Lingual Audio Question Answering",
+        "authors": {
+            "Swarup Ranjan Behera": [
+                "Reliance Jio - Artificial Intelligence Centre of Excellence (AICoE), Hyderabad, India"
+            ],
+            "Pailla Balakrishna Reddy": [
+                "Reliance Jio - Artificial Intelligence Centre of Excellence (AICoE), Hyderabad, India"
+            ],
+            "Achyut Mani Tripathi": [
+                "Reliance Jio - Artificial Intelligence Centre of Excellence (AICoE), Hyderabad, India"
+            ],
+            "Megavath Bharadwaj Rathod": [
+                "Reliance Jio - Artificial Intelligence Centre of Excellence (AICoE), Hyderabad, India"
+            ],
+            "Tejesh Karavadi": [
+                "Reliance Jio - Artificial Intelligence Centre of Excellence (AICoE), Hyderabad, India"
+            ]
+        }
+    },
+      "sawata23": {
+        "url": "https://www.isca-archive.org/interspeech_2023/sawata23_interspeech.html",
+        "title": "Diffiner: A Versatile Diffusion-based Generative Refiner for Speech Enhancement",
+        "authors": {
+            "Ryosuke Sawata": [
+                "Sony Group Corporation, Tokyo, Japan"
+            ],
+            "Naoki Murata": [
+                "Sony Research, Tokyo, Japan"
+            ],
+            "Yuhta Takida": [
+                "Sony Research, Tokyo, Japan"
+            ],
+            "Toshimitsu Uesaka": [
+                "Sony Research, Tokyo, Japan"
+            ],
+            "Takashi Shibuya": [
+                "Sony Research, Tokyo, Japan"
+            ],
+            "Shusuke Takahashi": [
+                "Sony Group Corporation, Tokyo, Japan"
+            ],
+            "Yuki Mitsufuji": [
+                "Sony Research, Tokyo, Japan"
+            ]
+        }
+    },
+      "lee23f": {
+        "url": "https://www.isca-archive.org/interspeech_2023/lee23f_interspeech.html",
+        "title": "Hierarchical Timbre-Cadence Speaker Encoder for Zero-shot Speech Synthesis",
+        "authors": {
+            "Joun Yeop Lee": [
+                "Samsung Research, Seoul, South Korea"
+            ],
+            "Jae-Sung Bae": [
+                "Samsung Research, Seoul, South Korea"
+            ],
+            "Seongkyu Mun": [
+                "Samsung Research, Seoul, South Korea"
+            ],
+            "Jihwan Lee": [
+                "Samsung Research, Seoul, South Korea"
+            ],
+            "Ji-Hyun Lee": [
+                "Samsung Research, Seoul, South Korea"
+            ],
+            "Hoon-Young Cho": [
+                "Samsung Research, Seoul, South Korea"
+            ],
+            "Chanwoo Kim": [
+                "Samsung Research, Seoul, South Korea"
+            ]
+        }
+    }
 }
