@@ -3,7 +3,7 @@ Mapping labs with accepted papers to international conferences on speech and sig
 
 ## What is this?
 This repository contains code to automatically extract authors affiliations from conference papers pdf files.
-This data is then used to produce a map, available [here](http://malomn.github.io/project/2024/10/24/research-map.html).
+This data is then used to produce a map, available [here](http://malomn.github.io/map.html).
 
 ## How does it work?
 - The `data` folder contains:
