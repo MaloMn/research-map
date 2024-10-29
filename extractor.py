@@ -111,7 +111,11 @@ def is_abstract(line) -> bool:
     return "abstract" in line.lower()
 
 
-def is_email(line) -> bool:
+def is_email(line, authors: List[str]) -> bool:
+    for a in authors:
+        if a.lower().replace(" ", ".") in line:
+            return True
+
     return "@" in line and "ASLP@NPU" not in line
 
 
@@ -189,14 +193,14 @@ class PaperExtractor:
         authors_affiliations = []
         found_authors = False
         for nb, line in lines:
-            if contains_author(line, self.paper_authors) and not is_abstract(line) and not is_email(line) and not is_title(line, self.paper_title):
+            if contains_author(line, self.paper_authors) and not is_abstract(line) and not is_email(line, self.paper_authors) and not is_title(line, self.paper_title):
                 authors_affiliations.append(line)
                 interesting_info.append((nb, line))
                 found_authors = True
-            elif found_authors and not is_abstract(line) and not is_email(line):
+            elif found_authors and not is_abstract(line) and not is_email(line, self.paper_authors):
                 interesting_info.append((nb, line))
                 establishments.append(line)
-            elif is_abstract(line) or is_email(line):
+            elif is_abstract(line) or is_email(line, self.paper_authors):
                 break
 
         authors_affiliations, establishments = split_on_major_gap(interesting_info)

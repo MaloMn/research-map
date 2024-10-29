@@ -1370,32 +1370,6 @@
             ]
         }
     },
-    "gao23h": {
-        "url": "https://www.isca-archive.org/interspeech_2023/gao23h_interspeech.html",
-        "title": "Bypass Temporal Classification: Weakly Supervised Automatic Speech Recognition with Imperfect Transcripts",
-        "authors": {
-            "Dongji Gao": [
-                "CLSP &"
-            ],
-            "Matthew Wiesner": [
-                "HLTCOE, Johns Hopkins University, USA"
-            ],
-            "Hainan Xu": [
-                "NVIDIA, USA"
-            ],
-            "Leibny Paola Garcia": [
-                "CLSP &",
-                "HLTCOE, Johns Hopkins University, USA"
-            ],
-            "Daniel Povey": [
-                "Xiaomi Corp., China"
-            ],
-            "Sanjeev Khudanpur": [
-                "CLSP &",
-                "HLTCOE, Johns Hopkins University, USA"
-            ]
-        }
-    },
     "lv23": {
         "url": "https://www.isca-archive.org/interspeech_2023/lv23_interspeech.html",
         "title": "DCCRN-KWS: An Audio Bias Based Model for Noise Robust Small-Footprint Keyword Spotting",
@@ -2128,33 +2102,6 @@
             "Hermann Ney": [
                 "Machine Learning and Human Language Technology,Computer Science Department, RWTH Aachen University,  Aachen, Germany",
                 "AppTek GmbH,  Aachen, Germany"
-            ]
-        }
-    },
-    "zhou23d": {
-        "url": "https://www.isca-archive.org/interspeech_2023/zhou23d_interspeech.html",
-        "title": "MMSpeech: Multi-modal Multi-task Encoder-Decoder Pre-training for speech recognition",
-        "authors": {
-            "Xiaohuan Zhou": [
-                "DAMO Academy, Alibaba Group, Chinashiyi.zxh, wangjiaming.wjm, zeyu.czy, sly.zsl, zhijie.yzj, jingren.zhou, {"
-            ],
-            "Jiaming Wang": [
-                "DAMO Academy, Alibaba Group, Chinashiyi.zxh, wangjiaming.wjm, zeyu.czy, sly.zsl, zhijie.yzj, jingren.zhou, {"
-            ],
-            "Zeyu Cui": [
-                "DAMO Academy, Alibaba Group, Chinashiyi.zxh, wangjiaming.wjm, zeyu.czy, sly.zsl, zhijie.yzj, jingren.zhou, {"
-            ],
-            "Shiliang Zhang": [
-                "DAMO Academy, Alibaba Group, Chinashiyi.zxh, wangjiaming.wjm, zeyu.czy, sly.zsl, zhijie.yzj, jingren.zhou, {"
-            ],
-            "Zhijie Yan": [
-                "DAMO Academy, Alibaba Group, Chinashiyi.zxh, wangjiaming.wjm, zeyu.czy, sly.zsl, zhijie.yzj, jingren.zhou, {"
-            ],
-            "Jingren Zhou": [
-                "DAMO Academy, Alibaba Group, Chinashiyi.zxh, wangjiaming.wjm, zeyu.czy, sly.zsl, zhijie.yzj, jingren.zhou, {"
-            ],
-            "Chang Zhou": [
-                "DAMO Academy, Alibaba Group, Chinashiyi.zxh, wangjiaming.wjm, zeyu.czy, sly.zsl, zhijie.yzj, jingren.zhou, {"
             ]
         }
     },
@@ -3450,25 +3397,25 @@
         "title": "Investigation of Training Mute-Expressive End-to-End Speech Separation Networks for an Unknown Number of Speakers",
         "authors": {
             "Younggwan Kim": [
-                "Language Lab, LG AI Research, Seoul, Republic of Koreaglorick.kim, hyungjun.lim, kiho.yeom, eunjoo.seo, hoodong.lee, stanleyjk.choi, {"
+                "Language Lab, LG AI Research, Seoul, Republic of Korea"
             ],
             "Hyungjun Lim": [
-                "Language Lab, LG AI Research, Seoul, Republic of Koreaglorick.kim, hyungjun.lim, kiho.yeom, eunjoo.seo, hoodong.lee, stanleyjk.choi, {"
+                "Language Lab, LG AI Research, Seoul, Republic of Korea"
             ],
             "Kiho Yeom": [
-                "Language Lab, LG AI Research, Seoul, Republic of Koreaglorick.kim, hyungjun.lim, kiho.yeom, eunjoo.seo, hoodong.lee, stanleyjk.choi, {"
+                "Language Lab, LG AI Research, Seoul, Republic of Korea"
             ],
             "Eunjoo Seo": [
-                "Language Lab, LG AI Research, Seoul, Republic of Koreaglorick.kim, hyungjun.lim, kiho.yeom, eunjoo.seo, hoodong.lee, stanleyjk.choi, {"
+                "Language Lab, LG AI Research, Seoul, Republic of Korea"
             ],
             "Hoodong Lee": [
-                "Language Lab, LG AI Research, Seoul, Republic of Koreaglorick.kim, hyungjun.lim, kiho.yeom, eunjoo.seo, hoodong.lee, stanleyjk.choi, {"
+                "Language Lab, LG AI Research, Seoul, Republic of Korea"
             ],
             "Stanley Jungkyu Choi": [
-                "Language Lab, LG AI Research, Seoul, Republic of Koreaglorick.kim, hyungjun.lim, kiho.yeom, eunjoo.seo, hoodong.lee, stanleyjk.choi, {"
+                "Language Lab, LG AI Research, Seoul, Republic of Korea"
             ],
             "Honglak Lee": [
-                "Language Lab, LG AI Research, Seoul, Republic of Koreaglorick.kim, hyungjun.lim, kiho.yeom, eunjoo.seo, hoodong.lee, stanleyjk.choi, {"
+                "Language Lab, LG AI Research, Seoul, Republic of Korea"
             ]
         }
     },
@@ -4510,19 +4457,6 @@
             ]
         }
     },
-    "lin23g": {
-        "url": "https://www.isca-archive.org/interspeech_2023/lin23g_interspeech.html",
-        "title": "A Lexical-aware Non-autoregressive Transformer-based ASR Model",
-        "authors": {
-            "Chong-En Lin": [
-                "Department of Computer Science and Information, National Taiwan University of Science and Technology, Taiwan"
-            ],
-            "Kuan-Yu Chen": [
-                "Department of Computer Science and Information, National Taiwan University of Science and Technology, Taiwan",
-                "Empower Vocational Education Research Center,National Taiwan University of Science and Technology, Taiwan"
-            ]
-        }
-    },
     "vanvuren23": {
         "url": "https://www.isca-archive.org/interspeech_2023/vanvuren23_interspeech.html",
         "title": "Improving Under-Resourced Code-Switched Speech Recognition: Large Pre-trained Models or Architectural Interventions",
@@ -5469,42 +5403,6 @@
             ],
             "Ruili Wang": [
                 "School of Mathematical and Computational Sciences, Massey University, Auckland, New Zealand"
-            ]
-        }
-    },
-    "gao23g": {
-        "url": "https://www.isca-archive.org/interspeech_2023/gao23g_interspeech.html",
-        "title": "FunASR: A Fundamental End-to-End Speech Recognition Toolkit",
-        "authors": {
-            "Zhifu Gao": [
-                "Speech Lab of DAMO Academy, Alibaba Group, Chinazhifu.gzf, lzr, wangjiaming.wjm, haoneng.lhn, shixian.shi, mengzhe.cmz, {"
-            ],
-            "Zerui Li": [
-                "Speech Lab of DAMO Academy, Alibaba Group, Chinazhifu.gzf, lzr, wangjiaming.wjm, haoneng.lhn, shixian.shi, mengzhe.cmz, {"
-            ],
-            "Jiaming Wang": [
-                "Speech Lab of DAMO Academy, Alibaba Group, Chinazhifu.gzf, lzr, wangjiaming.wjm, haoneng.lhn, shixian.shi, mengzhe.cmz, {"
-            ],
-            "Haoneng Luo": [
-                "Speech Lab of DAMO Academy, Alibaba Group, Chinazhifu.gzf, lzr, wangjiaming.wjm, haoneng.lhn, shixian.shi, mengzhe.cmz, {"
-            ],
-            "Xian Shi": [
-                "Speech Lab of DAMO Academy, Alibaba Group, Chinazhifu.gzf, lzr, wangjiaming.wjm, haoneng.lhn, shixian.shi, mengzhe.cmz, {"
-            ],
-            "Mengzhe Chen": [
-                "Speech Lab of DAMO Academy, Alibaba Group, Chinazhifu.gzf, lzr, wangjiaming.wjm, haoneng.lhn, shixian.shi, mengzhe.cmz, {"
-            ],
-            "Yabin Li": [
-                "Speech Lab of DAMO Academy, Alibaba Group, Chinazhifu.gzf, lzr, wangjiaming.wjm, haoneng.lhn, shixian.shi, mengzhe.cmz, {"
-            ],
-            "Lingyun Zuo": [
-                "Speech Lab of DAMO Academy, Alibaba Group, Chinazhifu.gzf, lzr, wangjiaming.wjm, haoneng.lhn, shixian.shi, mengzhe.cmz, {"
-            ],
-            "Zhihao Du": [
-                "Speech Lab of DAMO Academy, Alibaba Group, Chinazhifu.gzf, lzr, wangjiaming.wjm, haoneng.lhn, shixian.shi, mengzhe.cmz, {"
-            ],
-            "Shiliang Zhang": [
-                "Speech Lab of DAMO Academy, Alibaba Group, Chinazhifu.gzf, lzr, wangjiaming.wjm, haoneng.lhn, shixian.shi, mengzhe.cmz, {"
             ]
         }
     },
@@ -6574,18 +6472,6 @@
             ]
         }
     },
-    "thakran23": {
-        "url": "https://www.isca-archive.org/interspeech_2023/thakran23_interspeech.html",
-        "title": "Investigating Acoustic Cues for Multilingual Abuse Detection",
-        "authors": {
-            "Yash Thakran": [
-                "ECE Department, IIIT Delhi, India"
-            ],
-            "Vinayak Abrol": [
-                "Infosys Centre for AI & CSE Department, IIIT Delhi, India"
-            ]
-        }
-    },
     "singh23c": {
         "url": "https://www.isca-archive.org/interspeech_2023/singh23c_interspeech.html",
         "title": "A novel frequency warping scale for speech emotion recognition",
@@ -7064,33 +6950,6 @@
             ]
         }
     },
-    "lu23d": {
-        "url": "https://www.isca-archive.org/interspeech_2023/lu23d_interspeech.html",
-        "title": "5IDER: Unified Query Rewriting for Steering, Intent Carryover, Disfluencies, Entity Carryover and Repair",
-        "authors": {
-            "Jiarui Lu": [
-                "Applejiarui lu,bohsiang tseng,joelrubenantony moniz, {"
-            ],
-            "Bo-Hsiang Tseng": [
-                "Applejiarui lu,bohsiang tseng,joelrubenantony moniz, {"
-            ],
-            "Joel Ruben Antony Moniz": [
-                "Applejiarui lu,bohsiang tseng,joelrubenantony moniz, {"
-            ],
-            "Site Li": [
-                "Applejiarui lu,bohsiang tseng,joelrubenantony moniz, {"
-            ],
-            "Xueyun Zhu": [
-                "Applejiarui lu,bohsiang tseng,joelrubenantony moniz, {"
-            ],
-            "Hong Yu": [
-                "Applejiarui lu,bohsiang tseng,joelrubenantony moniz, {"
-            ],
-            "Murat Akbacak": [
-                "Applejiarui lu,bohsiang tseng,joelrubenantony moniz, {"
-            ]
-        }
-    },
     "shi23e": {
         "url": "https://www.isca-archive.org/interspeech_2023/shi23e_interspeech.html",
         "title": "Emotion Awareness in Multi-utterance Turn for Improving Emotion Prediction in Multi-Speaker Conversation",
@@ -7103,42 +6962,6 @@
             ],
             "Tomoki Toda": [
                 "Nagoya University, Japan"
-            ]
-        }
-    },
-    "wang23ga": {
-        "url": "https://www.isca-archive.org/interspeech_2023/wang23ga_interspeech.html",
-        "title": "WhiSLU: End-to-End Spoken Language Understanding with Whisper",
-        "authors": {
-            "Minghan Wang": [
-                "Huawei Translation Services Center"
-            ],
-            "Yinglu Li": [
-                "Huawei Translation Services Center"
-            ],
-            "Jiaxin Guo": [
-                "Huawei Translation Services Center"
-            ],
-            "Xiaosong Qiao": [
-                "Huawei Translation Services Center"
-            ],
-            "Zongyao Li": [
-                "Huawei Translation Services Center"
-            ],
-            "Hengchao Shang": [
-                "Huawei Translation Services Center"
-            ],
-            "Daimeng Wei": [
-                "Huawei Translation Services Center"
-            ],
-            "Shimin Tao": [
-                "Huawei Translation Services Center"
-            ],
-            "Min Zhang": [
-                "Huawei Translation Services Center"
-            ],
-            "Hao Yang": [
-                "Huawei Translation Services Center"
             ]
         }
     },
@@ -7683,22 +7506,22 @@
         "title": "Streaming Dual-Path Transformer for Speech Enhancement",
         "authors": {
             "Soo Hyun Bae": [
-                "Samsung Electronics, Hwaseong, Republic of Koreasoo.hyun.bae, seokwan.chae, yseok.kim, keunsang.lee, hj"
+                "Samsung Electronics, Hwaseong, Republic of Korea"
             ],
             "Seok Wan Chae": [
-                "Samsung Electronics, Hwaseong, Republic of Koreasoo.hyun.bae, seokwan.chae, yseok.kim, keunsang.lee, hj"
+                "Samsung Electronics, Hwaseong, Republic of Korea"
             ],
             "Youngseok Kim": [
-                "Samsung Electronics, Hwaseong, Republic of Koreasoo.hyun.bae, seokwan.chae, yseok.kim, keunsang.lee, hj"
+                "Samsung Electronics, Hwaseong, Republic of Korea"
             ],
             "Keunsang Lee": [
-                "Samsung Electronics, Hwaseong, Republic of Koreasoo.hyun.bae, seokwan.chae, yseok.kim, keunsang.lee, hj"
+                "Samsung Electronics, Hwaseong, Republic of Korea"
             ],
             "Hyunjin Lim": [
-                "Samsung Electronics, Hwaseong, Republic of Koreasoo.hyun.bae, seokwan.chae, yseok.kim, keunsang.lee, hj"
+                "Samsung Electronics, Hwaseong, Republic of Korea"
             ],
             "Lae-Hoon Kim": [
-                "Samsung Electronics, Hwaseong, Republic of Koreasoo.hyun.bae, seokwan.chae, yseok.kim, keunsang.lee, hj"
+                "Samsung Electronics, Hwaseong, Republic of Korea"
             ]
         }
     },
@@ -10225,33 +10048,6 @@
             ]
         }
     },
-    "ye23b": {
-        "url": "https://www.isca-archive.org/interspeech_2023/ye23b_interspeech.html",
-        "title": "GigaST: A 10,000-hour Pseudo Speech Translation Corpus",
-        "authors": {
-            "Rong Ye": [
-                "ByteDanceyerong, zhaochengqi.d, tom.ko, wangtao., wangmingxuan."
-            ],
-            "Chengqi Zhao": [
-                "ByteDanceyerong, zhaochengqi.d, tom.ko, wangtao., wangmingxuan."
-            ],
-            "Tom Ko": [
-                "ByteDanceyerong, zhaochengqi.d, tom.ko, wangtao., wangmingxuan."
-            ],
-            "Chutong Meng": [
-                "ByteDanceyerong, zhaochengqi.d, tom.ko, wangtao., wangmingxuan."
-            ],
-            "Tao Wang": [
-                "ByteDanceyerong, zhaochengqi.d, tom.ko, wangtao., wangmingxuan."
-            ],
-            "Mingxuan Wang": [
-                "ByteDanceyerong, zhaochengqi.d, tom.ko, wangtao., wangmingxuan."
-            ],
-            "Jun Cao": [
-                "ByteDanceyerong, zhaochengqi.d, tom.ko, wangtao., wangmingxuan."
-            ]
-        }
-    },
     "fan23b": {
         "url": "https://www.isca-archive.org/interspeech_2023/fan23b_interspeech.html",
         "title": "Boosting Chinese ASR Error Correction with Dynamic Error Scaling Mechanism",
@@ -10641,25 +10437,6 @@
             ],
             "Antonios Anastasopoulos": [
                 "George Mason University, U.S.A"
-            ]
-        }
-    },
-    "kim23m": {
-        "url": "https://www.isca-archive.org/interspeech_2023/kim23m_interspeech.html",
-        "title": "Debiased Automatic Speech Recognition for Dysarthric Speech via Sample Reweighting with Sample Affinity Test",
-        "authors": {
-            "Eungbeom Kim": [
-                "IPAI, Seoul National University, Seoul, Republic of Korea"
-            ],
-            "Yunkee Chae": [
-                "IPAI, Seoul National University, Seoul, Republic of Korea"
-            ],
-            "Jaeheon Sim": [
-                "IPAI, Seoul National University, Seoul, Republic of Korea"
-            ],
-            "Kyogu Lee": [
-                "IPAI, Seoul National University, Seoul, Republic of Korea",
-                "AIIS, Seoul National University, Seoul, Republic of Korea"
             ]
         }
     },
@@ -13782,30 +13559,6 @@
             ]
         }
     },
-    "chen23i": {
-        "url": "https://www.isca-archive.org/interspeech_2023/chen23i_interspeech.html",
-        "title": "Investigating the Utility of Synthetic Data for Doctor-Patient Conversation Summarization",
-        "authors": {
-            "Siyuan Chen": [
-                "University of Illinois at Urbana-Champaign"
-            ],
-            "Colin A. Grambow": [
-                "3M Health Information Systems"
-            ],
-            "Mojtaba Kadkhodaie Elyaderani": [
-                "3M Health Information Systems"
-            ],
-            "Alireza Sadeghi": [
-                "3M Health Information Systems"
-            ],
-            "Federico Fancellu": [
-                "University of Illinois at Urbana-Champaign"
-            ],
-            "Thomas Schaaf": [
-                "3M Health Information Systems"
-            ]
-        }
-    },
     "wang23pa": {
         "url": "https://www.isca-archive.org/interspeech_2023/wang23pa_interspeech.html",
         "title": "Non-uniform Speaker Disentanglement For Depression Detection From Raw Speech Signals",
@@ -14492,21 +14245,6 @@
             ]
         }
     },
-    "martinez23": {
-        "url": "https://www.isca-archive.org/interspeech_2023/martinez23_interspeech.html",
-        "title": "On the Use of High Frequency Information for Voice Pathology Classification",
-        "authors": {
-            "David Mart\u00ednez": [
-                "LumenVox GmbH, Munich, Germany"
-            ],
-            "Dayana Ribas": [
-                "ViVoLab, Aragón Institute for Engineering Research (I3A), University of Zaragoza, Zaragoza"
-            ],
-            "Eduardo Lleida": [
-                "ViVoLab, Aragón Institute for Engineering Research (I3A), University of Zaragoza, Zaragoza"
-            ]
-        }
-    },
     "favaro23": {
         "url": "https://www.isca-archive.org/interspeech_2023/favaro23_interspeech.html",
         "title": "Do Phonatory Features Display Robustness to Characterize Parkinsonian Speech Across Corpora?",
@@ -14678,7 +14416,7 @@
             ],
             "Shrikanth Narayanan": [
                 "Behavioral Signal Technologies Inc., Los Angeles, CA, USA",
-                "SAIL-University of Southern California, Los Angeles, CA, USAthomas, lefteris, nikos.antoniou, petros, dimitris, thodoris, nassos, {"
+                "SAIL-University of Southern California, Los Angeles, CA, USA"
             ]
         }
     },
@@ -14756,25 +14494,25 @@
         "title": "Emotion Label Encoding Using Word Embeddings for Speech Emotion Recognition",
         "authors": {
             "Eimear Stanley": [
-                "Speech Graphics Ltd, Edinburgh, United Kingdomeimear.stanley, eric.demattos, anita.klementiev, piotr.ozimek, g.clarke, berger, {"
+                "Speech Graphics Ltd, Edinburgh, United Kingdom"
             ],
             "Eric DeMattos": [
-                "Speech Graphics Ltd, Edinburgh, United Kingdomeimear.stanley, eric.demattos, anita.klementiev, piotr.ozimek, g.clarke, berger, {"
+                "Speech Graphics Ltd, Edinburgh, United Kingdom"
             ],
             "Anita Klementiev": [
-                "Speech Graphics Ltd, Edinburgh, United Kingdomeimear.stanley, eric.demattos, anita.klementiev, piotr.ozimek, g.clarke, berger, {"
+                "Speech Graphics Ltd, Edinburgh, United Kingdom"
             ],
             "Piotr Ozimek": [
-                "Speech Graphics Ltd, Edinburgh, United Kingdomeimear.stanley, eric.demattos, anita.klementiev, piotr.ozimek, g.clarke, berger, {"
+                "Speech Graphics Ltd, Edinburgh, United Kingdom"
             ],
             "Georgia Clarke": [
-                "Speech Graphics Ltd, Edinburgh, United Kingdomeimear.stanley, eric.demattos, anita.klementiev, piotr.ozimek, g.clarke, berger, {"
+                "Speech Graphics Ltd, Edinburgh, United Kingdom"
             ],
             "Michael Berger": [
-                "Speech Graphics Ltd, Edinburgh, United Kingdomeimear.stanley, eric.demattos, anita.klementiev, piotr.ozimek, g.clarke, berger, {"
+                "Speech Graphics Ltd, Edinburgh, United Kingdom"
             ],
             "Dimitri Palaz": [
-                "Speech Graphics Ltd, Edinburgh, United Kingdomeimear.stanley, eric.demattos, anita.klementiev, piotr.ozimek, g.clarke, berger, {"
+                "Speech Graphics Ltd, Edinburgh, United Kingdom"
             ]
         }
     },
@@ -17779,22 +17517,6 @@
             ]
         }
     },
-    "raj23": {
-        "url": "https://www.isca-archive.org/interspeech_2023/raj23_interspeech.html",
-        "title": "GPU-accelerated Guided Source Separation for Meeting Transcription",
-        "authors": {
-            "Desh Raj": [
-                "CLSP &"
-            ],
-            "Daniel Povey": [
-                "Xiaomi Corp., Beijing, China"
-            ],
-            "Sanjeev Khudanpur": [
-                "CLSP &",
-                "HLTCOE, Johns Hopkins University, Baltimore, USA;"
-            ]
-        }
-    },
     "zhang23w": {
         "url": "https://www.isca-archive.org/interspeech_2023/zhang23w_interspeech.html",
         "title": "Weakly-Supervised Speech Pre-training: A Case Study on Target Speech Recognition",
@@ -19555,30 +19277,6 @@
             ]
         }
     },
-    "rumberg23": {
-        "url": "https://www.isca-archive.org/interspeech_2023/rumberg23_interspeech.html",
-        "title": "Uncertainty Estimation for Connectionist Temporal Classification Based Automatic Speech Recognition",
-        "authors": {
-            "Lars Rumberg": [
-                "Institut für Informationsverarbeitung - L3S, Leibniz University Hannover, Germany"
-            ],
-            "Christopher Gebauer": [
-                "Institut für Informationsverarbeitung - L3S, Leibniz University Hannover, Germany"
-            ],
-            "Hanna Ehlert": [
-                "Institut für Sonderpädagogik, Leibniz University Hannover, Germany"
-            ],
-            "Maren Wallbaum": [
-                "Institut für Sonderpädagogik, Leibniz University Hannover, Germany"
-            ],
-            "Ulrike L\u00fcdtke": [
-                "Institut für Informationsverarbeitung - L3S, Leibniz University Hannover, Germany"
-            ],
-            "Joern Ostermann": [
-                "Institut für Informationsverarbeitung - L3S, Leibniz University Hannover, Germany"
-            ]
-        }
-    },
     "charuau23": {
         "url": "https://www.isca-archive.org/interspeech_2023/charuau23_interspeech.html",
         "title": "Speech Breathing Behavior During Pauses in Children",
@@ -20921,36 +20619,6 @@
             ]
         }
     },
-    "jia23": {
-        "url": "https://www.isca-archive.org/interspeech_2023/jia23_interspeech.html",
-        "title": "Zero-Shot Accent Conversion using Pseudo Siamese Disentanglement Network",
-        "authors": {
-            "Dongya Jia": [
-                "Speech, Audio & Music Intelligence (SAMI), ByteDancejiadongya, tianqiao.wave, kainan.peng, lijiaxin.drany"
-            ],
-            "Qiao Tian": [
-                "Speech, Audio & Music Intelligence (SAMI), ByteDancejiadongya, tianqiao.wave, kainan.peng, lijiaxin.drany"
-            ],
-            "Kainan Peng": [
-                "Speech, Audio & Music Intelligence (SAMI), ByteDancejiadongya, tianqiao.wave, kainan.peng, lijiaxin.drany"
-            ],
-            "Jiaxin Li": [
-                "Speech, Audio & Music Intelligence (SAMI), ByteDancejiadongya, tianqiao.wave, kainan.peng, lijiaxin.drany"
-            ],
-            "Yuanzhe Chen": [
-                "Speech, Audio & Music Intelligence (SAMI), ByteDancejiadongya, tianqiao.wave, kainan.peng, lijiaxin.drany"
-            ],
-            "Mingbo Ma": [
-                "Speech, Audio & Music Intelligence (SAMI), ByteDancejiadongya, tianqiao.wave, kainan.peng, lijiaxin.drany"
-            ],
-            "Yuping Wang": [
-                "Speech, Audio & Music Intelligence (SAMI), ByteDancejiadongya, tianqiao.wave, kainan.peng, lijiaxin.drany"
-            ],
-            "Yuxuan Wang": [
-                "Speech, Audio & Music Intelligence (SAMI), ByteDancejiadongya, tianqiao.wave, kainan.peng, lijiaxin.drany"
-            ]
-        }
-    },
     "do23c": {
         "url": "https://www.isca-archive.org/interspeech_2023/do23c_interspeech.html",
         "title": "The Effects of Input Type and Pronunciation Dictionary Usage in Transfer Learning for Low-Resource Text-to-Speech",
@@ -21411,33 +21079,6 @@
             ],
             "Ira Shoulson": [
                 "Modality.AI, Inc."
-            ]
-        }
-    },
-    "motepalli23": {
-        "url": "https://www.isca-archive.org/interspeech_2023/motepalli23_interspeech.html",
-        "title": "Stuttering Detection Application",
-        "authors": {
-            "Kowshik Siva Sai Motepalli": [
-                "Sangeetha Mahesh,Ajish K. Abraham, Anil Kumar Vuppala"
-            ],
-            "Vamshiraghusimha Narasinga": [
-                "Sangeetha Mahesh,Ajish K. Abraham, Anil Kumar Vuppala"
-            ],
-            "Harsha Pathuri": [
-                "Sangeetha Mahesh,Ajish K. Abraham, Anil Kumar Vuppala"
-            ],
-            "Hina Khan": [
-                "Sangeetha Mahesh,Ajish K. Abraham, Anil Kumar Vuppala"
-            ],
-            "Sangeetha Mahesh": [
-                "Sangeetha Mahesh,Ajish K. Abraham, Anil Kumar Vuppala"
-            ],
-            "Ajish K. Abraham": [
-                "Sangeetha Mahesh,Ajish K. Abraham, Anil Kumar Vuppala"
-            ],
-            "Anil Kumar Vuppala": [
-                "Sangeetha Mahesh,Ajish K. Abraham, Anil Kumar Vuppala"
             ]
         }
     },
@@ -22110,33 +21751,6 @@
             ],
             "Jithendra Vepa": [
                 "Observe.AI, India"
-            ]
-        }
-    },
-    "sachdeva23": {
-        "url": "https://www.isca-archive.org/interspeech_2023/sachdeva23_interspeech.html",
-        "title": "Tailored Real-Time Call Summarization System for Contact Centers",
-        "authors": {
-            "Aashraya Sachdeva": [
-                "Observe.AI, Indiaashraya.sachdeva, sai.nishanth, anup.pattnaik, varun.nathan cijo.george, ayush, {"
-            ],
-            "Sai Nishanth Padala": [
-                "Observe.AI, Indiaashraya.sachdeva, sai.nishanth, anup.pattnaik, varun.nathan cijo.george, ayush, {"
-            ],
-            "Anup Pattnaik": [
-                "Observe.AI, Indiaashraya.sachdeva, sai.nishanth, anup.pattnaik, varun.nathan cijo.george, ayush, {"
-            ],
-            "Varun Nathan": [
-                "Observe.AI, Indiaashraya.sachdeva, sai.nishanth, anup.pattnaik, varun.nathan cijo.george, ayush, {"
-            ],
-            "Cijo George": [
-                "Observe.AI, Indiaashraya.sachdeva, sai.nishanth, anup.pattnaik, varun.nathan cijo.george, ayush, {"
-            ],
-            "Ayush Kumar": [
-                "Observe.AI, Indiaashraya.sachdeva, sai.nishanth, anup.pattnaik, varun.nathan cijo.george, ayush, {"
-            ],
-            "Jithendra Vepa": [
-                "Observe.AI, Indiaashraya.sachdeva, sai.nishanth, anup.pattnaik, varun.nathan cijo.george, ayush, {"
             ]
         }
     },

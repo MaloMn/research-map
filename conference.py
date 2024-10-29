@@ -84,7 +84,7 @@ class Conference:
         with open(self.errors_path, 'w+') as f:
             json.dump(self.errors, f, indent=4)
 
-    def get_merged_data(self):
+    def get_merged_affiliations(self):
         with open(self.output_path) as f:
             data = json.load(f)
 
@@ -102,5 +102,6 @@ if __name__ == '__main__':
     conf = Conference("interspeech23")
     conf.analyse()
     conf.export()
+
     print(conf.correct_output)
     print(conf.errors)
