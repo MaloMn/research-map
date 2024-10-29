@@ -1569,5 +1569,29 @@
         "ViVoLab, Aragón Institute for Engineering Research (I3A), University of Zaragoza, Zaragoza"
       ]
     }
+  },
+  "tabassum23": {
+    "url": "https://www.isca-archive.org/interspeech_2023/tabassum23_interspeech.html",
+    "title": "Exploring the English Accent-independent Features for Speech Emotion Recognition using Filter and Wrapper-based Methods for Feature Selection",
+    "authors": {
+      "Nowshin Tabassum": [
+        "Systems and Software Lab (SSL), Department of Computer Science and Engineering (CSE)Islamic University of Technology (IUT), Gazipur, Bangladesh"
+      ],
+      "Tasfia Tabassum": [
+        "Systems and Software Lab (SSL), Department of Computer Science and Engineering (CSE)Islamic University of Technology (IUT), Gazipur, Bangladesh"
+      ],
+      "Fardin Saad": [
+        "Systems and Software Lab (SSL), Department of Computer Science and Engineering (CSE)Islamic University of Technology (IUT), Gazipur, Bangladesh"
+      ],
+      "Tahiya Sultana Safa": [
+        "Systems and Software Lab (SSL), Department of Computer Science and Engineering (CSE)Islamic University of Technology (IUT), Gazipur, Bangladesh"
+      ],
+      "Hasan Mahmud": [
+        "Systems and Software Lab (SSL), Department of Computer Science and Engineering (CSE)Islamic University of Technology (IUT), Gazipur, Bangladesh"
+      ],
+      "Md. Kamrul Hasan": [
+        "Systems and Software Lab (SSL), Department of Computer Science and Engineering (CSE)Islamic University of Technology (IUT), Gazipur, Bangladesh"
+      ]
+    }
   }
 }

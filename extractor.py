@@ -113,7 +113,7 @@ def is_abstract(line) -> bool:
 
 def is_email(line, authors: List[str]) -> bool:
     for a in authors:
-        if a.lower().replace(" ", ".") in line:
+        if a.lower().replace(" ", ".") in line or a.lower().replace(" ", "") in line:
             return True
 
     return "@" in line and "ASLP@NPU" not in line
