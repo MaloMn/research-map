@@ -153,7 +153,8 @@ class Laboratory:
                                         author in paper["authors"].keys()],
                         })
 
-            output[json.dumps(coordinates)] = locations
+            if len(locations) > 0:
+                output[json.dumps(coordinates)] = locations
 
         with open(self.coordinates, "w+") as f:
             json.dump(output, f)
