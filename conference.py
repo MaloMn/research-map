@@ -22,6 +22,8 @@ class Conference:
         self.output_path = f"{Conference.OUTPUT_DIR}{name}/general.json"
         self.errors_path = f"{Conference.OUTPUT_DIR}{name}/errors.json"
 
+        Path(self.papers_path).mkdir(parents=True, exist_ok=True)
+
         with open(self.manual_path, "r") as f:
             self.manual = json.load(f)
 
@@ -99,7 +101,7 @@ class Conference:
 
 
 if __name__ == '__main__':
-    conf = Conference("interspeech23")
+    conf = Conference("interspeech24")
     conf.analyse()
     conf.export()
 

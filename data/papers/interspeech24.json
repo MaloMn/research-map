@@ -1,0 +1,658 @@
+{
+  "vali24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/vali24_interspeech.html",
+    "title": "Privacy PORCUPINE: Anonymization of Speaker Attributes Using Occurrence Normalization for Space-Filling Vector Quantization",
+    "authors": {
+      "Mohammad Hassan Vali": [
+        "Aalto University, Department of Information and Communications Engineering, Finland"
+      ],
+      "Tom Bäckström": [
+        "Aalto University, Department of Information and Communications Engineering, Finland"
+      ]
+    }
+  },
+  "lux24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/lux24_interspeech.html",
+    "title": "Meta Learning Text-to-Speech Synthesis in over 7000 Languages",
+    "authors": {
+      "Florian Lux": [
+        "University of Stuttgart, Germany"
+      ],
+      "Sarina Meyer": [
+        "University of Stuttgart, Germany"
+      ],
+      "Lyonel Behringer": [
+        "Fraunhofer Institute for Integrated Circuits IIS, Erlangen, Germany"
+      ],
+      "Frank Zalkow": [
+        "Fraunhofer Institute for Integrated Circuits IIS, Erlangen, Germany"
+      ],
+      "Phat Do": [
+        "University of Groningen, The Netherlands"
+      ],
+      "Matt Coler": [
+        "University of Groningen, The Netherlands"
+      ],
+      "Emanu\u00ebl A. P. Habets": [
+        "University of Stuttgart, Germany"
+      ],
+      "Ngoc Thang Vu": [
+        "University of Stuttgart, Germany"
+      ]
+    }
+  },
+  "bahrman24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/bahrman24_interspeech.html",
+    "title": "Speech dereverberation constrained on room impulse response characteristics",
+    "authors": {
+      "Louis Bahrman": [
+        "LTCI, Telecom Paris, Institut polytechnique de Paris, France"
+      ],
+      "Mathieu Fontaine": [
+        "LTCI, Telecom Paris, Institut polytechnique de Paris, France"
+      ],
+      "Jonathan Le Roux": [
+        "Mitsubishi Electric Research Laboratories (MERL), USA"
+      ],
+      "Gaël Richard": [
+        "LTCI, Telecom Paris, Institut polytechnique de Paris, France"
+      ]
+    }
+  },
+  "bujnowski24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/bujnowski24_interspeech.html",
+    "title": "SAMSEMO: New dataset for multilingual and multimodal emotion recognition",
+    "authors": {
+      "Pawel Bujnowski": [
+        "Samsung Research, Poland"
+      ],
+      "Bartlomiej Kuzma": [
+        "Samsung Research, Poland"
+      ],
+      "Bartlomiej Paziewski": [
+        "Samsung Research, Poland"
+      ],
+      "Jacek Rutkowski": [
+        "Samsung Research, Poland"
+      ],
+      "Joanna Marhula": [
+        "Samsung Research, Poland"
+      ],
+      "Zuzanna Bordzicka": [
+        "Samsung Research, Poland"
+      ],
+      "Piotr Andruszkiewicz": [
+        "Samsung Research, Poland",
+        "Warsaw University of Technology, Poland"
+      ]
+    }
+  },
+  "daoudi24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/daoudi24_interspeech.html",
+    "title": "Electroglottography for the assessment of dysphonia in Parkinson's disease and multiple system atrophy",
+    "authors": {
+      "Khalid Daoudi": [
+        "INRIA-Bordeaux, France"
+      ],
+      "Solange Milh\u00e9 de Saint Victor": [
+        "ENT Dep. Univ. Hospital of Bordeaux (UHB), France"
+      ],
+      "Alexandra Foubert-Samier": [
+        "Dep. Neurology for Neurodegenerative diseases, UHB"
+      ],
+      "Margherita Fabbri": [
+        "Dep. Neurosciences & Clinical Pharmacology, Univ. Hospital of Toulouse (UHT), France"
+      ],
+      "Anne Pavy-Le Traon": [
+        "Dep. Neurosciences & Clinical Pharmacology, Univ. Hospital of Toulouse (UHT), France"
+      ],
+      "Olivier Rascol": [
+        "Dep. Neurosciences & Clinical Pharmacology, Univ. Hospital of Toulouse (UHT), France"
+      ],
+      "Virginie Woisard": [
+        "ENT Dep., UHT."
+      ],
+      "Wassilios G. Meissner": [
+        "Dep. Neurology for Neurodegenerativediseases, UHB"
+      ]
+    }
+  },
+  "tuttosi24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/tuttosi24_interspeech.html",
+    "title": "Mmm whatcha say? Uncovering distal and proximal context effects in first and second-language word perception using psychophysical reverse correlation",
+    "authors": {
+      "Paige Tutt\u00f6s\u00ed": [
+        "School of Computing Science"
+      ],
+      "H. Henny Yeung": [
+        "Dept. of Linguistics"
+      ],
+      "Yue Wang": [
+        "Dept. of Linguistics"
+      ],
+      "Fenqi Wang": [
+        "Dept. of Linguistics"
+      ],
+      "Guillaume Denis": [
+        "School of Computing Science"
+      ],
+      "Jean-Julien Aucouturier": [
+        "Simon Fraser University, CanadaUniversit\u00e9 de Franche-Comt\u00e9, SUPMICROTECH, CNRS, Institut FEMTO-ST"
+      ],
+      "Angelica Lim": [
+        "School of Computing Science"
+      ]
+    }
+  },
+  "eungi24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/eungi24_interspeech.html",
+    "title": "Enhancing Speech-Driven 3D Facial Animation with Audio-Visual Guidance from Lip Reading Expert",
+    "authors": {
+      "Han EunGi": [
+        "Grad. School of Artificial Intelligence and"
+      ],
+      "Oh Hyun-Bin": [
+        "Dept. of Electrical Engineering, POSTECH, Korea"
+      ],
+      "Kim Sung-Bin": [
+        "Dept. of Electrical Engineering, POSTECH, Korea"
+      ],
+      "Corentin Nivelet Etcheberry": [
+        "ENSC, Bordeaux INP, France"
+      ],
+      "Suekyeong Nam": [
+        "KRAFTON, Korea"
+      ],
+      "Janghoon Ju": [
+        "Grad. School of Artificial Intelligence and"
+      ],
+      "Tae-Hyun Oh": [
+        "Grad. School of Artificial Intelligence and",
+        "Dept. of Electrical Engineering, POSTECH, Korea",
+        "Inst. for Convergence Research and Education in Advanced Technology, Yonsei University, Korea"
+      ]
+    }
+  },
+  "sanguedolce24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/sanguedolce24_interspeech.html",
+    "title": "When Whisper Listens to Aphasia: Advancing Robust Post-Stroke Speech Recognition",
+    "authors": {
+      "Giulia Sanguedolce": [
+        "Department of Computing, Imperial College London, UK",
+        "Department of Electrical and Electronic Engineering, Imperial College London, UK",
+        "Department of Brain Sciences, Imperial College London, UK"
+      ],
+      "Sophie Brook": [
+        "Department of Brain Sciences, Imperial College London, UK"
+      ],
+      "Dragos C. Gruia": [
+        "Department of Brain Sciences, Imperial College London, UK",
+        "Imperial College Healthcare NHS Trust, London, UK"
+      ],
+      "Patrick A. Naylor": [
+        "Department of Electrical and Electronic Engineering, Imperial College London, UK"
+      ],
+      "Fatemeh Geranmayeh": [
+        "Department of Brain Sciences, Imperial College London, UK",
+        "Imperial College Healthcare NHS Trust, London, UK"
+      ]
+    }
+  },
+  "javed24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/javed24_interspeech.html",
+    "title": "LAHAJA: A Robust Multi-accent Benchmark for Evaluating Hindi ASR Systems",
+    "authors": {
+      "Tahir Javed": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ],
+      "Janki Nawale": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ],
+      "Sakshi Joshi": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ],
+      "Eldho George": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ],
+      "Kaushal Bhogale": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ],
+      "Deovrat Mehendale": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ],
+      "Mitesh M. Khapra": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ]
+    }
+  },
+  "bhogale24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/bhogale24_interspeech.html",
+    "title": "Empowering Low-Resource Language ASR via Large-Scale Pseudo Labeling",
+    "authors": {
+      "Kaushal Santosh Bhogale": [
+        "Indian Institute of Technology Madras, India",
+        "AI4Bharat, India"
+      ],
+      "Deovrat Mehendale": [
+        "AI4Bharat, India"
+      ],
+      "Niharika Parasa": [
+        "AI4Bharat, India"
+      ],
+      "Sathish Kumar Reddy G": [
+        "Indian Institute of Technology Madras, India",
+        "AI4Bharat, India"
+      ],
+      "Tahir Javed": [
+        "Indian Institute of Technology Madras, India",
+        "AI4Bharat, India"
+      ],
+      "Pratyush Kumar": [
+        "Sarvam AI, India"
+      ],
+      "Mitesh M. Khapra": [
+        "Indian Institute of Technology Madras, India",
+        "AI4Bharat, India"
+      ]
+    }
+  },
+  "anand24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/anand24_interspeech.html",
+    "title": "Enhancing Out-of-Vocabulary Performance of Indian TTS Systems for Practical Applications through Low-Effort Data Strategies",
+    "authors": {
+      "Srija Anand": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ],
+      "Praveen Srinivasa Varadhan": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ],
+      "Ashwin Sankar": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ],
+      "Giri Raju": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ],
+      "Mitesh M. Khapra": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ]
+    }
+  },
+  "srinivasavaradhan24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/srinivasavaradhan24_interspeech.html",
+    "title": "Rasa: Building Expressive Speech Synthesis Systems for Indian Languages in Low-resource Settings",
+    "authors": {
+      "Praveen Srinivasa Varadhan": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ],
+      "Ashwin Sankar": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ],
+      "Giri Raju": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ],
+      "Mitesh M Khapra": [
+        "AI4Bharat, Indian Institute of Technology Madras, India"
+      ]
+    }
+  },
+  "dumpala24b": {
+    "url": "https://www.isca-archive.org/interspeech_2024/dumpala24b_interspeech.html",
+    "title": "Self-Supervised Embeddings for Detecting Individual Symptoms of Depression",
+    "authors": {
+      "Sri Harsha Dumpala": [
+        "Dalhousie University",
+        "Vector Institute"
+      ],
+      "Katerina Dikaios": [
+        "McMaster University"
+      ],
+      "Abraham Nunes": [
+        "Dalhousie University"
+      ],
+      "Frank Rudzicz": [
+        "Dalhousie University",
+        "Vector Institute"
+      ],
+      "Rudolf Uher": [
+        "Dalhousie University",
+        "Nova Scotia Health"
+      ],
+      "Sageev Oore": [
+        "Dalhousie University",
+        "Vector Institute"
+      ]
+    }
+  },
+  "khokhlov24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/khokhlov24_interspeech.html",
+    "title": "Classification of Room Impulse Responses and its application for channel verification and diarization",
+    "authors": {
+      "Yuri Khokhlov": [
+        "Speech Technology Center, Saint Petersburg, Russia"
+      ],
+      "Tatiana Prisyach": [
+        "Speech Technology Center, Saint Petersburg, Russia"
+      ],
+      "Anton Mitrofanov": [
+        "Speech Technology Center, Saint Petersburg, Russia"
+      ],
+      "Dmitry Dutov": [
+        "Speech Technology Center, Saint Petersburg, Russia"
+      ],
+      "Igor Agafonov": [
+        "Speech Technology Center, Saint Petersburg, Russia"
+      ],
+      "Tatiana Timofeeva": [
+        "Speech Technology Center, Saint Petersburg, Russia"
+      ],
+      "Aleksei Romanenko": [
+        "Speech Technology Center, Saint Petersburg, Russia"
+      ],
+      "Maxim Korenevsky": [
+        "Speech Technology Center, Saint Petersburg, Russia"
+      ]
+    }
+  },
+  "liu24m": {
+    "url": "https://www.isca-archive.org/interspeech_2024/liu24m_interspeech.html",
+    "title": "How Do Neural Spoofing Countermeasures Detect Partially Spoofed Audio?",
+    "authors": {
+      "Tianchi Liu": [
+        "Institute for Infocomm Research (I2 R), Agency for Science, Technology and Research (A⋆ STAR), Singapore",
+        "Department of Electrical and Computer Engineering, National University of Singapore, Singapore"
+      ],
+      "Lin Zhang": [
+        "National Institute of Informatics, Tokyo, Japan"
+      ],
+      "Rohan Kumar Das": [
+        "Fortemedia Singapore, Singapore"
+      ],
+      "Yi Ma": [
+        "Department of Electrical and Computer Engineering, National University of Singapore, Singapore"
+      ],
+      "Ruijie Tao": [
+        "Department of Electrical and Computer Engineering, National University of Singapore, Singapore"
+      ],
+      "Haizhou Li": [
+        "School of Data Science, Shenzhen Research Institute of Big Data, The Chinese University of Hong Kong, Shenzhen, China",
+        "Department of Electrical and Computer Engineering, National University of Singapore, Singapore"
+      ]
+    }
+  },
+  "truong24b": {
+    "url": "https://www.isca-archive.org/interspeech_2024/truong24b_interspeech.html",
+    "title": "Temporal-Channel Modeling in Multi-head Self-Attention for Synthetic Speech Detection",
+    "authors": {
+      "Duc-Tuan Truong": [
+        "Nanyang Technological University, Singapore"
+      ],
+      "Ruijie Tao": [
+        "National University of Singapore, Singapore"
+      ],
+      "Tuan Nguyen": [
+        "Institute for Infocomm Research (I2 R), A⋆ STAR, Singapore"
+      ],
+      "Hieu-Thi Luong": [
+        "Nanyang Technological University, Singapore"
+      ],
+      "Kong Aik Lee": [
+        "The Hong Kong Polytechnic University, Hong Kong"
+      ],
+      "Eng Siong Chng": [
+        "Nanyang Technological University, Singapore"
+      ]
+    }
+  },
+  "rittergutierrez24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/rittergutierrez24_interspeech.html",
+    "title": "Dataset-Distillation Generative Model for Speech Emotion Recognition",
+    "authors": {
+      "Fabian Ritter-Gutierrez": [
+        "Nanyang Technological University, Singapore",
+        "Institute for Infocomm Research (I2R), Singapore"
+      ],
+      "Kuan-Po Huang": [
+        "National Taiwan University, Taiwan",
+        "ASUS Intelligent Cloud Services, Taiwan"
+      ],
+      "Jeremy H. M. Wong": [
+        "Institute for Infocomm Research (I2R), Singapore"
+      ],
+      "Dianwen Ng": [
+        "Nanyang Technological University, Singapore",
+        "Speech Lab of DAMO Academy, Alibaba Group, Singapore"
+      ],
+      "Hung-yi Lee": [
+        "National Taiwan University, Taiwan"
+      ],
+      "Nancy F. Chen": [
+        "Nanyang Technological University, Singapore",
+        "Institute for Infocomm Research (I2R), Singapore"
+      ],
+      "Eng-Siong Chng": [
+        "Nanyang Technological University, Singapore"
+      ]
+    }
+  },
+  "zheng24d": {
+    "url": "https://www.isca-archive.org/interspeech_2024/zheng24d_interspeech.html",
+    "title": "SOT Triggered Neural Clustering for Speaker Attributed ASR",
+    "authors": {
+      "Xianrui Zheng": [
+        "Cambridge University Engineering Dept., Trumpington St., Cambridge, CB2 1PZ U.K"
+      ],
+      "Guangzhi Sun": [
+        "Cambridge University Engineering Dept., Trumpington St., Cambridge, CB2 1PZ U.K"
+      ],
+      "Chao Zhang": [
+        "Department of Electronic Engineering, Tsinghua University"
+      ],
+      "Philip C. Woodland": [
+        "Cambridge University Engineering Dept., Trumpington St., Cambridge, CB2 1PZ U.K"
+      ]
+    }
+  },
+  "haider24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/haider24_interspeech.html",
+    "title": "Hold Me Tight: Stable Encoder-Decoder Design for Speech Enhancement",
+    "authors": {
+      "Daniel Haider": [
+        "Acoustics Research Institute, Austrian Academy of Sciences, Austria"
+      ],
+      "Felix Perfler": [
+        "Acoustics Research Institute, Austrian Academy of Sciences, Austria"
+      ],
+      "Vincent Lostanlen": [
+        "Nantes Université, École Centrale Nantes, CNRS, LS2N, France"
+      ],
+      "Martin Ehler": [
+        "University of Vienna, Faculty of Mathematics, Austria"
+      ],
+      "Peter Balazs": [
+        "Acoustics Research Institute, Austrian Academy of Sciences, Austria"
+      ]
+    }
+  },
+  "labrak24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/labrak24_interspeech.html",
+    "title": "Zero-Shot End-To-End Spoken Question Answering In Medical Domain",
+    "authors": {
+      "Yanis Labrak": [
+        "LIA - Avignon University, France",
+        "Zenidoc, France"
+      ],
+      "Adel Moumen": [
+        "LIA - Avignon University, France"
+      ],
+      "Richard Dufour": [
+        "LIA - Avignon University, France",
+        "Nantes Université, École Centrale Nantes, CNRS, LS2N, UMR 6004, F-44000 Nantes, France"
+      ],
+      "Mickael Rouvier": [
+        "LIA - Avignon University, France"
+      ]
+    }
+  },
+  "kong24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/kong24_interspeech.html",
+    "title": "STraDa: A Singer Traits Dataset",
+    "authors": {
+      "Yuexuan Kong": [
+        "Deezer Research, France",
+        "Nantes Université, École Centrale Nantes, CNRS, LS2N, UMR 6004"
+      ],
+      "Viet-Anh Tran": [
+        "Deezer Research, France"
+      ],
+      "Romain Hennequin": [
+        "Deezer Research, France"
+      ]
+    }
+  },
+  "hussein24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/hussein24_interspeech.html",
+    "title": "Enhancing Neural Transducer for Multilingual ASR with Synchronized Language Diarization",
+    "authors": {
+      "Amir Hussein": [
+        "CLSP, Johns Hopkins University, USA"
+      ],
+      "Desh Raj": [
+        "CLSP, Johns Hopkins University, USA"
+      ],
+      "Matthew Wiesner": [
+        "CLSP, Johns Hopkins University, USA",
+        "HLTCOE, Johns Hopkins University, USA"
+      ],
+      "Daniel Povey": [
+        "Xiaomi Corp., China"
+      ],
+      "Paola Garcia": [
+        "CLSP, Johns Hopkins University, USA",
+        "HLTCOE, Johns Hopkins University, USA"
+      ],
+      "Sanjeev Khudanpur": [
+        "CLSP, Johns Hopkins University, USA",
+        "HLTCOE, Johns Hopkins University, USA"
+      ]
+    }
+  },
+  "bensoussan24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/bensoussan24_interspeech.html",
+    "title": "Developing Multi-Disorder Voice Protocols: A team science approach involving clinical expertise, bioethics, standards, and DEI.",
+    "authors": {
+      "Yael Bensoussan": [
+        "Department of Otolaryngology- Head & Neck Surgery, University of South\nFlorida, Tampa, Florida, USA"
+      ],
+      "Satrajit Ghosh": [
+        "McGovern Institute, Massachusetts Institute of Technology, Boston, Massachusetts, USA"
+      ],
+      "Anais Rameau": [
+        "Department of Otolaryngology-Head and Neck Surgery, Weill Cornell Medicine, New York, New York, USA"
+      ],
+      "Micah Boyer": [
+        "Department of Otolaryngology- Head & Neck Surgery, University of South Florida, Tampa, Florida, USA,"
+      ],
+      "Ruth Bahr": [
+        "Department of Communication Sciences & Disorders, University of South Florida, Tampa, Florida, USA.,"
+      ],
+      "Stephanie Watts": [
+        "Department of Otolaryngology- Head & Neck Surgery, University of South Florida, Tampa, Florida, USA,"
+      ],
+      "Frank Rudzicz": [
+        "Faculty of Computer Science, Dalhousie University, Calgary, Manitoba Canada"
+      ],
+      "Don Bolser": [
+        "Department of Physiological Sciences, University of Florida, Gainesville, Florida, USA"
+      ],
+      "Jordan Lerner-Ellis": [
+        "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, Ontario, Canada"
+      ],
+      "Shaheen Awan": [
+        "Department of Communication Sciences & Disorders, University of Central Florida, Orlando, Florida, USA,"
+      ],
+      "Maria Powell": [
+        "Department of Otolaryngology-Head & Neck Surgery, Vanderbilt University Medical Center,Nashville, Tennessee, USA"
+      ],
+      "Jean-Christophe Belisle-Pipon": [
+        "Faculty of Health Sciences, Simon-Fraser University, Vancouver, British Columbia, Canada"
+      ],
+      "Vardit Ravitsky": [
+        "Hasting Center, Garrison, New York, USA"
+      ],
+      "Alistair Johnson": [
+        "Division of Biostatistics, Hospital for Sick Children, Toronto, Ontario, Canada"
+      ],
+      "Alexandros Sigaras": [
+        "Institute for Computational Biomedicine, Weill Cornell Medicine, New York, New York, USA"
+      ],
+      "Olivier Elemento": [
+        "Englander Institute for Precision Medicine, Weill Cornell Medicine, New York, New York, USA"
+      ],
+      "David Dorr": [
+        "Department of Medical Informatics, School of Medicine, Oregon Health & Science University, Portland, Oregon, USA"
+      ],
+      "Philip Payne": [
+        "Institute for Informatics, Washington University in St Louis, St Louis, Missouri, USA"
+      ]
+    }
+  },
+  "saif24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/saif24_interspeech.html",
+    "title": "M2ASR: Multilingual Multi-task Automatic Speech Recognition via Multi-objective Optimization",
+    "authors": {
+      "A F M Saif": [
+        "Rensselaer Polytechnic Institute, Troy, NY, USA"
+      ],
+      "Lisha Chen": [
+        "Rensselaer Polytechnic Institute, Troy, NY, USAf"
+      ],
+      "Xiaodong Cui": [
+        "IBM Research AI, T. J. Watson Research Center, Yorktown Heights, NY, USA"
+      ],
+      "Songtao Lu": [
+        "IBM Research AI, T. J. Watson Research Center, Yorktown Heights, NY, USA"
+      ],
+      "Brian Kingsbury": [
+        "IBM Research AI, T. J. Watson Research Center, Yorktown Heights, NY, USA"
+      ],
+      "Tianyi Chen": [
+        "Rensselaer Polytechnic Institute, Troy, NY, USA"
+      ]
+    }
+  },
+  "maciejewski24": {
+    "url": "https://www.isca-archive.org/interspeech_2024/maciejewski24_interspeech.html",
+    "title": "Evaluating the Santa Barbara Corpus: Challenges of the Breadth of Conversational Spoken Language",
+    "authors": {
+      "Matthew Maciejewski": [
+        "HLTCOE, Johns Hopkins University, USA"
+      ],
+      "Dominik Klement": [
+        "Speech@FIT, Brno University of Technology, Czechia"
+      ],
+      "Ruizhe Huang": [
+        "CLSP, Johns Hopkins University, USA"
+      ],
+      "Matthew Wiesner": [
+        "HLTCOE, Johns Hopkins University, USA"
+      ],
+      "Sanjeev Khudanpur": [
+        "HLTCOE, Johns Hopkins University, USA",
+        "CLSP, Johns Hopkins University, USA"
+      ]
+    }
+  },
+      "nguyen24b": {
+        "url": "https://www.isca-archive.org/interspeech_2024/nguyen24b_interspeech.html",
+        "title": "LingWav2Vec2: Linguistic-augmented wav2vec 2.0 for Vietnamese Mispronunciation Detection",
+        "authors": {
+            "Tuan Nguyen": [
+                "Institute for Infocomm Research (I2 R), A*STAR, Singapore",
+                "Industrial University of Ho Chi Minh City, Vietnam"
+            ],
+            "Huy Dat Tran": [
+                "Institute for Infocomm Research (I2 R), A*STAR, Singapore"
+            ]
+        }
+    }
+}

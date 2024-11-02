@@ -5,3 +5,6 @@ __pycache__/
 web/
 thinking/
 *.md
+**/*.html
+output/*/errors.json
+secrets.py

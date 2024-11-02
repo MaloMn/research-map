@@ -102,22 +102,24 @@ class Laboratory:
             writer.writerows(locations)
 
     def pinpoint(self):
-        # TODO This doesn't work yet, finish it when needed.
         missing_coordinates = self.existing.filter(pl.any_horizontal(pl.all().is_null()))
 
-        for lab in missing_coordinates.get_column("Lab"):
-            print(lab)
+        for lab in tqdm(missing_coordinates.get_column("Lab")):
             latitude, longitude = get_location_coordinates(lab, GOOGLE_MAPS_API_KEY)
 
+            row = pl.DataFrame({
+                "Lab": [lab],
+                "Latitude": [latitude],
+                "Longitude": [longitude],
+            })
+
             if latitude is not None:
-                row = pl.DataFrame({
-                    "Lab": [lab],
-                    "Latitude": [latitude],
-                    "Longitude": [longitude],
-                })
-                self.correct.vstack(row)
+                self.correct = self.correct.vstack(row)
             else:
-                self.errors.vstack(row)
+                self.errors = self.errors.vstack(row)
+
+        self.correct.drop_nulls().write_csv(Laboratory.CORRECT_OUTPUT)
+        self.errors.write_csv(Laboratory.ERROR_OUTPUT)
 
     def compute_reversed_index(self):
         output = {}
@@ -158,6 +160,6 @@ class Laboratory:
 
 
 if __name__ == '__main__':
-    # Laboratory(Conference("interspeech23")).export()
-    # Laboratory(Conference("interspeech23")).pinpoint()
-    Laboratory(Conference("interspeech23")).compute_reversed_index()
+    # Laboratory(Conference("interspeech24")).export()
+    # Laboratory(Conference("interspeech24")).pinpoint()
+    Laboratory(Conference("interspeech24")).compute_reversed_index()
