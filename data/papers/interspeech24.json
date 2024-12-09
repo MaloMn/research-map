@@ -122,25 +122,25 @@
     "title": "Mmm whatcha say? Uncovering distal and proximal context effects in first and second-language word perception using psychophysical reverse correlation",
     "authors": {
       "Paige Tutt\u00f6s\u00ed": [
-        "School of Computing Science"
+        "School of Computing Science, Simon Fraser University, Canada"
       ],
       "H. Henny Yeung": [
-        "Dept. of Linguistics"
+        "Dept. of Linguistics, Simon Fraser University, Canada"
       ],
       "Yue Wang": [
-        "Dept. of Linguistics"
+        "Dept. of Linguistics, Simon Fraser University, Canada"
       ],
       "Fenqi Wang": [
-        "Dept. of Linguistics"
+        "Dept. of Linguistics, Simon Fraser University, Canada"
       ],
       "Guillaume Denis": [
-        "School of Computing Science"
+        "School of Computing Science, Simon Fraser University, Canada"
       ],
       "Jean-Julien Aucouturier": [
-        "Simon Fraser University, CanadaUniversit\u00e9 de Franche-Comt\u00e9, SUPMICROTECH, CNRS, Institut FEMTO-ST"
+        "Universit\u00e9 de Franche-Comt\u00e9, SUPMICROTECH, CNRS, Institut FEMTO-ST"
       ],
       "Angelica Lim": [
-        "School of Computing Science"
+        "School of Computing Science, Simon Fraser University, Canada"
       ]
     }
   },
@@ -149,7 +149,7 @@
     "title": "Enhancing Speech-Driven 3D Facial Animation with Audio-Visual Guidance from Lip Reading Expert",
     "authors": {
       "Han EunGi": [
-        "Grad. School of Artificial Intelligence and"
+        "Grad. School of Artificial Intelligence, POSTECH, Korea"
       ],
       "Oh Hyun-Bin": [
         "Dept. of Electrical Engineering, POSTECH, Korea"
@@ -164,10 +164,10 @@
         "KRAFTON, Korea"
       ],
       "Janghoon Ju": [
-        "Grad. School of Artificial Intelligence and"
+        "Grad. School of Artificial Intelligence, POSTECH, Korea"
       ],
       "Tae-Hyun Oh": [
-        "Grad. School of Artificial Intelligence and",
+        "Grad. School of Artificial Intelligence, POSTECH, Korea",
         "Dept. of Electrical Engineering, POSTECH, Korea",
         "Inst. for Convergence Research and Education in Advanced Technology, Yonsei University, Korea"
       ]
@@ -541,22 +541,22 @@
     "title": "Developing Multi-Disorder Voice Protocols: A team science approach involving clinical expertise, bioethics, standards, and DEI.",
     "authors": {
       "Yael Bensoussan": [
-        "Department of Otolaryngology- Head & Neck Surgery, University of South\nFlorida, Tampa, Florida, USA"
+        "Department of Otolaryngology - Head & Neck Surgery, University of South Florida, Tampa, Florida, USA"
       ],
       "Satrajit Ghosh": [
         "McGovern Institute, Massachusetts Institute of Technology, Boston, Massachusetts, USA"
       ],
       "Anais Rameau": [
-        "Department of Otolaryngology-Head and Neck Surgery, Weill Cornell Medicine, New York, New York, USA"
+        "Department of Otolaryngology - Head and Neck Surgery, Weill Cornell Medicine, New York, New York, USA"
       ],
       "Micah Boyer": [
-        "Department of Otolaryngology- Head & Neck Surgery, University of South Florida, Tampa, Florida, USA,"
+        "Department of Otolaryngology - Head & Neck Surgery, University of South Florida, Tampa, Florida, USA"
       ],
       "Ruth Bahr": [
-        "Department of Communication Sciences & Disorders, University of South Florida, Tampa, Florida, USA.,"
+        "Department of Communication Sciences & Disorders, University of South Florida, Tampa, Florida, USA."
       ],
       "Stephanie Watts": [
-        "Department of Otolaryngology- Head & Neck Surgery, University of South Florida, Tampa, Florida, USA,"
+        "Department of Otolaryngology - Head & Neck Surgery, University of South Florida, Tampa, Florida, USA"
       ],
       "Frank Rudzicz": [
         "Faculty of Computer Science, Dalhousie University, Calgary, Manitoba Canada"
@@ -568,7 +568,7 @@
         "Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, Ontario, Canada"
       ],
       "Shaheen Awan": [
-        "Department of Communication Sciences & Disorders, University of Central Florida, Orlando, Florida, USA,"
+        "Department of Communication Sciences & Disorders, University of Central Florida, Orlando, Florida, USA"
       ],
       "Maria Powell": [
         "Department of Otolaryngology-Head & Neck Surgery, Vanderbilt University Medical Center,Nashville, Tennessee, USA"
@@ -652,6 +652,208 @@
             ],
             "Huy Dat Tran": [
                 "Institute for Infocomm Research (I2 R), A*STAR, Singapore"
+            ]
+        }
+    },
+      "lee24k": {
+        "url": "https://www.isca-archive.org/interspeech_2024/lee24k_interspeech.html",
+        "title": "Balanced-Wav2Vec: Enhancing Stability and Robustness of Representation Learning Through Sample Reweighting Techniques",
+        "authors": {
+            "Mun-Hak Lee": [
+                "Department of Electronics Engineering, Hanyang University, Seoul, Republic of Korea"
+            ],
+            "Jae-Hong Lee": [
+                "Department of Electronics Engineering, Hanyang University, Seoul, Republic of Korea"
+            ],
+            "DoHee Kim": [
+                "Department of Artificial Intelligence Application, Hanyang University, Seoul, Republic of Korea"
+            ],
+            "Ye-Eun Ko": [
+                "Department of Electronics Engineering, Hanyang University, Seoul, Republic of Korea"
+            ],
+            "Joon-Hyuk Chang": [
+                "Department of Electronics Engineering, Hanyang University, Seoul, Republic of Korea"
+            ]
+        }
+    },
+  "mosner24": {
+        "url": "https://www.isca-archive.org/interspeech_2024/mosner24_interspeech.html",
+        "title": "Multi-Channel Extension of Pre-trained Models for Speaker Verification",
+        "authors": {
+            "Ladislav Mo\u0161ner": [
+                "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+            ],
+            "Romain Serizel": [
+                "Université de Lorraine, CNRS, Inria, LORIA, F-54000 Nancy, France"
+            ],
+            "Luk\u00e1\u0161 Burget": [
+                "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+            ],
+            "Old\u0159ich Plchot": [
+                "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+            ],
+            "Emmanuel Vincent": [
+                "Université de Lorraine, CNRS, Inria, LORIA, F-54000 Nancy, France"
+            ],
+            "Junyi Peng": [
+                "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+            ],
+            "Jan \u010cernock\u00fd": [
+                "Brno University of Technology, Faculty of Information Technology, Speech@FIT, Czechia"
+            ]
+        }
+    },
+  "li24ka": {
+        "url": "https://www.isca-archive.org/interspeech_2024/li24ka_interspeech.html",
+        "title": "Speaker-Smoothed kNN Speaker Adaptation for End-to-End ASR",
+        "authors": {
+            "Shaojun Li": [
+                "Huawei Translation Services Center"
+            ],
+            "Daimeng Wei": [
+                "Huawei Translation Services Center"
+            ],
+            "Hengchao Shang": [
+                "Huawei Translation Services Center"
+            ],
+            "Jiaxin Guo": [
+                "Huawei Translation Services Center"
+            ],
+            "ZongYao Li": [
+                "Huawei Translation Services Center"
+            ],
+            "Zhanglin Wu": [
+                "Huawei Translation Services Center"
+            ],
+            "Zhiqiang Rao": [
+                "Huawei Translation Services Center"
+            ],
+            "Yuanchang Luo": [
+                "Huawei Translation Services Center"
+            ],
+            "Xianghui He": [
+                "Huawei Translation Services Center"
+            ],
+            "Hao Yang": [
+                "Huawei Translation Services Center"
+            ]
+        }
+    },
+      "stein24": {
+        "url": "https://www.isca-archive.org/interspeech_2024/stein24_interspeech.html",
+        "title": "Modeling probabilistic reduction across domains with Naive Discriminative Learning",
+        "authors": {
+            "Anna Stein": [
+                "Institute of Linguistics, Faculty of Arts and Humanities, Heinrich Heine University Düsseldorf, Germany"
+            ],
+            "Kevin Tang": [
+                "Department of English Language and Linguistics, Institute of English andAmerican studies, Faculty of Arts and Humanities, Heinrich Heine University D\u00fcsseldorf, Germany",
+                "Department of Linguistics, University of Florida"
+            ]
+        }
+    },
+      "preston24": {
+        "url": "https://www.isca-archive.org/interspeech_2024/preston24_interspeech.html",
+        "title": "The speech motor chaining web app for speech motor learning",
+        "authors": {
+            "Jonathan L Preston": [
+                "Syracuse University, Syracuse, NY, USAn"
+            ],
+            "Nina R Benway": [
+                "University of Maryland, College Park, MD, USA"
+            ],
+            "Nathan Prestopnik": [
+                "Shenandoah University, Winchester, VA, USA"
+            ],
+            "Nathan Preston": [
+                "SpeechLink, Syracuse, NY, USA"
+            ]
+        }
+    },
+  "wang24w": {
+        "url": "https://www.isca-archive.org/interspeech_2024/wang24w_interspeech.html",
+        "title": "Contextual Biasing with the Knuth-Morris-Pratt Matching Algorithm",
+        "authors": {
+            "Weiran Wang": [
+                "Google LLC"
+            ],
+            "Zelin Wu": [
+                "Google LLC"
+            ],
+            "Diamantino Caseiro": [
+                "Google LLC"
+            ],
+            "Tsendsuren Munkhdalai": [
+                "Google LLC"
+            ],
+            "Khe Chai Sim": [
+                "Google LLC"
+            ],
+            "Pat Rondon": [
+                "Google LLC"
+            ],
+            "Golan Pundak": [
+                "Google LLC"
+            ],
+            "Gan Song": [
+                "Google LLC"
+            ],
+            "Rohit Prabhavalkar": [
+                "Google LLC"
+            ],
+            "Zhong Meng": [
+                "Google LLC"
+            ],
+            "Ding Zhao": [
+                "Google LLC"
+            ],
+            "Tara Sainath": [
+                "Google LLC"
+            ],
+            "Yanzhang He": [
+                "Google LLC"
+            ],
+            "Pedro Moreno Mengibar": [
+                "Google LLC"
+            ]
+        }
+    },
+      "kalluri24": {
+        "url": "https://www.isca-archive.org/interspeech_2024/kalluri24_interspeech.html",
+        "title": "The Second DISPLACE Challenge: DIarization of SPeaker and LAnguage in Conversational Environments",
+        "authors": {
+            "Shareef Babu Kalluri": [
+                "LEAP Lab, Electrical Engineering, IISc, Bangalore"
+            ],
+            "Prachi Singh": [
+                "LEAP Lab, Electrical Engineering, IISc, Bangalore"
+            ],
+            "Pratik Roy Chowdhuri": [
+                "Department of E&C, NITK, Surathkal"
+            ],
+            "Apoorva Kulkarni": [
+                "LEAP Lab, Electrical Engineering, IISc, Bangalore"
+            ],
+            "Shikha Baghel": [
+                "Department of E&C, NITK, Surathkal"
+            ],
+            "Pradyoth Hegde": [
+                "IIIT Dharwad"
+            ],
+            "Swapnil Sontakke": [
+                "IIIT Dharwad"
+            ],
+            "Deepak K T": [
+                "IIIT Dharwad"
+            ],
+            "S.R. Mahadeva Prasanna": [
+                "IIT Dharwad, India"
+            ],
+            "Deepu Vijayasenan": [
+                "Department of E&C, NITK, Surathkal"
+            ],
+            "Sriram Ganapathy": [
+                "LEAP Lab, Electrical Engineering, IISc, Bangalore"
             ]
         }
     }

@@ -1,4 +1,8 @@
+from pathlib import Path
 from typing import Tuple, Optional, List, Dict
+
+from sklearn.cluster import OPTICS, DBSCAN
+import numpy as np
 import requests
 import json
 import csv
@@ -7,7 +11,7 @@ from tqdm import tqdm
 import polars as pl
 
 from conference import Conference
-from secrets import GOOGLE_MAPS_API_KEY
+from key import GOOGLE_MAPS_API_KEY
 
 
 def get_location_coordinates(place_name, api_key) -> Tuple[Optional[float], Optional[float]]:
@@ -62,6 +66,12 @@ def export(coordinates: List[Tuple[str, float, float]]) -> None:
     df.write_csv("output/interspeech23/locations.csv")
 
 
+def jaccard_similarity(list1, list2):
+    intersection = len(list(set(list1).intersection(list2)))
+    union = (len(set(list1)) + len(set(list2))) - intersection
+    return float(intersection) / union
+
+
 class Laboratory:
 
     DIR = "data/locations/"
@@ -80,7 +90,7 @@ class Laboratory:
 
         self.affiliations = self.conference.get_merged_affiliations()
 
-    def export(self):
+    def export(self, min_similarity=0.65):
 
         locations = []
         for paper in self.affiliations.values():
@@ -92,7 +102,7 @@ class Laboratory:
         locations = [[loc, None, None] for loc in locations if loc not in self.existing.get_column("Lab")]
         for i in range(len(locations)):
             for loc in self.existing.get_column("Lab"):
-                if locations[i][0] in loc:
+                if jaccard_similarity(locations[i][0], loc) >= min_similarity:
                     locations[i][1] = self.existing.filter(pl.col("Lab") == loc).select("Latitude").item()
                     locations[i][2] = self.existing.filter(pl.col("Lab") == loc).select("Longitude").item()
                     break
@@ -153,14 +163,51 @@ class Laboratory:
                                         author in paper["authors"].keys()],
                         })
 
-            if len(locations) > 0:
+            if sum([len(paper) for paper in locations.values()]) > 0:
                 output[json.dumps(coordinates)] = locations
 
         with open(self.coordinates, "w+") as f:
             json.dump(output, f)
+
+    def group_lab_names(self, epsilon=0.3):
+        labs = self.existing.select("Lab").to_numpy().tolist()
+        labs = list(set([a[0] for a in labs]))
+
+        X = None
+        if Path("output/jaccard_similarity.csv").exists():
+            X = np.loadtxt("output/jaccard_similarity.csv", delimiter=",")
+
+        if X is None or X.shape != (len(labs), len(labs)):
+            print("Building distance matrix")
+            X = np.array([[0.0 for _ in labs] for _ in labs])
+            for i, lab_a in tqdm(enumerate(labs), total=len(labs)):
+                for j, lab_b in enumerate(labs[i + 1:]):
+                    similarity = jaccard_similarity(lab_a.split(", "), lab_b.split(", "))
+                    X[i, i + j + 1] = X[i + j + 1, i] = 1 - similarity
+
+            np.savetxt("output/jaccard_similarity.csv", X, delimiter=",")
+        else:
+            print("Loaded distance matrix")
+
+        print(X.shape)
+
+        clustering = DBSCAN(eps=epsilon, min_samples=2, metric='precomputed').fit(X)
+        print(np.unique(clustering.labels_))
+
+        output = [["Group", "Lab"]]
+        for i in np.unique(clustering.labels_):
+            if i == -1:
+                continue
+            for lab in np.array(labs)[clustering.labels_ == i]:
+                output.append([i, lab])
+
+        with open("output/lab_groups.csv", 'w+') as f:
+            writer = csv.writer(f)
+            writer.writerows(output)
 
 
 if __name__ == '__main__':
     # Laboratory(Conference("interspeech24")).export()
     # Laboratory(Conference("interspeech24")).pinpoint()
     Laboratory(Conference("interspeech24")).compute_reversed_index()
+    # Laboratory(Conference("interspeech24")).group_lab_names(epsilon=0.35)

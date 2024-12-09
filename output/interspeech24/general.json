@@ -9516,7 +9516,7 @@
         "title": "Modeling probabilistic reduction across domains with Naive Discriminative Learning",
         "authors": {
             "Anna Stein": [
-                "Institute of Linguistics /"
+                "Institute of Linguistics, Faculty of Arts and Humanities, Heinrich Heine University Düsseldorf, Germany"
             ],
             "Kevin Tang": [
                 "Department of English Language and Linguistics, Institute of English andAmerican studies, Faculty of Arts and Humanities, Heinrich Heine University D\u00fcsseldorf, Germany",
@@ -10762,41 +10762,6 @@
             ]
         }
     },
-    "mosner24": {
-        "url": "https://www.isca-archive.org/interspeech_2024/mosner24_interspeech.html",
-        "title": "Multi-Channel Extension of Pre-trained Models for Speaker Verification",
-        "authors": {
-            "Ladislav Mo\u0161ner": [
-                "Ladislav Mo\u02c7sner"
-            ],
-            "Romain Serizel": [
-                "Romain Serizel",
-                "Emmanuel Vincent"
-            ],
-            "Luk\u00e1\u0161 Burget": [
-                "Ladislav Mo\u02c7sner",
-                "Luk\u00b4a\u02c7s Burget",
-                "Old\u02c7rich Plchot",
-                "Junyi Peng",
-                "Jan \u02c7Cernock\u00b4y"
-            ],
-            "Old\u0159ich Plchot": [
-                "Ladislav Mo\u02c7sner"
-            ],
-            "Emmanuel Vincent": [
-                "Romain Serizel",
-                "Emmanuel Vincent"
-            ],
-            "Junyi Peng": [
-                "Romain Serizel",
-                "Emmanuel Vincent"
-            ],
-            "Jan \u010cernock\u00fd": [
-                "Romain Serizel",
-                "Emmanuel Vincent"
-            ]
-        }
-    },
     "ravenscroft24": {
         "url": "https://www.isca-archive.org/interspeech_2024/ravenscroft24_interspeech.html",
         "title": "Transcription-Free Fine-Tuning of Speech Separation Models for Noisy and Reverberant Multi-Speaker Automatic Speech Recognition",
@@ -11626,54 +11591,6 @@
             ],
             "Jinyu Li": [
                 "Microsoft, One Microsoft Way, Redmond, USA"
-            ]
-        }
-    },
-    "wang24w": {
-        "url": "https://www.isca-archive.org/interspeech_2024/wang24w_interspeech.html",
-        "title": "Contextual Biasing with the Knuth-Morris-Pratt Matching Algorithm",
-        "authors": {
-            "Weiran Wang": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
-            ],
-            "Zelin Wu": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
-            ],
-            "Diamantino Caseiro": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
-            ],
-            "Tsendsuren Munkhdalai": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
-            ],
-            "Khe Chai Sim": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
-            ],
-            "Pat Rondon": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
-            ],
-            "Golan Pundak": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
-            ],
-            "Gan Song": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
-            ],
-            "Rohit Prabhavalkar": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
-            ],
-            "Zhong Meng": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
-            ],
-            "Ding Zhao": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
-            ],
-            "Tara Sainath": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
-            ],
-            "Yanzhang He": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
-            ],
-            "Pedro Moreno Mengibar": [
-                "Khe Chai Sim Pat Rondon Golan Pundak Gan Song Rohit PrabhavalkarZhong Meng Ding Zhao Tara Sainath Yanzhang He Pedro Moreno MengibarGoogle LLC"
             ]
         }
     },
@@ -15522,45 +15439,6 @@
             ]
         }
     },
-    "kalluri24": {
-        "url": "https://www.isca-archive.org/interspeech_2024/kalluri24_interspeech.html",
-        "title": "The Second DISPLACE Challenge: DIarization of SPeaker and LAnguage in Conversational Environments",
-        "authors": {
-            "Shareef Babu Kalluri": [
-                "Shareef Babu Kalluri"
-            ],
-            "Prachi Singh": [
-                "Shareef Babu Kalluri"
-            ],
-            "Pratik Roy Chowdhuri": [
-                "Shareef Babu Kalluri"
-            ],
-            "Apoorva Kulkarni": [
-                "Shareef Babu Kalluri"
-            ],
-            "Shikha Baghel": [
-                "Shareef Babu Kalluri"
-            ],
-            "Pradyoth Hegde": [
-                "Shareef Babu Kalluri"
-            ],
-            "Swapnil Sontakke": [
-                "Shareef Babu Kalluri"
-            ],
-            "Deepak K T": [
-                "Shareef Babu Kalluri"
-            ],
-            "S.R. Mahadeva Prasanna": [
-                "Shareef Babu Kalluri"
-            ],
-            "Deepu Vijayasenan": [
-                "Shareef Babu Kalluri"
-            ],
-            "Sriram Ganapathy": [
-                "Shareef Babu Kalluri"
-            ]
-        }
-    },
     "freixes24": {
         "url": "https://www.isca-archive.org/interspeech_2024/freixes24_interspeech.html",
         "title": "Glottal inverse filtering and vocal tract tuning for the numerical simulation of vowel /a/ with different levels of vocal effort",
@@ -16073,19 +15951,19 @@
         "title": "Balanced-Wav2Vec: Enhancing Stability and Robustness of Representation Learning Through Sample Reweighting Techniques",
         "authors": {
             "Mun-Hak Lee": [
-                "Hanyang University, Seoul, Republic of Korea,Department of Electronics Engineering"
+                "Department of Electronics Engineering, Hanyang University, Seoul, Republic of Korea"
             ],
             "Jae-Hong Lee": [
-                "Hanyang University, Seoul, Republic of Korea,Department of Electronics Engineering"
+                "Department of Electronics Engineering, Hanyang University, Seoul, Republic of Korea"
             ],
             "DoHee Kim": [
-                "Department of Artificial Intelligence Application"
+                "Department of Artificial Intelligence Application, Hanyang University, Seoul, Republic of Korea"
             ],
             "Ye-Eun Ko": [
-                "Hanyang University, Seoul, Republic of Korea,Department of Electronics Engineering"
+                "Department of Electronics Engineering, Hanyang University, Seoul, Republic of Korea"
             ],
             "Joon-Hyuk Chang": [
-                "Hanyang University, Seoul, Republic of Korea,Department of Electronics Engineering"
+                "Department of Electronics Engineering, Hanyang University, Seoul, Republic of Korea"
             ]
         }
     },
@@ -21795,24 +21673,6 @@
             ],
             "Ayako Shirose": [
                 "Tokyo Gakugei University"
-            ]
-        }
-    },
-    "preston24": {
-        "url": "https://www.isca-archive.org/interspeech_2024/preston24_interspeech.html",
-        "title": "The speech motor chaining web app for speech motor learning",
-        "authors": {
-            "Jonathan L Preston": [
-                "Jonathan L Preston"
-            ],
-            "Nina R Benway": [
-                "Jonathan L Preston"
-            ],
-            "Nathan Prestopnik": [
-                "Jonathan L Preston"
-            ],
-            "Nathan Preston": [
-                "Jonathan L Preston"
             ]
         }
     },
