@@ -89,7 +89,6 @@ class Laboratory:
         self.affiliations = self.conference.get_merged_affiliations()
 
     def export(self, min_similarity=0.65):
-
         locations = []
         for paper in self.affiliations.values():
             for labs in paper["authors"].values():
@@ -131,14 +130,20 @@ class Laboratory:
                        .group_by(["Latitude", "Longitude"])
                        .agg(pl.col("Lab")))
 
+        placed_papers = set()
+
         for row in tqdm(aggregation.rows()):
             coordinates = [float(row[0]), float(row[1])]
+
+            if coordinates == [0.0, 0.0]:
+                continue
+
             locations = {}
 
             for lab in row[2]:
                 locations[lab] = []
                 # Get papers published from this lab
-                for paper in self.affiliations.values():
+                for paper_id, paper in self.affiliations.items():
                     authors_at_location = []
                     other_authors = []
 
@@ -157,8 +162,14 @@ class Laboratory:
                                         author in paper["authors"].keys()],
                         })
 
+                        placed_papers.add(paper_id)
+
             if sum([len(paper) for paper in locations.values()]) > 0:
                 output[json.dumps(coordinates)] = locations
+
+        for paper_id, paper in self.affiliations.items():
+            if paper_id not in placed_papers:
+                print(f"WARNING: {paper_id} will not appear on the map.")
 
         with open(self.coordinates, "w+") as f:
             json.dump(output, f)
