@@ -17,14 +17,13 @@ A glance at the data can also help identifying
 
 ## How can you help?
 1. Propose alternative methods to extract information from papers,
-   - Methods should be as broad as possible, relying or not on external sources of informations ;
+   - Methods should be as broad as possible, relying or not on external sources of information ;
    - Methods should be **machine-learning free**, in order to keep the carbon footprint of this project as low as possible.
 2. Manually review the data,
    - Correcting coordinates in the `locations.csv` file, or correcting authors affiliations.
 3. Propose new ways to visualize the data.
 
 ## To-do
-
 - [] Filter out positions (0, 0), and display paper without location them below the map in a table
 - [] Add filters to the table to be able to see all papers
 - [] Add papers from ICASSP

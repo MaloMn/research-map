@@ -1,7 +1,7 @@
 from pathlib import Path
-from typing import Tuple, Optional, List, Dict
+from typing import Tuple, Optional, List
 
-from sklearn.cluster import OPTICS, DBSCAN
+from sklearn.cluster import DBSCAN
 import numpy as np
 import requests
 import json
@@ -76,14 +76,12 @@ class Laboratory:
 
     DIR = "data/locations/"
     CORRECT_OUTPUT = f"{DIR}/locations.csv"
-    ERROR_OUTPUT = f"{DIR}/no-locations.csv"
     ALL_LABS_FILE = f"{DIR}/*.csv"
     COORDINATES = "output/{conference}/coordinates.json"
 
     def __init__(self, conference: Conference):
         self.conference = conference
         self.correct = pl.read_csv(Laboratory.CORRECT_OUTPUT)
-        self.errors = pl.read_csv(Laboratory.ERROR_OUTPUT)
 
         self.existing = pl.read_csv(Laboratory.ALL_LABS_FILE)
         self.coordinates = Laboratory.COORDINATES.format(conference=conference.name)
@@ -123,13 +121,9 @@ class Laboratory:
                 "Longitude": [longitude],
             })
 
-            if latitude is not None:
-                self.correct = self.correct.vstack(row)
-            else:
-                self.errors = self.errors.vstack(row)
+            self.correct = self.correct.vstack(row)
 
         self.correct.drop_nulls().write_csv(Laboratory.CORRECT_OUTPUT)
-        self.errors.write_csv(Laboratory.ERROR_OUTPUT)
 
     def compute_reversed_index(self):
         output = {}
