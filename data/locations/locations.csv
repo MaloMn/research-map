@@ -20,7 +20,7 @@ AI Saturdays Lagos,6.5243793,3.3792057
 "ALTA Institute, Machine Intelligence Lab, Department of Engineering, Cambridge University, UK",52.1950788,0.1312729
 "ASAPP Inc., Mountain View, CA, USA",37.3900264,-122.0812304
 ASUS Intelligent Cloud Services (AICS) Singapore,1.2777366,103.8476215
-"AWS AI Labs, Australia",-25.274398,133.775136
+"AWS AI Labs, Australia",-33.8482439,150.9319747
 "AWS AI Labs, USA",38.7945952,-106.5348379
 "Aalborg University, Department of Electronic Systems, Denmark",57.0139858,9.9845553
 "Aarhus University, Denmark",56.1659924,10.2000645
@@ -143,7 +143,7 @@ ByteFuse,-33.9653627,18.8359551
 "Centre for Audio, Acoustics and Vibration, University of Technology Sydney, Australia",-33.8836537,151.2006119
 "Centre for Digital Music, Queen Mary University of London, UK",51.52339449999999,-0.0413266
 "Centre for Interdisciplinary Health Research, University of Augsburg, Germany",48.33479759999999,10.8932404
-"Centre for Language Sciences, Department of Linguistics, Macquarie University, Australia",-25.274398,133.775136
+"Centre for Language Sciences, Department of Linguistics, Macquarie University, Australia",-33.7738192,151.1100749
 "Centre for Language Studies (CLS), Radboud University, The Netherlands",52.132633,5.291265999999999
 "Centre for Language Studies, Radboud University, the Netherlands",52.132633,5.291265999999999
 "Centre for Language and Speech Technology (CLST), Radboud University, The Netherlands",51.8220189,5.863818699999999
@@ -299,7 +299,7 @@ Department of Educational PsychologyThe Chinese University of Hong Kong,22.41962
 "Department of Language and Linguistic Science, University of York, UK",53.947788,-1.0530235
 "Department of Linguistics and Cognitive Science, Pomona College, USA",38.7945952,-106.5348379
 "Department of Linguistics and English Language, Lancaster University, Lancaster, UK",54.0103942,-2.7877294
-"Department of Linguistics, Macquarie University, Sydney, Australia",-33.8688197,151.2092955
+"Department of Linguistics, Macquarie University, Sydney, Australia",-33.7738192,151.1100749
 "Department of Linguistics, Seoul National University, Republic of Korea",37.4648267,126.9571988
 "Department of Linguistics, University of Illinois Urbana-Champaign, USA",40.1062946,-88.22580289999999
 "Department of Linguistics, University of Maryland, USA",38.9869183,-76.9425543
@@ -541,8 +541,8 @@ INSAIT,42.6703488,23.3717729
 "Ikerbasque (Basque Science Foundation), Spain",43.2680634,-2.9387448
 "Ikerbasque, Bilbao, Spain",43.2680634,-2.9387448
 "Imperial College, London, UK",51.49882220000001,-0.1748735
-"Independent Researcher, Australia",-25.274398,133.775136
-"Independent Researcher, China",35.86166,104.195397
+"Independent Researcher, Australia",0.0,0.0
+"Independent Researcher, China",0.0,0.0
 "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram, India",12.8394963,80.1374898
 "Indian Institute of Information Technology, Dharwad, India",15.3939686,75.02676509999999
 "Indian Institute of Science (IISc), Bengaluru, India",13.0170646,77.5658741
@@ -1139,12 +1139,12 @@ The Hebrew University of Jerusalem,31.7945578,35.2414009
 "The Ohio State University, Columbus, OH, USA",39.9993865,-83.0227103
 "The State Key Laboratory of Information Security, Institute of Information Engineering, ChineseAcademy of Sciences, Beijing , China",39.9106327,116.3356321
 "The State Key Laboratory of Tibetan Intelligent Information Processing and Application,Tibetan information processing and Machine Translation Key Laboratory of Qinghai province",36.6208699,101.7801099
-"The University Of Sydney, Australia",-25.274398,133.775136
+"The University Of Sydney, Australia",-33.8799415,151.1875992
 "The University of British Columbia, Canada",49.26060520000001,-123.2459939
 "The University of Edinburgh, United Kingdom",55.9445158,-3.1892413
 "The University of Manchester, United Kingdom",53.4668498,-2.2338837
 "The University of Sheffield, Sheffield, UK",53.3813502,-1.4884229
-"The University of Sydney, Australia",-25.274398,133.775136
+"The University of Sydney, Australia",-33.8799415,151.1875992
 "The University of Texas at Austin, Austin, TX",30.2850284,-97.7335226
 "The University of Texas at Dallas, Richardson, USA",32.9856977,-96.7502473
 "The University of Texas at Dallas, USA",32.9856977,-96.7502473
@@ -1258,7 +1258,6 @@ University of Leeds,53.8066815,-1.5550328
 "University of Tartu, Estonia",58.36331589999999,26.7265815
 "University of Texas at El Paso, United States",31.7731979,-106.5047208
 "University of Toronto, Canada",43.663487,-79.3958273
-"University of Trento, Italy ♮Independent Researcher",46.0668672,11.1231091
 "University of Trento, Trento, Italy",46.0668672,11.1231091
 "University of Twente, The Netherlands",52.2663667,6.7875833
 University of Virginia,38.0335529,-78.5079772
@@ -1341,7 +1340,7 @@ Zurich Forensic Science Institute,47.3768866,8.541694
 Apple,38.7945952,-106.5348379
 "ADAPT Centre, School of Engineering, Trinity College Dublin, Ireland",53.3435769,-6.2503695
 AITRICS,37.5015119,127.0404287
-AWS AI Labs,-25.274398,133.775136
+AWS AI Labs,47.6088285,-122.5046021
 Academia Sinica,25.0407728,121.6116687
 "Academia Sinica, Taiwan",25.0419331,121.6154701
 "Alexa AI, Amazon",42.3600825,-71.0588801
@@ -1415,7 +1414,7 @@ IBM Research AI,38.7945952,-106.5348379
 Idiap Research Institute,46.1093406,7.0845327
 Imperial College London,51.49882220000001,-0.1748735
 "Imperial College London, UK",51.49882220000001,-0.1748735
-Independent Researcher,-25.274398,133.775136
+Independent Researcher,0.0,0.0
 "Indian Institute of Science, Bangalore, India",13.0170646,77.5658741
 "Indian Institute of Technology Madras, India",12.9915639,80.2336857
 Inria,45.1915639,5.7672336
@@ -1441,7 +1440,7 @@ KAIST,36.3721427,127.36039
 MBZUAI,24.4326227,54.6184724
 "MGH Institute of Healthcare Professions, Boston, MA",42.374754,-71.054238
 MIT,42.36194070000001,-71.0904378
-"Macquarie University, Sydney, Australia",-33.8688197,151.2092955
+"Macquarie University, Sydney, Australia",-33.7738192,151.1100749
 Massachusetts Institute of Technology,42.360091,-71.09416
 Meta AI,46.227638,2.213749
 Microsoft,47.6739881,-122.121512
@@ -1453,7 +1452,6 @@ Microsoft Research Asia,39.904211,116.407395
 Mohamed bin Zayed University of Artificial Intelligence,24.4326227,54.6184724
 "NERC-SLIP, University of Science and Technology of China (USTC)",35.86166,104.195397
 "NERCMS, School of Computer Science, Wuhan University",30.5927599,114.30525
-NLP,2.1474669,1.7521461
 NTT Corporation,36.204824,138.252924
 "NTT Corporation, Japan",36.204824,138.252924
 NVIDIA,38.7945952,-106.5348379
@@ -1622,7 +1620,7 @@ Kobe Gakuin University,34.6640884,135.0298032
 "LISN, France",46.227638,2.213749
 "Lisboa, Portugal",38.7368192,-9.138705
 "MRC Cognition and Brain Sciences Unit, University of Cambridge, UK",52.1926423,0.1192645
-"Macquarie University, Australia",-25.274398,133.775136
+"Macquarie University, Australia",-33.7738192,151.1100749
 McMaster University,56.130366,-106.346771
 Meta Inc.,37.4764662,-122.1962744
 "Mila-Québec AI Institute, Canada",30.6152784,-96.3378745
@@ -2903,3 +2901,4 @@ IIIT Dharwad,15.3939686,75.0267651
 "Shenandoah University, Winchester, VA, USA",40.4432027,-79.9428499
 "SpeechLink, Syracuse, NY, USA",40.8506041,-73.9297205
 "Syracuse University, Syracuse, NY, USAn",37.4648267,126.9571988
+"NLP, University of Macau",37.4648267,126.9571988

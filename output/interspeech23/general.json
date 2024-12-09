@@ -10075,25 +10075,6 @@
             ]
         }
     },
-    "huang23e": {
-        "url": "https://www.isca-archive.org/interspeech_2023/huang23e_interspeech.html",
-        "title": "How Does Pretraining Improve Discourse-Aware Translation?",
-        "authors": {
-            "Zhihong Huang": [
-                "NLP"
-            ],
-            "Longyue Wang": [
-                "CT Lab, University of Macau",
-                "Tencent AI Lab"
-            ],
-            "Siyou Liu": [
-                "NLP"
-            ],
-            "Derek F. Wong": [
-                "NLP"
-            ]
-        }
-    },
     "zhang23t": {
         "url": "https://www.isca-archive.org/interspeech_2023/zhang23t_interspeech.html",
         "title": "PATCorrect: Non-autoregressive Phoneme-augmented Transformer for ASR Error Correction",
@@ -10308,21 +10289,6 @@
             ],
             "Yuexian Zou": [
                 "School of ECE, Peking University, China"
-            ]
-        }
-    },
-    "papi23": {
-        "url": "https://www.isca-archive.org/interspeech_2023/papi23_interspeech.html",
-        "title": "AlignAtt: Using Attention-based Audio-Translation Alignments as a Guide for Simultaneous Speech Translation",
-        "authors": {
-            "Sara Papi": [
-                "University of Trento, Italy \u266eIndependent Researcher"
-            ],
-            "Marco Turchi": [
-                "Fondazione Bruno Kessler, Italy"
-            ],
-            "Matteo Negri": [
-                "Fondazione Bruno Kessler, Italy"
             ]
         }
     },
