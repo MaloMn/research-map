@@ -212,7 +212,7 @@ class Laboratory:
 
 
 if __name__ == '__main__':
-    # Laboratory(Conference("interspeech24")).export()
+    Laboratory(Conference("interspeech23")).export()
     # Laboratory(Conference("interspeech24")).pinpoint()
-    Laboratory(Conference("interspeech24")).compute_reversed_index()
+    Laboratory(Conference("interspeech23")).compute_reversed_index()
     # Laboratory(Conference("interspeech24")).group_lab_names(epsilon=0.35)
