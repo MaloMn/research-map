@@ -8,8 +8,16 @@ thinking/
 
 *.ipynb
 *.md
+*.json
+*.csv
+*.png
 
 output/*/errors.json
+output/*/latitudes.json
+output/*/longitudes.json
+output/*/location-errors.txt
+
 output/jaccard_similarity.csv
+output/lab_groups.csv
 
 secrets.py
