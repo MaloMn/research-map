@@ -24,8 +24,8 @@ A glance at the data can also help identifying
 3. Propose new ways to visualize the data.
 
 ## To-do
-- [] Filter out positions (0, 0), and display paper without location them below the map in a table
-- [] Add filters to the table to be able to see all papers
+- [] Add a filterable table with papers below map
 - [] Add papers from ICASSP
 - [] Add papers from LREC
 - [] Add papers from CALLING
+- [] Add statistical analysis of papers collaboration

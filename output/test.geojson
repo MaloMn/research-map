@@ -1,0 +1,28 @@
+{
+    "type": "FeatureCollection",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+    "features": [
+        {
+            "type": "Feature", "properties": {
+                "id": "0",
+                "data": {"Institute of Acoustics and Speech Communication, Technische Universit\u00e4t Dresden, Germany": [{"url": "https://www.isca-archive.org/interspeech_2023/krug23_interspeech.html", "title": "Self-Supervised Solution to the Control Problem of Articulatory Synthesis", "authors": ["<strong>Paul K. Krug</strong>", "<strong>Peter Birkholz</strong>", "Branislav Gerazov", "Daniel R. van Niekerk", "Anqi Xu", "Yi Xu"]}]},
+                "paper_nb": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [ 51.0285861, 13.7313505 ]
+            }
+        },
+        {
+            "type": "Feature", "properties": {
+                "id": "1",
+                "data": {"National Institute of Informatics, Japan": [{"url": "https://www.isca-archive.org/interspeech_2023/chunhui23_interspeech.html", "title": "Xiaoicesing 2: A High-Fidelity Singing Voice Synthesizer Based on Generative Adversarial Network", "authors": ["Wang Chunhui", "<strong>Chang Zeng</strong>", "Xing He"]}, {"url": "https://www.isca-archive.org/interspeech_2023/cooper23_interspeech.html", "title": "Investigating Range-Equalizing Bias in Mean Opinion Score Ratings of Synthesized Speech", "authors": ["<strong>Erica Cooper</strong>", "<strong>Junichi Yamagishi</strong>"]}, {"url": "https://www.isca-archive.org/interspeech_2023/zeng23_interspeech.html", "title": "Improving Generalization Ability of Countermeasures for New Mismatch Scenario by Combining Multiple Advanced Regularization Terms", "authors": ["<strong>Chang Zeng</strong>", "<strong>Xin Wang</strong>", "<strong>Xiaoxiao Miao</strong>", "<strong>Erica Cooper</strong>", "<strong>Junichi Yamagishi</strong>"]}, {"url": "https://www.isca-archive.org/interspeech_2023/mun23_interspeech.html", "title": "Towards Single Integrated Spoofing-aware Speaker Verification Embeddings", "authors": ["Sung Hwan Mun", "Hye-jin Shim", "Hemlata Tak", "<strong>Xin Wang</strong>", "Xuechen Liu", "Md Sahidullah", "Myeonghun Jeong", "Min Hyun Han", "Massimiliano Todisco", "Kong Aik Lee", "<strong>Junichi Yamagishi</strong>", "Nicholas Evans", "Tomi Kinnunen", "Nam Soo Kim", "Jee-weon Jung"]}, {"url": "https://www.isca-archive.org/interspeech_2023/luong23_interspeech.html", "title": "Controlling Multi-Class Human Vocalization Generation via a Simple Segment-based Labeling Scheme", "authors": ["<strong>Hieu-Thi Luong</strong>", "<strong>Junichi Yamagishi</strong>"]}, {"url": "https://www.isca-archive.org/interspeech_2023/sharoni23_interspeech.html", "title": "SASPEECH: A Hebrew Single Speaker Dataset for Text To Speech and Voice Conversion", "authors": ["Orian Sharoni", "Roee Shenberg", "<strong>Erica Cooper</strong>"]}], "National Institute of Informatics, Tokyo, Japan": [{"url": "https://www.isca-archive.org/interspeech_2023/zhang23v_interspeech.html", "title": "Range-Based Equal Error Rate for Spoof Localization", "authors": ["<strong>Lin Zhang</strong>", "<strong>Xin Wang</strong>", "<strong>Erica Cooper</strong>", "Nicholas Evans", "<strong>Junichi Yamagishi</strong>"]}]},
+                "paper_nb": 7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [ 51.03, 13.7579122 ]
+            }
+        },
+    ]
+}
