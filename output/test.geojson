@@ -5,6 +5,17 @@
         {
             "type": "Feature", "properties": {
                 "id": "0",
+                "data": {"RandomLab": [{"url": "https://www.isca-archive.org/interspeech_2023/krug23_interspeech.html", "title": "Self-Supervised Solution to the Control Problem of Articulatory Synthesis", "authors": ["<strong>Paul K. Krug</strong>", "<strong>Peter Birkholz</strong>", "Branislav Gerazov", "Daniel R. van Niekerk", "Anqi Xu", "Yi Xu"]}]},
+                "paper_nb": 1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [ 51.0285861, 13.7313505 ]
+            }
+        },
+        {
+            "type": "Feature", "properties": {
+                "id": "0",
                 "data": {"Institute of Acoustics and Speech Communication, Technische Universit\u00e4t Dresden, Germany": [{"url": "https://www.isca-archive.org/interspeech_2023/krug23_interspeech.html", "title": "Self-Supervised Solution to the Control Problem of Articulatory Synthesis", "authors": ["<strong>Paul K. Krug</strong>", "<strong>Peter Birkholz</strong>", "Branislav Gerazov", "Daniel R. van Niekerk", "Anqi Xu", "Yi Xu"]}]},
                 "paper_nb": 1
             },
