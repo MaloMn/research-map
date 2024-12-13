@@ -9,6 +9,7 @@ import csv
 
 from tqdm import tqdm
 import polars as pl
+from geojson import Feature, Point
 
 from conference import Conference
 from key import GOOGLE_MAPS_API_KEY
@@ -77,7 +78,7 @@ class Laboratory:
     DIR = "data/locations/"
     CORRECT_OUTPUT = f"{DIR}/locations.csv"
     ALL_LABS_FILE = f"{DIR}/*.csv"
-    COORDINATES = "output/{conference}/coordinates.json"
+    COORDINATES = "output/{conference}/coordinates.geojson"
 
     def __init__(self, conference: Conference):
         self.conference = conference
@@ -124,49 +125,54 @@ class Laboratory:
 
         self.correct.drop_nulls().write_csv(Laboratory.CORRECT_OUTPUT)
 
-    def compute_reversed_index(self):
-        output = {}
-        aggregation = (self.existing.drop_nulls()
-                       .group_by(["Latitude", "Longitude"])
-                       .agg(pl.col("Lab")))
-
+    def export_geojson(self):
+        output = {
+            "type": "FeatureCollection",
+            "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}},
+            "features": []
+        }
+        locations = self.existing.drop_nulls()
         placed_papers = set()
 
-        for row in tqdm(aggregation.rows()):
-            coordinates = [float(row[0]), float(row[1])]
+        for row in tqdm(locations.rows()):
+            coordinates = [float(row[2]), float(row[1])]
+            lab = row[0]
 
             if coordinates == [0.0, 0.0]:
                 continue
 
-            locations = {}
+            papers = []
 
-            for lab in row[2]:
-                locations[lab] = []
-                # Get papers published from this lab
-                for paper_id, paper in self.affiliations.items():
-                    authors_at_location = []
-                    other_authors = []
+            # Get papers published from this lab
+            for paper_id, paper in self.affiliations.items():
+                authors_at_location = []
+                other_authors = []
 
-                    for author, aff in paper["authors"].items():
-                        if lab in aff:
-                            authors_at_location.append(author)
-                        else:
-                            other_authors.append(author)
+                for author, aff in paper["authors"].items():
+                    if lab in aff:
+                        authors_at_location.append(author)
+                    else:
+                        other_authors.append(author)
 
-                    if len(authors_at_location) > 0:
-                        locations[lab].append({
-                            "url": paper["url"],
-                            "title": paper["title"],
-                            "authors": [f"<strong>{author}</strong>" if author in authors_at_location else author
-                                        for
-                                        author in paper["authors"].keys()],
-                        })
+                if len(authors_at_location) > 0:
+                    papers.append({
+                        "url": paper["url"],
+                        "title": paper["title"],
+                        "authors": [f"<strong>{author}</strong>" if author in authors_at_location else author
+                                    for
+                                    author in paper["authors"].keys()],
+                    })
 
-                        placed_papers.add(paper_id)
+                    placed_papers.add(paper_id)
 
-            if sum([len(paper) for paper in locations.values()]) > 0:
-                locations = {a: b for a, b in locations.items() if b != []}
-                output[json.dumps(coordinates)] = locations
+            # Checking if the lab has published papers
+            if len(papers) > 0:
+                output["features"].append(
+                    Feature(geometry=Point(coordinates), properties={
+                        "title": lab,
+                        "papers": papers
+                    })
+                )
 
         for paper_id, paper in self.affiliations.items():
             if paper_id not in placed_papers:
@@ -213,7 +219,8 @@ class Laboratory:
 
 
 if __name__ == '__main__':
-    # Laboratory(Conference("interspeech24")).export()
-    # Laboratory(Conference("interspeech24")).pinpoint()
-    Laboratory(Conference("interspeech23")).compute_reversed_index()
-    # Laboratory(Conference("interspeech24")).group_lab_names(epsilon=0.35)
+    for conf in ["interspeech23", "interspeech24"]:
+        Laboratory(Conference(conf)).export()
+        Laboratory(Conference(conf)).pinpoint()
+        Laboratory(Conference(conf)).export_geojson()
+        # Laboratory(Conference("interspeech24")).group_lab_names(epsilon=0.35)
